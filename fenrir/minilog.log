@@ -1,0 +1,428 @@
+ANY INFO 2019-08-28 10:18:15.548544: SoundIcon: SCREENREADERON./usr/share/sounds/fenrirscreenreader/default/ScreenReaderOn.wav
+ANY INFO 2019-08-28 10:18:15.549412: SoundIcon: SCREENREADEROFF./usr/share/sounds/fenrirscreenreader/default/ScreenReaderOff.wav
+ANY INFO 2019-08-28 10:18:15.550775: SoundIcon: PTYBYPASS./usr/share/sounds/fenrirscreenreader/default/PTYBypass.wav
+ANY INFO 2019-08-28 10:18:15.551775: SoundIcon: CANCEL./usr/share/sounds/fenrirscreenreader/default/Cancel.wav
+ANY INFO 2019-08-28 10:18:15.552751: SoundIcon: ACCEPT./usr/share/sounds/fenrirscreenreader/default/Accept.wav
+ANY INFO 2019-08-28 10:18:15.553539: SoundIcon: CHANGETTY./usr/share/sounds/fenrirscreenreader/default/ChangeTTY.wav
+ANY INFO 2019-08-28 10:18:15.554200: SoundIcon: STARTOFLINE./usr/share/sounds/fenrirscreenreader/default/StartOfLine.wav
+ANY INFO 2019-08-28 10:18:15.554919: SoundIcon: ENDOFLINE./usr/share/sounds/fenrirscreenreader/default/EndOfLine.wav
+ANY INFO 2019-08-28 10:18:15.555694: SoundIcon: BARRIERFOUND./usr/share/sounds/fenrirscreenreader/default/barrier.wav
+ANY INFO 2019-08-28 10:18:15.556610: SoundIcon: BARRIERSTART./usr/share/sounds/fenrirscreenreader/default/barrier_start.wav
+ANY INFO 2019-08-28 10:18:15.557472: SoundIcon: BARRIEREND./usr/share/sounds/fenrirscreenreader/default/barrier_end.wav
+ANY INFO 2019-08-28 10:18:15.558253: SoundIcon: EMPTYLINE./usr/share/sounds/fenrirscreenreader/default/EmptyLine.wav
+ANY INFO 2019-08-28 10:18:15.558875: SoundIcon: STARTOFSCREEN./usr/share/sounds/fenrirscreenreader/default/StartOfScreen.wav
+ANY INFO 2019-08-28 10:18:15.559775: SoundIcon: ENDOFSCREEN./usr/share/sounds/fenrirscreenreader/default/EndOfScreen.wav
+ANY INFO 2019-08-28 10:18:15.560532: SoundIcon: CONTENTCHANGED./usr/share/sounds/fenrirscreenreader/default/ContentChanged.wav
+ANY INFO 2019-08-28 10:18:15.561234: SoundIcon: SPEECHON./usr/share/sounds/fenrirscreenreader/default/SpeechOn.wav
+ANY INFO 2019-08-28 10:18:15.561956: SoundIcon: SPEECHOFF./usr/share/sounds/fenrirscreenreader/default/SpeechOff.wav
+ANY INFO 2019-08-28 10:18:15.562648: SoundIcon: BRAILLEON./usr/share/sounds/fenrirscreenreader/default/BrailleOn.wav
+ANY INFO 2019-08-28 10:18:15.563286: SoundIcon: BRAILLEOFF./usr/share/sounds/fenrirscreenreader/default/BrailleOff.wav
+ANY INFO 2019-08-28 10:18:15.563942: SoundIcon: SOUNDON./usr/share/sounds/fenrirscreenreader/default/SoundOn.wav
+ANY INFO 2019-08-28 10:18:15.564954: SoundIcon: SOUNDOFF./usr/share/sounds/fenrirscreenreader/default/SoundOff.wav
+ANY INFO 2019-08-28 10:18:15.566098: SoundIcon: PLACESTARTMARK./usr/share/sounds/fenrirscreenreader/default/PlaceStartMark.wav
+ANY INFO 2019-08-28 10:18:15.567045: SoundIcon: PLACEENDMARK./usr/share/sounds/fenrirscreenreader/default/PlaceEndMark.wav
+ANY INFO 2019-08-28 10:18:15.567856: SoundIcon: COPYTOCLIPBOARD./usr/share/sounds/fenrirscreenreader/default/CopyToClipboard.wav
+ANY INFO 2019-08-28 10:18:15.568785: SoundIcon: PASTECLIPBOARDONSCREEN./usr/share/sounds/fenrirscreenreader/default/PasteClipboardOnScreen.wav
+ANY INFO 2019-08-28 10:18:15.569710: SoundIcon: ERRORSPEECH./usr/share/sounds/fenrirscreenreader/default/ErrorSpeech.wav
+ANY INFO 2019-08-28 10:18:15.570662: SoundIcon: ERRORBRAILLE./usr/share/sounds/fenrirscreenreader/default/ErrorBraille.wav
+ANY INFO 2019-08-28 10:18:15.571500: SoundIcon: ERRORSCREEN./usr/share/sounds/fenrirscreenreader/default/ErrorScreen.wav
+ANY INFO 2019-08-28 10:18:15.572203: SoundIcon: HASATTRIBUTES./usr/share/sounds/fenrirscreenreader/default/has_attribute.wav
+ANY INFO 2019-08-28 10:18:15.573142: SoundIcon: PROMOTEDTEXT./usr/share/sounds/fenrirscreenreader/default/PromotedText.wav
+ANY INFO 2019-08-28 10:18:15.574162: SoundIcon: MISPELL./usr/share/sounds/fenrirscreenreader/default/mispell.wav
+ANY INFO 2019-08-28 10:18:15.574920: SoundIcon: CAPITAL./usr/share/sounds/fenrirscreenreader/default/Caps.wav
+ANY INFO 2019-08-28 10:18:15.575674: SoundIcon: ANNOUNCE./usr/share/sounds/fenrirscreenreader/default/Announce.wav
+ANY INFO 2019-08-28 10:18:15.581271: Punctuation: LEVELDICT.none :
+ANY INFO 2019-08-28 10:18:15.582045: Punctuation: LEVELDICT.some :-$~+*-/\@
+ANY INFO 2019-08-28 10:18:15.582758: Punctuation: LEVELDICT.most :.,:-$~+*-/\@!#%^&*()[]}{<>;
+ANY INFO 2019-08-28 10:18:15.583589: Punctuation: LEVELDICT.all :!"#$%& \'()*+,-./:;<=>?@[\\]^_`{|}~
+ANY INFO 2019-08-28 10:18:15.584408: Punctuation: PUNCTDICT.  :space
+ANY INFO 2019-08-28 10:18:15.585135: Punctuation: PUNCTDICT.& :and
+ANY INFO 2019-08-28 10:18:15.585965: Punctuation: PUNCTDICT.' :apostrophe
+ANY INFO 2019-08-28 10:18:15.586768: Punctuation: PUNCTDICT.@ :at
+ANY INFO 2019-08-28 10:18:15.587564: Punctuation: PUNCTDICT.\ :backslash
+ANY INFO 2019-08-28 10:18:15.588246: Punctuation: PUNCTDICT.| :bar
+ANY INFO 2019-08-28 10:18:15.588831: Punctuation: PUNCTDICT.! :bang
+ANY INFO 2019-08-28 10:18:15.589410: Punctuation: PUNCTDICT.^ :carrot
+ANY INFO 2019-08-28 10:18:15.590136: Punctuation: PUNCTDICT.: :colon
+ANY INFO 2019-08-28 10:18:15.590744: Punctuation: PUNCTDICT., :comma
+ANY INFO 2019-08-28 10:18:15.591314: Punctuation: PUNCTDICT.- :dash
+ANY INFO 2019-08-28 10:18:15.591881: Punctuation: PUNCTDICT.$ :dollar
+ANY INFO 2019-08-28 10:18:15.592549: Punctuation: PUNCTDICT.. :dot
+ANY INFO 2019-08-28 10:18:15.593221: Punctuation: PUNCTDICT.> :greater
+ANY INFO 2019-08-28 10:18:15.593818: Punctuation: PUNCTDICT.` :grave
+ANY INFO 2019-08-28 10:18:15.594452: Punctuation: PUNCTDICT.{ :left brace
+ANY INFO 2019-08-28 10:18:15.595121: Punctuation: PUNCTDICT.[ :left bracket
+ANY INFO 2019-08-28 10:18:15.595767: Punctuation: PUNCTDICT.( :left paren
+ANY INFO 2019-08-28 10:18:15.596469: Punctuation: PUNCTDICT.< :less
+ANY INFO 2019-08-28 10:18:15.597091: Punctuation: PUNCTDICT.% :percent
+ANY INFO 2019-08-28 10:18:15.597842: Punctuation: PUNCTDICT.+ :plus
+ANY INFO 2019-08-28 10:18:15.598453: Punctuation: PUNCTDICT.? :question?
+ANY INFO 2019-08-28 10:18:15.599081: Punctuation: PUNCTDICT." :quote
+ANY INFO 2019-08-28 10:18:15.599815: Punctuation: PUNCTDICT.) :right paren
+ANY INFO 2019-08-28 10:18:15.600481: Punctuation: PUNCTDICT.} :right brace
+ANY INFO 2019-08-28 10:18:15.601159: Punctuation: PUNCTDICT.] :right bracket
+ANY INFO 2019-08-28 10:18:15.601810: Punctuation: PUNCTDICT.; :semicolon
+ANY INFO 2019-08-28 10:18:15.602437: Punctuation: PUNCTDICT./ :slash
+ANY INFO 2019-08-28 10:18:15.603064: Punctuation: PUNCTDICT.* :star
+ANY INFO 2019-08-28 10:18:15.603697: Punctuation: PUNCTDICT.~ :tilde
+ANY INFO 2019-08-28 10:18:15.604340: Punctuation: PUNCTDICT._ :line
+ANY INFO 2019-08-28 10:18:15.604971: Punctuation: PUNCTDICT.= :equals
+ANY INFO 2019-08-28 10:18:15.605687: Punctuation: EMOTICONDICT.:) :smile
+ANY INFO 2019-08-28 10:18:15.606375: Punctuation: EMOTICONDICT.;) :twinker
+ANY INFO 2019-08-28 10:18:15.607012: Punctuation: EMOTICONDICT.XD :loool
+ANY INFO 2019-08-28 10:18:15.607628: Punctuation: EMOTICONDICT.:D :lought
+ANY INFO 2019-08-28 10:18:15.608165: Punctuation: EMOTICONDICT.<{-.-}> :Raves
+ANY INFO 2019-08-28 10:18:16.232235: Loading Driver speechDriver (speechdDriver) OK
+ANY INFO 2019-08-28 10:18:16.240688: Loading Driver soundDriver (genericDriver) OK
+ANY INFO 2019-08-28 10:18:16.244307: Loading Driver brailleDriver (dummyDriver) OK
+ANY INFO 2019-08-28 10:18:16.732000: Loading Driver inputDriver (evdevDriver) OK
+ANY INFO 2019-08-28 10:18:17.799381: Loading Driver screenDriver (ptyDriver) OK
+ANY INFO 2019-08-28 10:18:17.820003: loadCommands: Load command:commands.SET_BOOKMARK_6
+ANY INFO 2019-08-28 10:18:17.822208: loadCommands: Load command:commands.TOGGLE_HAS_ATTRIBUTE
+ANY INFO 2019-08-28 10:18:17.824174: loadCommands: Load command:commands.TOGGLE_AUTO_SPELL_CHECK
+ANY INFO 2019-08-28 10:18:17.826495: loadCommands: Load command:commands.CURSOR_LINENO
+ANY INFO 2019-08-28 10:18:17.828908: loadCommands: Load command:commands.TOGGLE_AUTO_INDENT
+ANY INFO 2019-08-28 10:18:17.831039: loadCommands: Load command:commands.CLEAR_CLIPBOARD
+ANY INFO 2019-08-28 10:18:17.833445: loadCommands: Load command:commands.SUBPROCESS
+ANY INFO 2019-08-28 10:18:17.837996: loadCommands: Load command:commands.REVIEW_NEXT_CHAR
+ANY INFO 2019-08-28 10:18:17.840493: loadCommands: Load command:commands.CURSOR_COLUMN
+ANY INFO 2019-08-28 10:18:17.843130: loadCommands: Load command:commands.REVIEW_LINE_LAST_CHAR
+ANY INFO 2019-08-28 10:18:17.845590: loadCommands: Load command:commands.CLEAR_BOOKMARK_8
+ANY INFO 2019-08-28 10:18:17.849870: loadCommands: Load command:commands.TOGGLE_BRAILLE
+ANY INFO 2019-08-28 10:18:17.854014: loadCommands: Load command:commands.COPY_LAST_ECHO_TO_CLIPBOARD
+ANY INFO 2019-08-28 10:18:17.856833: loadCommands: Load command:commands.SET_BOOKMARK_9
+ANY INFO 2019-08-28 10:18:17.859808: loadCommands: Load command:commands.TOGGLE_BARRIER
+ANY INFO 2019-08-28 10:18:17.862113: loadCommands: Load command:commands.CLEAR_BOOKMARK_6
+ANY INFO 2019-08-28 10:18:17.864293: loadCommands: Load command:commands.BOOKMARK_7
+ANY INFO 2019-08-28 10:18:17.866562: loadCommands: Load command:commands.LAST_INCOMING
+ANY INFO 2019-08-28 10:18:17.868779: loadCommands: Load command:commands.REMOVE_MARKS
+ANY INFO 2019-08-28 10:18:17.871455: loadCommands: Load command:commands.INC_SOUND_VOLUME
+ANY INFO 2019-08-28 10:18:17.873673: loadCommands: Load command:commands.REVIEW_CURR_CHAR_PHONETIC
+ANY INFO 2019-08-28 10:18:18.350795: loadCommands: Load command:commands.ADD_WORD_TO_SPELL_CHECK
+ANY INFO 2019-08-28 10:18:18.353554: loadCommands: Load command:commands.CLEAR_BOOKMARK_5
+ANY INFO 2019-08-28 10:18:18.356938: loadCommands: Load command:commands.EXPORT_CLIPBOARD_TO_X
+ANY INFO 2019-08-28 10:18:18.362512: loadCommands: Load command:commands.CURR_SCREEN_AFTER_CURSOR
+ANY INFO 2019-08-28 10:18:18.364985: loadCommands: Load command:commands.BRAILLE_FLUSH
+ANY INFO 2019-08-28 10:18:18.367561: loadCommands: Load command:commands.CURRENT_QUICK_MENU_ENTRY
+ANY INFO 2019-08-28 10:18:18.370316: loadCommands: Load command:commands.REVIEW_BOTTOM
+ANY INFO 2019-08-28 10:18:18.374036: loadCommands: Load command:commands.TOGGLE_SPEECH
+ANY INFO 2019-08-28 10:18:18.376793: loadCommands: Load command:commands.REVIEW_CURR_WORD
+ANY INFO 2019-08-28 10:18:18.379264: loadCommands: Load command:commands.LAST_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.382441: loadCommands: Load command:commands.REVIEW_NEXT_LINE
+ANY INFO 2019-08-28 10:18:18.384972: loadCommands: Load command:commands.CURRENT_QUICK_MENU_VALUE
+ANY INFO 2019-08-28 10:18:18.388729: loadCommands: Load command:commands.PASTE_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.391835: loadCommands: Load command:commands.NEXT_QUICK_MENU_VALUE
+ANY INFO 2019-08-28 10:18:18.394106: loadCommands: Load command:commands.CURR_SCREEN
+ANY INFO 2019-08-28 10:18:18.396297: loadCommands: Load command:commands.DEC_SOUND_VOLUME
+ANY INFO 2019-08-28 10:18:18.398268: loadCommands: Load command:commands.INDENT_CURR_LINE
+ANY INFO 2019-08-28 10:18:18.400578: loadCommands: Load command:commands.CURR_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.403284: loadCommands: Load command:commands.SET_BOOKMARK_1
+ANY INFO 2019-08-28 10:18:18.407216: loadCommands: Load command:commands.QUIT_FENRIR
+ANY INFO 2019-08-28 10:18:18.409702: loadCommands: Load command:commands.BOOKMARK_10
+ANY INFO 2019-08-28 10:18:18.412704: loadCommands: Load command:commands.REVIEW_PREV_CHAR
+ANY INFO 2019-08-28 10:18:18.414941: loadCommands: Load command:commands.TIME
+ANY INFO 2019-08-28 10:18:18.417436: loadCommands: Load command:commands.CURSOR_POSITION
+ANY INFO 2019-08-28 10:18:18.420893: loadCommands: Load command:commands.SET_BOOKMARK_2
+ANY INFO 2019-08-28 10:18:18.423705: loadCommands: Load command:commands.DATE
+ANY INFO 2019-08-28 10:18:18.426009: loadCommands: Load command:commands.CLEAR_WINDOW_APPLICATION
+ANY INFO 2019-08-28 10:18:18.428621: loadCommands: Load command:commands.REVIEW_LINE_FIRST_CHAR
+ANY INFO 2019-08-28 10:18:18.431232: loadCommands: Load command:commands.BOOKMARK_1
+ANY INFO 2019-08-28 10:18:18.434072: loadCommands: Load command:commands.MARKED_TEXT
+ANY INFO 2019-08-28 10:18:18.437681: loadCommands: Load command:commands.IMPORT_CLIPBOARD_FROM_FILE
+ANY INFO 2019-08-28 10:18:18.440225: loadCommands: Load command:commands.BOOKMARK_5
+ANY INFO 2019-08-28 10:18:18.442772: loadCommands: Load command:commands.REVIEW_PREV_CHAR_PHONETIC
+ANY INFO 2019-08-28 10:18:18.445150: loadCommands: Load command:commands.EXIT_REVIEW
+ANY INFO 2019-08-28 10:18:18.447773: loadCommands: Load command:commands.SET_BOOKMARK_4
+ANY INFO 2019-08-28 10:18:18.450556: loadCommands: Load command:commands.REVIEW_NEXT_WORD
+ANY INFO 2019-08-28 10:18:18.453076: loadCommands: Load command:commands.PREV_QUICK_MENU_VALUE
+ANY INFO 2019-08-28 10:18:18.456742: loadCommands: Load command:commands.DEC_ALSA_VOLUME
+ANY INFO 2019-08-28 10:18:18.459442: loadCommands: Load command:commands.REVIEW_PREV_WORD_PHONETIC
+ANY INFO 2019-08-28 10:18:18.462605: loadCommands: Load command:commands.TOGGLE_VMENU_MODE
+ANY INFO 2019-08-28 10:18:18.464579: loadCommands: Load command:commands.CLEAR_BOOKMARK_2
+ANY INFO 2019-08-28 10:18:18.466991: loadCommands: Load command:commands.CLEAR_BOOKMARK_10
+ANY INFO 2019-08-28 10:18:18.469374: loadCommands: Load command:commands.INC_SPEECH_PITCH
+ANY INFO 2019-08-28 10:18:18.472416: loadCommands: Load command:commands.SET_WINDOW_APPLICATION
+ANY INFO 2019-08-28 10:18:18.475172: loadCommands: Load command:commands.TOGGLE_AUTO_READ
+ANY INFO 2019-08-28 10:18:18.478135: loadCommands: Load command:commands.SET_BOOKMARK_10
+ANY INFO 2019-08-28 10:18:18.480983: loadCommands: Load command:commands.00_INIT_COMMANDS
+ANY INFO 2019-08-28 10:18:18.483934: loadCommands: Load command:commands.TOGGLE_PUNCTUATION_LEVEL
+ANY INFO 2019-08-28 10:18:18.486788: loadCommands: Load command:commands.TOGGLE_SOUND
+ANY INFO 2019-08-28 10:18:18.489296: loadCommands: Load command:commands.BRAILLE_PAN_RIGHT
+ANY INFO 2019-08-28 10:18:18.492109: loadCommands: Load command:commands.SET_MARK
+ANY INFO 2019-08-28 10:18:18.494533: loadCommands: Load command:commands.TOGGLE_EMOTICONS
+ANY INFO 2019-08-28 10:18:18.497060: loadCommands: Load command:commands.PRESENT_FIRST_LINE
+ANY INFO 2019-08-28 10:18:18.499218: loadCommands: Load command:commands.CURR_SCREEN_BEFORE_CURSOR
+ANY INFO 2019-08-28 10:18:18.502417: loadCommands: Load command:commands.REVIEW_CURR_CHAR
+ANY INFO 2019-08-28 10:18:18.504671: loadCommands: Load command:commands.TOGGLE_AUTO_TIME
+ANY INFO 2019-08-28 10:18:18.507330: loadCommands: Load command:commands.FORWARD_KEYPRESS
+ANY INFO 2019-08-28 10:18:18.510218: loadCommands: Load command:commands.IMPORT_CLIPBOARD_FROM_X
+ANY INFO 2019-08-28 10:18:18.513805: loadCommands: Load command:commands.CLEAR_BOOKMARK_1
+ANY INFO 2019-08-28 10:18:18.516571: loadCommands: Load command:commands.SET_BOOKMARK_8
+ANY INFO 2019-08-28 10:18:18.518959: loadCommands: Load command:commands.TOGGLE_OUTPUT
+ANY INFO 2019-08-28 10:18:18.521100: loadCommands: Load command:commands.TOGGLE_TUTORIAL_MODE
+ANY INFO 2019-08-28 10:18:18.523142: loadCommands: Load command:commands.REVIEW_CURR_WORD_PHONETIC
+ANY INFO 2019-08-28 10:18:18.525671: loadCommands: Load command:commands.REVIEW_TOP
+ANY INFO 2019-08-28 10:18:18.528287: loadCommands: Load command:commands.CLEAR_BOOKMARK_7
+ANY INFO 2019-08-28 10:18:18.531609: loadCommands: Load command:commands.BOOKMARK_8
+ANY INFO 2019-08-28 10:18:18.533978: loadCommands: Load command:commands.BRAILLE_PAN_LEFT
+ANY INFO 2019-08-28 10:18:18.536251: loadCommands: Load command:commands.REVIEW_NEXT_WORD_PHONETIC
+ANY INFO 2019-08-28 10:18:18.538225: loadCommands: Load command:commands.SET_BOOKMARK_7
+ANY INFO 2019-08-28 10:18:18.540668: loadCommands: Load command:commands.CLEAR_BOOKMARK_9
+ANY INFO 2019-08-28 10:18:18.543854: loadCommands: Load command:commands.BOOKMARK_4
+ANY INFO 2019-08-28 10:18:18.546833: loadCommands: Load command:commands.SAVE_SETTINGS
+ANY INFO 2019-08-28 10:18:18.549142: loadCommands: Load command:commands.PREV_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.551177: loadCommands: Load command:commands.SHUT_UP
+ANY INFO 2019-08-28 10:18:18.553478: loadCommands: Load command:commands.REVIEW_UP
+ANY INFO 2019-08-28 10:18:18.556629: loadCommands: Load command:commands.REVIEW_DOWN
+ANY INFO 2019-08-28 10:18:18.560686: loadCommands: Load command:commands.CURSOR_READ_TO_END_OF_LINE
+ANY INFO 2019-08-28 10:18:18.563715: loadCommands: Load command:commands.SET_BOOKMARK_3
+ANY INFO 2019-08-28 10:18:18.566841: loadCommands: Load command:commands.REVIEW_PREV_WORD
+ANY INFO 2019-08-28 10:18:18.569133: loadCommands: Load command:commands.BOOKMARK_2
+ANY INFO 2019-08-28 10:18:18.571522: loadCommands: Load command:commands.FIRST_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.573682: loadCommands: Load command:commands.TOGGLE_HIGHLIGHT_TRACKING
+ANY INFO 2019-08-28 10:18:18.576009: loadCommands: Load command:commands.REVIEW_LINE_BEGIN
+ANY INFO 2019-08-28 10:18:18.578828: loadCommands: Load command:commands.PREV_QUICK_MENU_ENTRY
+ANY INFO 2019-08-28 10:18:18.582122: loadCommands: Load command:commands.BRAILLE_RETURN_TO_CURSOR
+ANY INFO 2019-08-28 10:18:18.584263: loadCommands: Load command:commands.REVIEW_CURR_LINE
+ANY INFO 2019-08-28 10:18:18.588102: loadCommands: Load command:commands.REVIEW_PREV_LINE
+ANY INFO 2019-08-28 10:18:18.591066: loadCommands: Load command:commands.BOOKMARK_3
+ANY INFO 2019-08-28 10:18:18.593431: loadCommands: Load command:commands.BOOKMARK_6
+ANY INFO 2019-08-28 10:18:18.596459: loadCommands: Load command:commands.BOOKMARK_9
+ANY INFO 2019-08-28 10:18:18.599833: loadCommands: Load command:commands.NEXT_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.602797: loadCommands: Load command:commands.PRESENT_LAST_LINE
+ANY INFO 2019-08-28 10:18:18.606392: loadCommands: Load command:commands.INC_ALSA_VOLUME
+ANY INFO 2019-08-28 10:18:18.608719: loadCommands: Load command:commands.DEC_SPEECH_VOLUME
+ANY INFO 2019-08-28 10:18:18.611293: loadCommands: Load command:commands.NEXT_QUICK_MENU_ENTRY
+ANY INFO 2019-08-28 10:18:18.614668: loadCommands: Load command:commands.CLEAR_BOOKMARK_3
+ANY INFO 2019-08-28 10:18:18.617941: loadCommands: Load command:commands.ATTRIBUTE_CURSOR
+ANY INFO 2019-08-28 10:18:18.620675: loadCommands: Load command:commands.TEMP_DISABLE_SPEECH
+ANY INFO 2019-08-28 10:18:18.622655: loadCommands: Load command:commands.COPY_MARKED_TO_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.625692: loadCommands: Load command:commands.REMOVE_WORD_FROM_SPELL_CHECK
+ANY INFO 2019-08-28 10:18:18.629028: loadCommands: Load command:commands.SPELL_CHECK
+ANY INFO 2019-08-28 10:18:18.632493: loadCommands: Load command:commands.REVIEW_NEXT_CHAR_PHONETIC
+ANY INFO 2019-08-28 10:18:18.635073: loadCommands: Load command:commands.DEC_SPEECH_RATE
+ANY INFO 2019-08-28 10:18:18.637492: loadCommands: Load command:commands.REVIEW_LINE_END
+ANY INFO 2019-08-28 10:18:18.640226: loadCommands: Load command:commands.DEC_SPEECH_PITCH
+ANY INFO 2019-08-28 10:18:18.642860: loadCommands: Load command:commands.CLEAR_BOOKMARK_4
+ANY INFO 2019-08-28 10:18:18.645152: loadCommands: Load command:commands.EXPORT_CLIPBOARD_TO_FILE
+ANY INFO 2019-08-28 10:18:18.647691: loadCommands: Load command:commands.INC_SPEECH_RATE
+ANY INFO 2019-08-28 10:18:18.651006: loadCommands: Load command:commands.INC_SPEECH_VOLUME
+ANY INFO 2019-08-28 10:18:18.653479: loadCommands: Load command:commands.SET_BOOKMARK_5
+ANY INFO 2019-08-28 10:18:18.657172: loadCommands: Load command:onKeyInput.15000-ENABLE_TEMP_SPEECH
+ANY INFO 2019-08-28 10:18:18.659805: loadCommands: Load command:onKeyInput.80300-SCROLLLOCK
+ANY INFO 2019-08-28 10:18:18.662830: loadCommands: Load command:onKeyInput.81000-KEY_ECHO
+ANY INFO 2019-08-28 10:18:18.665080: loadCommands: Load command:onKeyInput.10000-SHUT_UP
+ANY INFO 2019-08-28 10:18:18.670181: loadCommands: Load command:onKeyInput.80500-NUMLOCK
+ANY INFO 2019-08-28 10:18:18.672705: loadCommands: Load command:onKeyInput.80000-CAPSLOCK
+ANY INFO 2019-08-28 10:18:18.676374: loadCommands: Load command:onByteInput.15000-ENABLE_TEMP_SPEECH
+ANY INFO 2019-08-28 10:18:18.678589: loadCommands: Load command:onByteInput.10000-SHUT_UP
+ANY INFO 2019-08-28 10:18:18.682561: loadCommands: Load command:onCursorChange.77000-HAS_ATTRIBUTE
+ANY INFO 2019-08-28 10:18:18.685276: loadCommands: Load command:onCursorChange.65000-CHAR_DELETE_ECHO
+ANY INFO 2019-08-28 10:18:18.688191: loadCommands: Load command:onCursorChange.45000-CHAR_ECHO
+ANY INFO 2019-08-28 10:18:18.692028: loadCommands: Load command:onCursorChange.60000-WORD_ECHO_TYPE
+ANY INFO 2019-08-28 10:18:18.694368: loadCommands: Load command:onCursorChange.50000-PRESENT_CHAR_IF_CURSOR_CHANGE_HORIZONTAL
+ANY INFO 2019-08-28 10:18:18.697177: loadCommands: Load command:onCursorChange.62000-SPELL_CHECK
+ANY INFO 2019-08-28 10:18:18.699902: loadCommands: Load command:onCursorChange.66000-EXIT_REVIEW_MODE
+ANY INFO 2019-08-28 10:18:18.702395: loadCommands: Load command:onCursorChange.46000-TAB_COMPLETION
+ANY INFO 2019-08-28 10:18:18.705220: loadCommands: Load command:onCursorChange.55000-PRESENT_LINE_IF_CURSOR_CHANGE_VERTICAL
+ANY INFO 2019-08-28 10:18:18.707759: loadCommands: Load command:onCursorChange.61000-WORD_ECHO_NAVIGATION
+ANY INFO 2019-08-28 10:18:18.710635: loadCommands: Load command:onScreenUpdate.80000-BARRIER_DETECT
+ANY INFO 2019-08-28 10:18:18.713129: loadCommands: Load command:onScreenUpdate.56000-HIGHLIGHT_TRACKING
+ANY INFO 2019-08-28 10:18:18.716243: loadCommands: Load command:onScreenUpdate.70000-INCOMING
+ANY INFO 2019-08-28 10:18:18.719954: loadCommands: Load command:onScreenUpdate.75000-INCOMING_PROMOTE
+ANY INFO 2019-08-28 10:18:18.722919: loadCommands: Load command:onScreenUpdate.60000-HISTORY
+ANY INFO 2019-08-28 10:18:18.726461: loadCommands: Load command:onScreenChanged.80000-SCREEN_CHANGE_ANNOUNCEMENT
+ANY INFO 2019-08-28 10:18:18.728697: loadCommands: Load command:onScreenChanged.85000-RESET_MARKS
+ANY INFO 2019-08-28 10:18:18.731075: loadCommands: Load command:onScreenChanged.10000-SHUT_UP
+ANY INFO 2019-08-28 10:18:18.733262: loadCommands: Load command:onScreenChanged.21000-RESET_BARRIER_CHANGE
+ANY INFO 2019-08-28 10:18:18.735855: loadCommands: Load command:onScreenChanged.20000-RESET_LAST_CURSOR_ATTRIBUTE
+ANY INFO 2019-08-28 10:18:18.738582: loadCommands: Load command:onScreenChanged.70000-BARRIER_DETECT
+ANY INFO 2019-08-28 10:18:18.740711: loadCommands: Load command:onScreenChanged.89000-LEAVE_REVIEW_MODE
+ANY INFO 2019-08-28 10:18:18.743477: loadCommands: Load command:onHeartBeat.76000-TIME
+ANY INFO 2019-08-28 10:18:18.745912: loadCommands: Load command:onHeartBeat.2000-GETSESSIONINFO
+ANY INFO 2019-08-28 10:18:18.749727: loadCommands: Load command:onPlugInputDevice.80000-PLUGSOUND
+ANY INFO 2019-08-28 10:18:18.751805: loadCommands: Load command:onPlugInputDevice.50000-UPDATEDEVICES
+ANY INFO 2019-08-28 10:18:18.755295: loadCommands: Load command:onSwitchApplicationProfile.DEFAULT
+ANY INFO 2019-08-28 10:18:18.758611: loadCommands: Load command:help.NEXT_HELP
+ANY INFO 2019-08-28 10:18:18.761784: loadCommands: Load command:help.PREV_HELP
+ANY INFO 2019-08-28 10:18:18.763705: loadCommands: Load command:help.CURR_HELP
+ANY INFO 2019-08-28 10:18:18.768880: loadCommands: Load command:vmenu-navigation.SEARCH_U
+ANY INFO 2019-08-28 10:18:18.781228: loadCommands: Load command:vmenu-navigation.SEARCH_V
+ANY INFO 2019-08-28 10:18:18.783049: loadCommands: Load command:vmenu-navigation.SEARCH_K
+ANY INFO 2019-08-28 10:18:18.784969: loadCommands: Load command:vmenu-navigation.CURR_VMENU_ENTRY
+ANY INFO 2019-08-28 10:18:18.787314: loadCommands: Load command:vmenu-navigation.SEARCH_T
+ANY INFO 2019-08-28 10:18:18.790418: loadCommands: Load command:vmenu-navigation.SEARCH_J
+ANY INFO 2019-08-28 10:18:18.792683: loadCommands: Load command:vmenu-navigation.SEARCH_H
+ANY INFO 2019-08-28 10:18:18.794744: loadCommands: Load command:vmenu-navigation.SEARCH_S
+ANY INFO 2019-08-28 10:18:18.796819: loadCommands: Load command:vmenu-navigation.SEARCH_C
+ANY INFO 2019-08-28 10:18:18.798772: loadCommands: Load command:vmenu-navigation.PREV_VMENU_ENTRY
+ANY INFO 2019-08-28 10:18:18.801703: loadCommands: Load command:vmenu-navigation.SEARCH_E
+ANY INFO 2019-08-28 10:18:18.804251: loadCommands: Load command:vmenu-navigation.SEARCH_X
+ANY INFO 2019-08-28 10:18:18.806779: loadCommands: Load command:vmenu-navigation.SEARCH_I
+ANY INFO 2019-08-28 10:18:18.808869: loadCommands: Load command:vmenu-navigation.SEARCH_A
+ANY INFO 2019-08-28 10:18:18.811129: loadCommands: Load command:vmenu-navigation.SEARCH_P
+ANY INFO 2019-08-28 10:18:18.813123: loadCommands: Load command:vmenu-navigation.SEARCH_D
+ANY INFO 2019-08-28 10:18:18.815330: loadCommands: Load command:vmenu-navigation.SEARCH_N
+ANY INFO 2019-08-28 10:18:18.817974: loadCommands: Load command:vmenu-navigation.INC_LEVEL_VMENU
+ANY INFO 2019-08-28 10:18:18.821656: loadCommands: Load command:vmenu-navigation.EXEC_VMENU_ENTRY
+ANY INFO 2019-08-28 10:18:18.825336: loadCommands: Load command:vmenu-navigation.SEARCH_Q
+ANY INFO 2019-08-28 10:18:18.827997: loadCommands: Load command:vmenu-navigation.SEARCH_R
+ANY INFO 2019-08-28 10:18:18.830332: loadCommands: Load command:vmenu-navigation.SEARCH_G
+ANY INFO 2019-08-28 10:18:18.832274: loadCommands: Load command:vmenu-navigation.SEARCH_Z
+ANY INFO 2019-08-28 10:18:18.834146: loadCommands: Load command:vmenu-navigation.SEARCH_M
+ANY INFO 2019-08-28 10:18:18.836178: loadCommands: Load command:vmenu-navigation.SEARCH_L
+ANY INFO 2019-08-28 10:18:18.838429: loadCommands: Load command:vmenu-navigation.SEARCH_Y
+ANY INFO 2019-08-28 10:18:18.840969: loadCommands: Load command:vmenu-navigation.DEC_LEVEL_VMENU
+ANY INFO 2019-08-28 10:18:18.844544: loadCommands: Load command:vmenu-navigation.SEARCH_W
+ANY INFO 2019-08-28 10:18:18.847789: loadCommands: Load command:vmenu-navigation.SEARCH_F
+ANY INFO 2019-08-28 10:18:18.850712: loadCommands: Load command:vmenu-navigation.NEXT_VMENU_ENTRY
+ANY INFO 2019-08-28 10:18:18.853188: loadCommands: Load command:vmenu-navigation.SEARCH_O
+ANY INFO 2019-08-28 10:18:18.855453: loadCommands: Load command:vmenu-navigation.SEARCH_B
+ANY INFO 2019-08-28 10:18:18.858597: Load script:commands.SWITCH-LANGUAGE__-__KEY_L
+ANY INFO 2019-08-28 10:18:18.861029: Load script:commands.RESTORE-ACCESSIBILITY__-__KEY_ALT__+__KEY_R
+ANY INFO 2019-08-28 10:18:18.863528: Load script:commands.WLAN__-__KEY_Y
+ANY INFO 2019-08-28 10:18:18.866609: Load script:commands.SWITCH-LANGUAGE__-__KEY_SHIFT__+__KEY_L
+ANY INFO 2019-08-28 10:18:18.878961: Loading Driver remoteDriver (unixDriver) OK
+ANY INFO 2019-08-28 10:18:18.883999: Shortcut: [1, ['KEY_F1', 'KEY_FENRIR']] command:TOGGLE_TUTORIAL_MODE
+ANY INFO 2019-08-28 10:18:18.885573: Shortcut: [1, ['KEY_FENRIR', 'KEY_H']] command:TOGGLE_TUTORIAL_MODE
+ANY INFO 2019-08-28 10:18:18.886671: Shortcut: [1, ['KEY_CTRL']] command:SHUT_UP
+ERROR 2019-08-28 10:18:18.887835: invalid shortcut (missing KEY_FENRIR): [1, ['KEY_KP9', 'KEY_SHIFT']] command:REVIEW_BOTTOM
+ERROR 2019-08-28 10:18:18.888779: invalid shortcut (missing KEY_FENRIR): [1, ['KEY_KP7', 'KEY_SHIFT']] command:REVIEW_TOP
+ANY INFO 2019-08-28 10:18:18.889940: Shortcut: [1, ['KEY_KP8']] command:REVIEW_CURR_LINE
+ANY INFO 2019-08-28 10:18:18.890935: Shortcut: [1, ['KEY_KP7']] command:REVIEW_PREV_LINE
+ANY INFO 2019-08-28 10:18:18.892350: Shortcut: [1, ['KEY_KP9']] command:REVIEW_NEXT_LINE
+ERROR 2019-08-28 10:18:18.893429: invalid shortcut (missing KEY_FENRIR): [1, ['KEY_KP1', 'KEY_SHIFT']] command:REVIEW_LINE_BEGIN
+ERROR 2019-08-28 10:18:18.894631: invalid shortcut (missing KEY_FENRIR): [1, ['KEY_KP3', 'KEY_SHIFT']] command:REVIEW_LINE_END
+ANY INFO 2019-08-28 10:18:18.895858: Shortcut: [1, ['KEY_FENRIR', 'KEY_KP1']] command:REVIEW_LINE_FIRST_CHAR
+ANY INFO 2019-08-28 10:18:18.897068: Shortcut: [1, ['KEY_FENRIR', 'KEY_KP3']] command:REVIEW_LINE_LAST_CHAR
+ANY INFO 2019-08-28 10:18:18.898149: Shortcut: [1, ['KEY_1', 'KEY_ALT', 'KEY_FENRIR']] command:PRESENT_FIRST_LINE
+ANY INFO 2019-08-28 10:18:18.899197: Shortcut: [1, ['KEY_2', 'KEY_ALT', 'KEY_FENRIR']] command:PRESENT_LAST_LINE
+ANY INFO 2019-08-28 10:18:18.900074: Shortcut: [1, ['KEY_KP5']] command:REVIEW_CURR_WORD
+ANY INFO 2019-08-28 10:18:18.900735: Shortcut: [1, ['KEY_KP4']] command:REVIEW_PREV_WORD
+ANY INFO 2019-08-28 10:18:18.901377: Shortcut: [1, ['KEY_KP6']] command:REVIEW_NEXT_WORD
+ANY INFO 2019-08-28 10:18:18.902048: Shortcut: [2, ['KEY_KP5']] command:REVIEW_CURR_WORD_PHONETIC
+ANY INFO 2019-08-28 10:18:18.902758: Shortcut: [2, ['KEY_KP4']] command:REVIEW_PREV_WORD_PHONETIC
+ANY INFO 2019-08-28 10:18:18.903404: Shortcut: [2, ['KEY_KP6']] command:REVIEW_NEXT_WORD_PHONETIC
+ANY INFO 2019-08-28 10:18:18.904064: Shortcut: [1, ['KEY_KP2']] command:REVIEW_CURR_CHAR
+ANY INFO 2019-08-28 10:18:18.904853: Shortcut: [1, ['KEY_KP1']] command:REVIEW_PREV_CHAR
+ANY INFO 2019-08-28 10:18:18.905912: Shortcut: [1, ['KEY_KP3']] command:REVIEW_NEXT_CHAR
+ANY INFO 2019-08-28 10:18:18.906910: Shortcut: [2, ['KEY_KP2']] command:REVIEW_CURR_CHAR_PHONETIC
+ANY INFO 2019-08-28 10:18:18.907904: Shortcut: [2, ['KEY_KP1']] command:REVIEW_PREV_CHAR_PHONETIC
+ANY INFO 2019-08-28 10:18:18.908707: Shortcut: [2, ['KEY_KP3']] command:REVIEW_NEXT_CHAR_PHONETIC
+ANY INFO 2019-08-28 10:18:18.909755: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_KP8']] command:REVIEW_UP
+ANY INFO 2019-08-28 10:18:18.910742: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_KP2']] command:REVIEW_DOWN
+ANY INFO 2019-08-28 10:18:18.911535: Shortcut: [1, ['KEY_FENRIR', 'KEY_KPDOT']] command:EXIT_REVIEW
+ANY INFO 2019-08-28 10:18:18.912151: Shortcut: [1, ['KEY_KPDOT']] command:CURSOR_POSITION
+ANY INFO 2019-08-28 10:18:18.912890: Shortcut: [1, ['KEY_FENRIR', 'KEY_I']] command:INDENT_CURR_LINE
+ANY INFO 2019-08-28 10:18:18.913646: Shortcut: [1, ['KEY_B', 'KEY_FENRIR']] command:CURR_SCREEN
+ANY INFO 2019-08-28 10:18:18.914496: Shortcut: [1, ['KEY_FENRIR', 'KEY_KP8']] command:CURR_SCREEN_BEFORE_CURSOR
+ANY INFO 2019-08-28 10:18:18.915421: Shortcut: [1, ['KEY_FENRIR', 'KEY_KP2']] command:CURR_SCREEN_AFTER_CURSOR
+ANY INFO 2019-08-28 10:18:18.917093: Shortcut: [1, ['KEY_FENRIR', 'KEY_PAGEDOWN', 'KEY_SHIFT']] command:CURSOR_READ_TO_END_OF_LINE
+ANY INFO 2019-08-28 10:18:18.918695: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_T']] command:BRAILLE_RETURN_TO_CURSOR
+ANY INFO 2019-08-28 10:18:18.920072: Shortcut: [1, ['KEY_1', 'KEY_CTRL', 'KEY_FENRIR']] command:CLEAR_BOOKMARK_1
+ANY INFO 2019-08-28 10:18:18.921370: Shortcut: [1, ['KEY_1', 'KEY_FENRIR', 'KEY_SHIFT']] command:SET_BOOKMARK_1
+ANY INFO 2019-08-28 10:18:18.922454: Shortcut: [1, ['KEY_1', 'KEY_FENRIR']] command:BOOKMARK_1
+ANY INFO 2019-08-28 10:18:18.923693: Shortcut: [1, ['KEY_FENRIR', 'KEY_K']] command:BOOKMARK_1
+ANY INFO 2019-08-28 10:18:18.925144: Shortcut: [1, ['KEY_2', 'KEY_CTRL', 'KEY_FENRIR']] command:CLEAR_BOOKMARK_2
+ANY INFO 2019-08-28 10:18:18.926677: Shortcut: [1, ['KEY_2', 'KEY_FENRIR', 'KEY_SHIFT']] command:SET_BOOKMARK_2
+ANY INFO 2019-08-28 10:18:18.927823: Shortcut: [1, ['KEY_2', 'KEY_FENRIR']] command:BOOKMARK_2
+ANY INFO 2019-08-28 10:18:18.929101: Shortcut: [1, ['KEY_3', 'KEY_CTRL', 'KEY_FENRIR']] command:CLEAR_BOOKMARK_3
+ANY INFO 2019-08-28 10:18:18.930572: Shortcut: [1, ['KEY_3', 'KEY_FENRIR', 'KEY_SHIFT']] command:SET_BOOKMARK_3
+ANY INFO 2019-08-28 10:18:18.931850: Shortcut: [1, ['KEY_3', 'KEY_FENRIR']] command:BOOKMARK_3
+ANY INFO 2019-08-28 10:18:18.933346: Shortcut: [1, ['KEY_4', 'KEY_CTRL', 'KEY_FENRIR']] command:CLEAR_BOOKMARK_4
+ANY INFO 2019-08-28 10:18:18.934759: Shortcut: [1, ['KEY_4', 'KEY_FENRIR', 'KEY_SHIFT']] command:SET_BOOKMARK_4
+ANY INFO 2019-08-28 10:18:18.935935: Shortcut: [1, ['KEY_4', 'KEY_FENRIR']] command:BOOKMARK_4
+ANY INFO 2019-08-28 10:18:18.937532: Shortcut: [1, ['KEY_6', 'KEY_CTRL', 'KEY_FENRIR']] command:CLEAR_BOOKMARK_6
+ANY INFO 2019-08-28 10:18:18.938897: Shortcut: [1, ['KEY_6', 'KEY_FENRIR', 'KEY_SHIFT']] command:SET_BOOKMARK_6
+ANY INFO 2019-08-28 10:18:18.940265: Shortcut: [1, ['KEY_6', 'KEY_FENRIR']] command:BOOKMARK_6
+ANY INFO 2019-08-28 10:18:18.941767: Shortcut: [1, ['KEY_7', 'KEY_CTRL', 'KEY_FENRIR']] command:CLEAR_BOOKMARK_7
+ANY INFO 2019-08-28 10:18:18.943451: Shortcut: [1, ['KEY_7', 'KEY_FENRIR', 'KEY_SHIFT']] command:SET_BOOKMARK_7
+ANY INFO 2019-08-28 10:18:18.944683: Shortcut: [1, ['KEY_7', 'KEY_FENRIR']] command:BOOKMARK_7
+ANY INFO 2019-08-28 10:18:18.946211: Shortcut: [1, ['KEY_8', 'KEY_CTRL', 'KEY_FENRIR']] command:CLEAR_BOOKMARK_8
+ANY INFO 2019-08-28 10:18:18.948117: Shortcut: [1, ['KEY_8', 'KEY_FENRIR', 'KEY_SHIFT']] command:SET_BOOKMARK_8
+ANY INFO 2019-08-28 10:18:18.949265: Shortcut: [1, ['KEY_8', 'KEY_FENRIR']] command:BOOKMARK_8
+ANY INFO 2019-08-28 10:18:18.950675: Shortcut: [1, ['KEY_9', 'KEY_CTRL', 'KEY_FENRIR']] command:CLEAR_BOOKMARK_9
+ANY INFO 2019-08-28 10:18:18.951993: Shortcut: [1, ['KEY_9', 'KEY_FENRIR', 'KEY_SHIFT']] command:SET_BOOKMARK_9
+ANY INFO 2019-08-28 10:18:18.953273: Shortcut: [1, ['KEY_9', 'KEY_FENRIR']] command:BOOKMARK_9
+ANY INFO 2019-08-28 10:18:18.954902: Shortcut: [1, ['KEY_0', 'KEY_CTRL', 'KEY_FENRIR']] command:CLEAR_BOOKMARK_10
+ANY INFO 2019-08-28 10:18:18.956529: Shortcut: [1, ['KEY_0', 'KEY_FENRIR', 'KEY_SHIFT']] command:SET_BOOKMARK_10
+ANY INFO 2019-08-28 10:18:18.957646: Shortcut: [1, ['KEY_0', 'KEY_FENRIR']] command:BOOKMARK_10
+ANY INFO 2019-08-28 10:18:18.958598: Shortcut: [1, ['KEY_FENRIR', 'KEY_KPSLASH']] command:SET_WINDOW_APPLICATION
+ANY INFO 2019-08-28 10:18:18.959581: Shortcut: [2, ['KEY_FENRIR', 'KEY_KPSLASH']] command:CLEAR_WINDOW_APPLICATION
+ANY INFO 2019-08-28 10:18:18.960426: Shortcut: [1, ['KEY_KPPLUS']] command:LAST_INCOMING
+ANY INFO 2019-08-28 10:18:18.961340: Shortcut: [1, ['KEY_F3', 'KEY_FENRIR']] command:TOGGLE_SOUND
+ANY INFO 2019-08-28 10:18:18.962218: Shortcut: [1, ['KEY_F4', 'KEY_FENRIR']] command:TOGGLE_SPEECH
+ANY INFO 2019-08-28 10:18:18.963026: Shortcut: [1, ['KEY_KPENTER']] command:TEMP_DISABLE_SPEECH
+ANY INFO 2019-08-28 10:18:18.964055: Shortcut: [1, ['KEY_FENRIR', 'KEY_P']] command:TOGGLE_PUNCTUATION_LEVEL
+ANY INFO 2019-08-28 10:18:18.965126: Shortcut: [1, ['KEY_FENRIR', 'KEY_RIGHTBRACE']] command:TOGGLE_AUTO_SPELL_CHECK
+ANY INFO 2019-08-28 10:18:18.966291: Shortcut: [1, ['KEY_FENRIR', 'KEY_S']] command:TOGGLE_OUTPUT
+ANY INFO 2019-08-28 10:18:18.968001: Shortcut: [1, ['KEY_CTRL', 'KEY_E', 'KEY_FENRIR']] command:TOGGLE_EMOTICONS
+ANY INFO 2019-08-28 10:18:18.969183: Shortcut: [1, ['KEY_5', 'KEY_FENRIR']] command:TOGGLE_AUTO_READ
+ANY INFO 2019-08-28 10:18:18.970853: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_T']] command:TOGGLE_AUTO_TIME
+ANY INFO 2019-08-28 10:18:18.972105: Shortcut: [1, ['KEY_FENRIR', 'KEY_KPASTERISK']] command:TOGGLE_HIGHLIGHT_TRACKING
+ANY INFO 2019-08-28 10:18:18.973174: Shortcut: [1, ['KEY_FENRIR', 'KEY_KPMINUS']] command:TOGGLE_BARRIER
+ANY INFO 2019-08-28 10:18:18.974049: Shortcut: [1, ['KEY_FENRIR', 'KEY_Q']] command:QUIT_FENRIR
+ANY INFO 2019-08-28 10:18:18.975474: Shortcut: [1, ['KEY_FENRIR', 'KEY_T']] command:TIME
+ANY INFO 2019-08-28 10:18:18.976555: Shortcut: [1, ['KEY_F12', 'KEY_FENRIR']] command:TIME
+ANY INFO 2019-08-28 10:18:18.977452: Shortcut: [2, ['KEY_FENRIR', 'KEY_T']] command:DATE
+ANY INFO 2019-08-28 10:18:18.978681: Shortcut: [2, ['KEY_F12', 'KEY_FENRIR']] command:DATE
+ANY INFO 2019-08-28 10:18:18.979680: Shortcut: [1, ['KEY_KPSLASH']] command:TOGGLE_AUTO_INDENT
+ANY INFO 2019-08-28 10:18:18.980818: Shortcut: [1, ['KEY_F', 'KEY_FENRIR']] command:ATTRIBUTE_CURSOR
+ANY INFO 2019-08-28 10:18:18.982444: Shortcut: [1, ['KEY_F7', 'KEY_FENRIR']] command:SPELL_CHECK
+ANY INFO 2019-08-28 10:18:18.983865: Shortcut: [2, ['KEY_FENRIR', 'KEY_S']] command:ADD_WORD_TO_SPELL_CHECK
+ANY INFO 2019-08-28 10:18:18.985143: Shortcut: [1, ['KEY_FENRIR', 'KEY_S', 'KEY_SHIFT']] command:REMOVE_WORD_FROM_SPELL_CHECK
+ANY INFO 2019-08-28 10:18:18.986340: Shortcut: [1, ['KEY_F2', 'KEY_FENRIR']] command:FORWARD_KEYPRESS
+ANY INFO 2019-08-28 10:18:18.987679: Shortcut: [1, ['KEY_ALT', 'KEY_FENRIR', 'KEY_UP']] command:INC_SOUND_VOLUME
+ANY INFO 2019-08-28 10:18:18.988649: Shortcut: [1, ['KEY_ALT', 'KEY_DOWN', 'KEY_FENRIR']] command:DEC_SOUND_VOLUME
+ANY INFO 2019-08-28 10:18:18.989913: Shortcut: [1, ['KEY_C', 'KEY_CTRL', 'KEY_FENRIR', 'KEY_SHIFT']] command:CLEAR_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.990856: Shortcut: [1, ['KEY_FENRIR', 'KEY_HOME']] command:FIRST_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.991639: Shortcut: [1, ['KEY_END', 'KEY_FENRIR']] command:LAST_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.992390: Shortcut: [1, ['KEY_FENRIR', 'KEY_PAGEUP']] command:PREV_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.993195: Shortcut: [1, ['KEY_FENRIR', 'KEY_PAGEDOWN']] command:NEXT_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.994952: Shortcut: [1, ['KEY_C', 'KEY_FENRIR', 'KEY_SHIFT']] command:CURR_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.996395: Shortcut: [1, ['KEY_C', 'KEY_FENRIR']] command:COPY_MARKED_TO_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.998104: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_U']] command:COPY_LAST_ECHO_TO_CLIPBOARD
+ANY INFO 2019-08-28 10:18:18.999278: Shortcut: [1, ['KEY_FENRIR', 'KEY_V']] command:PASTE_CLIPBOARD
+ANY INFO 2019-08-28 10:18:19.000628: Shortcut: [1, ['KEY_F5', 'KEY_FENRIR']] command:IMPORT_CLIPBOARD_FROM_FILE
+ANY INFO 2019-08-28 10:18:19.001698: Shortcut: [1, ['KEY_F6', 'KEY_FENRIR']] command:EXPORT_CLIPBOARD_TO_FILE
+ANY INFO 2019-08-28 10:18:19.003365: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_SHIFT', 'KEY_X']] command:REMOVE_MARKS
+ANY INFO 2019-08-28 10:18:19.004591: Shortcut: [1, ['KEY_F9', 'KEY_FENRIR']] command:SET_MARK
+ANY INFO 2019-08-28 10:18:19.005951: Shortcut: [1, ['KEY_F10', 'KEY_FENRIR']] command:MARKED_TEXT
+ANY INFO 2019-08-28 10:18:19.007117: Shortcut: [1, ['KEY_F10', 'KEY_FENRIR']] command:TOGGLE_VMENU_MODE
+ANY INFO 2019-08-28 10:18:19.008209: Shortcut: [1, ['KEY_FENRIR', 'KEY_SPACE']] command:CURRENT_QUICK_MENU_ENTRY
+ANY INFO 2019-08-28 10:18:19.009390: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_SPACE']] command:CURRENT_QUICK_MENU_VALUE
+ANY INFO 2019-08-28 10:18:19.011017: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_RIGHT']] command:NEXT_QUICK_MENU_ENTRY
+ANY INFO 2019-08-28 10:18:19.012590: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_UP']] command:NEXT_QUICK_MENU_VALUE
+ANY INFO 2019-08-28 10:18:19.014069: Shortcut: [1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_LEFT']] command:PREV_QUICK_MENU_ENTRY
+ANY INFO 2019-08-28 10:18:19.015368: Shortcut: [1, ['KEY_CTRL', 'KEY_DOWN', 'KEY_FENRIR']] command:PREV_QUICK_MENU_VALUE
+ANY INFO 2019-08-28 10:18:19.016472: Shortcut: [1, ['KEY_F8', 'KEY_FENRIR']] command:EXPORT_CLIPBOARD_TO_X
+ANY INFO 2019-08-28 10:18:19.017909: Shortcut: [1, ['KEY_ALT', 'KEY_FENRIR', 'KEY_UP']] command:INC_ALSA_VOLUME
+ANY INFO 2019-08-28 10:18:19.019199: Shortcut: [1, ['KEY_ALT', 'KEY_DOWN', 'KEY_FENRIR']] command:DEC_ALSA_VOLUME
+ANY INFO 2019-08-28 10:18:19.024800: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mutt/search/test.py
+ANY INFO 2019-08-28 10:18:19.027792: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mutt/search/replace.py
+ANY INFO 2019-08-28 10:18:19.029844: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mutt/search/search.py
+ANY INFO 2019-08-28 10:18:19.032224: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mutt/file/save.py
+ANY INFO 2019-08-28 10:18:19.034319: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mutt/file/issue.py
+ANY INFO 2019-08-28 10:18:19.037363: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mutt/file/open.py
+ANY INFO 2019-08-28 10:18:19.040435: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/nano/search/test.py
+ANY INFO 2019-08-28 10:18:19.042450: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/nano/search/replace.py
+ANY INFO 2019-08-28 10:18:19.044562: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/nano/search/search.py
+ANY INFO 2019-08-28 10:18:19.047149: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/nano/file/save.py
+ANY INFO 2019-08-28 10:18:19.049450: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/nano/file/open.py
+ANY INFO 2019-08-28 10:18:19.052788: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/nano/Help/about_nano.py
+ANY INFO 2019-08-28 10:18:19.055771: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mc/search/test.py
+ANY INFO 2019-08-28 10:18:19.057809: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mc/search/replace.py
+ANY INFO 2019-08-28 10:18:19.061025: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mc/search/search.py
+ANY INFO 2019-08-28 10:18:19.063902: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mc/file/save.py
+ANY INFO 2019-08-28 10:18:19.066215: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/mc/file/open.py
+ANY INFO 2019-08-28 10:18:19.069373: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/vim/search/test.py
+ANY INFO 2019-08-28 10:18:19.071488: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/vim/search/replace.py
+ANY INFO 2019-08-28 10:18:19.073636: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/vim/search/search.py
+ANY INFO 2019-08-28 10:18:19.076673: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/vim/file/save.py
+ANY INFO 2019-08-28 10:18:19.078665: loadFile: Load command:/usr/lib/python3.7/site-packages/fenrirscreenreader/commands/vmenu-profiles/KEY/vim/file/open.py
+ANY INFO 2019-08-28 10:18:19.079820: \/-------environment-------\/
+ANY INFO 2019-08-28 10:18:19.085452: {'screen': {'columns': 0, 'lines': 0, 'oldDelta': '', 'oldAttribDelta': '', 'oldNegativeDelta': '', 'oldCursorReview': None, 'oldCursorAttrib': None, 'oldCursor': {'x': 0, 'y': 0}, 'oldContentBytes': b'', 'oldContentText': '', 'oldContentAttrib': None, 'oldApplication': '', 'oldTTY': 'pty', 'newDelta': '', 'newNegativeDelta': '', 'newAttribDelta': '', 'newCursorReview': None, 'newCursorAttrib': None, 'newCursor': {'x': 0, 'y': 0}, 'newContentBytes': b'', 'newContentText': '', 'newContentAttrib': None, 'newTTY': 'pty', 'newApplication': '', 'lastScreenUpdate': 1566987495.504554, 'autoIgnoreScreens': []}, 'runtime': {'speechDriver': <speechdDriver.driver object at 0x75cce8f0>, 'screenDriver': <ptyDriver.driver object at 0x7508abb0>, 'soundDriver': <genericDriver.driver object at 0x75ce0950>, 'inputDriver': <evdevDriver.driver object at 0x7541c190>, 'remoteDriver': <unixDriver.driver object at 0x72c3ea30>, 'brailleDriver': <dummyDriver.driver object at 0x75cf37b0>, 'inputManager': <fenrirscreenreader.core.inputManager.inputManager object at 0x75cf3e70>, 'commandManager': <fenrirscreenreader.core.commandManager.commandManager object at 0x73ed5970>, 'screenManager': <fenrirscreenreader.core.screenManager.screenManager object at 0x750f0cb0>, 'outputManager': <fenrirscreenreader.core.outputManager.outputManager object at 0x75cc9fd0>, 'debug': <fenrirscreenreader.core.debugManager.debugManager object at 0x75d2a750>, 'settingsManager': <fenrirscreenreader.core.settingsManager.settingsManager object at 0x7649bf70>, 'punctuationManager': <fenrirscreenreader.core.punctuationManager.punctuationManager object at 0x75d2aef0>, 'textManager': <fenrirscreenreader.core.textManager.textManager object at 0x72c3ec50>, 'fenrirManager': <fenrirscreenreader.core.fenrirManager.fenrirManager object at 0x764c40d0>, 'memoryManager': <fenrirscreenreader.core.memoryManager.memoryManager object at 0x75d2a770>, 'attributeManager': <fenrirscreenreader.core.attributeManager.attributeManager object at 0x75d2a370>, 'eventManager': <fenrirscreenreader.core.eventManager.eventManager object at 0x75d35790>, 'processManager': <fenrirscreenreader.core.processManager.processManager object at 0x75cc9ef0>, 'byteManager': <fenrirscreenreader.core.byteManager.byteManager object at 0x75cf3e30>, 'helpManager': <fenrirscreenreader.core.helpManager.helpManager object at 0x75d35690>, 'remoteManager': <fenrirscreenreader.core.remoteManager.remoteManager object at 0x72c83dd0>, 'cursorManager': <fenrirscreenreader.core.cursorManager.cursorManager object at 0x72c3ed70>, 'applicationManager': <fenrirscreenreader.core.applicationManager.applicationManager object at 0x72c3ed50>, 'tableManager': <fenrirscreenreader.core.tableManager.tableManager object at 0x75d2a7f0>, 'barrierManager': <fenrirscreenreader.core.barrierManager.barrierManager object at 0x72c3ec30>, 'sayAllManager': <fenrirscreenreader.core.sayAllManager.sayAllManager object at 0x72c3ead0>, 'vmenuManager': <fenrirscreenreader.core.vmenuManager.vmenuManager object at 0x72c3ed90>, 'quickMenuManager': <fenrirscreenreader.core.quickMenuManager.quickMenuManager object at 0x76404330>}, 'general': {'args': None, 'tutorialMode': False, 'currUser': 'omar', 'prevUser': 'omar', 'managerList': ['attributeManager', 'punctuationManager', 'byteManager', 'cursorManager', 'applicationManager', 'commandManager', 'screenManager', 'inputManager', 'outputManager', 'helpManager', 'memoryManager', 'eventManager', 'processManager', 'debug'], 'commandFolderList': ['commands', 'onKeyInput', 'onByteInput', 'onCursorChange', 'onScreenUpdate', 'onScreenChanged', 'onHeartBeat', 'onPlugInputDevice', 'onApplicationChange', 'onSwitchApplicationProfile', 'help', 'vmenu-navigation']}, 'settings': <configparser.ConfigParser object at 0x7641b830>, 'commandInfo': {'lastCommandExecutionTime': 1566987495.5093975, 'lastCommandRequestTime': 1566987495.5094125}, 'commandBuffer': {'enableSpeechOnKeypress': False, 'Marks': {'1': None, '2': None}, 'bookMarks': {'6': {}, '9': {}, '1': {}, '2': {}, '4': {}, '10': {}, '8': {}, '7': {}, '3': {}, '5': {}}, 'windowArea': {}}, 'input': {'currInput': [], 'prevDeepestInput': [], 'eventBuffer': [], 'shortcutRepeat': 1, 'fenrirKey': ['KEY_KP0', 'KEY_CAPSLOCK'], 'scriptKey': ['KEY_META', 'KEY_COMPOSE'], 'keyForeward': 0, 'lastInputTime': 1566987495.4267836, 'oldNumLock': False, 'newNumLock': False, 'oldScrollLock': False, 'newScrollLock': False, 'oldCapsLock': False, 'newCapsLock': False}, 'punctuation': {'LEVELDICT': {'none': '', 'some': '-$~+*-/\\@', 'most': '.,:-$~+*-/\\@!#%^&*()[]}{<>;', 'all': '!"#$%& \\\'()*+,-./:;<=>?@[\\\\]^_`{|}~'}, 'PUNCTDICT': {' ': 'space', '&': 'and', "'": 'apostrophe', '@': 'at', '\\': 'backslash', '|': 'bar', '!': 'bang', '^': 'carrot', ':': 'colon', ',': 'comma', '-': 'dash', '$': 'dollar', '.': 'dot', '>': 'greater', '`': 'grave', '#': 'hash', '{': 'left brace', '[': 'left bracket', '(': 'left paren', '<': 'less', '%': 'percent', '+': 'plus', '?': 'question?', '"': 'quote', ')': 'right paren', '}': 'right brace', ']': 'right bracket', ';': 'semicolon', '/': 'slash', '*': 'star', '~': 'tilde', '_': 'line', '=': 'equals'}, 'CUSTOMDICT': {}, 'EMOTICONDICT': {':)': 'smile', ';)': 'twinker', 'XD': 'loool', ':@': 'angry face', ':D': 'lought', '<{-.-}>': 'Raves'}}, 'output': {'nextFlush': 1566987495.506263, 'messageText': '', 'messageOffset': None, 'cursorOffset': None}, 'soundIcons': {'SCREENREADERON': '/usr/share/sounds/fenrirscreenreader/default/ScreenReaderOn.wav', 'SCREENREADEROFF': '/usr/share/sounds/fenrirscreenreader/default/ScreenReaderOff.wav', 'PTYBYPASS': '/usr/share/sounds/fenrirscreenreader/default/PTYBypass.wav', 'CANCEL': '/usr/share/sounds/fenrirscreenreader/default/Cancel.wav', 'ACCEPT': '/usr/share/sounds/fenrirscreenreader/default/Accept.wav', 'CHANGETTY': '/usr/share/sounds/fenrirscreenreader/default/ChangeTTY.wav', 'STARTOFLINE': '/usr/share/sounds/fenrirscreenreader/default/StartOfLine.wav', 'ENDOFLINE': '/usr/share/sounds/fenrirscreenreader/default/EndOfLine.wav', 'BARRIERFOUND': '/usr/share/sounds/fenrirscreenreader/default/barrier.wav', 'BARRIERSTART': '/usr/share/sounds/fenrirscreenreader/default/barrier_start.wav', 'BARRIEREND': '/usr/share/sounds/fenrirscreenreader/default/barrier_end.wav', 'EMPTYLINE': '/usr/share/sounds/fenrirscreenreader/default/EmptyLine.wav', 'STARTOFSCREEN': '/usr/share/sounds/fenrirscreenreader/default/StartOfScreen.wav', 'ENDOFSCREEN': '/usr/share/sounds/fenrirscreenreader/default/EndOfScreen.wav', 'CONTENTCHANGED': '/usr/share/sounds/fenrirscreenreader/default/ContentChanged.wav', 'SPEECHON': '/usr/share/sounds/fenrirscreenreader/default/SpeechOn.wav', 'SPEECHOFF': '/usr/share/sounds/fenrirscreenreader/default/SpeechOff.wav', 'BRAILLEON': '/usr/share/sounds/fenrirscreenreader/default/BrailleOn.wav', 'BRAILLEOFF': '/usr/share/sounds/fenrirscreenreader/default/BrailleOff.wav', 'SOUNDON': '/usr/share/sounds/fenrirscreenreader/default/SoundOn.wav', 'SOUNDOFF': '/usr/share/sounds/fenrirscreenreader/default/SoundOff.wav', 'PLACESTARTMARK': '/usr/share/sounds/fenrirscreenreader/default/PlaceStartMark.wav', 'PLACEENDMARK': '/usr/share/sounds/fenrirscreenreader/default/PlaceEndMark.wav', 'COPYTOCLIPBOARD': '/usr/share/sounds/fenrirscreenreader/default/CopyToClipboard.wav', 'PASTECLIPBOARDONSCREEN': '/usr/share/sounds/fenrirscreenreader/default/PasteClipboardOnScreen.wav', 'ERRORSPEECH': '/usr/share/sounds/fenrirscreenreader/default/ErrorSpeech.wav', 'ERRORBRAILLE': '/usr/share/sounds/fenrirscreenreader/default/ErrorBraille.wav', 'ERRORSCREEN': '/usr/share/sounds/fenrirscreenreader/default/ErrorScreen.wav', 'HASATTRIBUTES': '/usr/share/sounds/fenrirscreenreader/default/has_attribute.wav', 'PROMOTEDTEXT': '/usr/share/sounds/fenrirscreenreader/default/PromotedText.wav', 'MISPELL': '/usr/share/sounds/fenrirscreenreader/default/mispell.wav', 'CAPITAL': '/usr/share/sounds/fenrirscreenreader/default/Caps.wav', 'ANNOUNCE': '/usr/share/sounds/fenrirscreenreader/default/Announce.wav'}, 'bindings': {"[1, ['KEY_L', 'KEY_SCRIPT']]": 'SWITCH-LANGUAGE__-__KEY_L', "[1, ['KEY_ALT', 'KEY_R', 'KEY_SCRIPT']]": 'RESTORE-ACCESSIBILITY__-__KEY_ALT__+__KEY_R', "[1, ['KEY_SCRIPT', 'KEY_Y']]": 'WLAN__-__KEY_Y', "[1, ['KEY_L', 'KEY_SCRIPT', 'KEY_SHIFT']]": 'SWITCH-LANGUAGE__-__KEY_SHIFT__+__KEY_L', "[1, ['KEY_F1', 'KEY_FENRIR']]": 'TOGGLE_TUTORIAL_MODE', "[1, ['KEY_FENRIR', 'KEY_H']]": 'TOGGLE_TUTORIAL_MODE', "[1, ['KEY_CTRL']]": 'SHUT_UP', "[1, ['KEY_KP8']]": 'REVIEW_CURR_LINE', "[1, ['KEY_KP7']]": 'REVIEW_PREV_LINE', "[1, ['KEY_KP9']]": 'REVIEW_NEXT_LINE', "[1, ['KEY_FENRIR', 'KEY_KP1']]": 'REVIEW_LINE_FIRST_CHAR', "[1, ['KEY_FENRIR', 'KEY_KP3']]": 'REVIEW_LINE_LAST_CHAR', "[1, ['KEY_1', 'KEY_ALT', 'KEY_FENRIR']]": 'PRESENT_FIRST_LINE', "[1, ['KEY_2', 'KEY_ALT', 'KEY_FENRIR']]": 'PRESENT_LAST_LINE', "[1, ['KEY_KP5']]": 'REVIEW_CURR_WORD', "[1, ['KEY_KP4']]": 'REVIEW_PREV_WORD', "[1, ['KEY_KP6']]": 'REVIEW_NEXT_WORD', "[2, ['KEY_KP5']]": 'REVIEW_CURR_WORD_PHONETIC', "[2, ['KEY_KP4']]": 'REVIEW_PREV_WORD_PHONETIC', "[2, ['KEY_KP6']]": 'REVIEW_NEXT_WORD_PHONETIC', "[1, ['KEY_KP2']]": 'REVIEW_CURR_CHAR', "[1, ['KEY_KP1']]": 'REVIEW_PREV_CHAR', "[1, ['KEY_KP3']]": 'REVIEW_NEXT_CHAR', "[2, ['KEY_KP2']]": 'REVIEW_CURR_CHAR_PHONETIC', "[2, ['KEY_KP1']]": 'REVIEW_PREV_CHAR_PHONETIC', "[2, ['KEY_KP3']]": 'REVIEW_NEXT_CHAR_PHONETIC', "[1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_KP8']]": 'REVIEW_UP', "[1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_KP2']]": 'REVIEW_DOWN', "[1, ['KEY_FENRIR', 'KEY_KPDOT']]": 'EXIT_REVIEW', "[1, ['KEY_KPDOT']]": 'CURSOR_POSITION', "[1, ['KEY_FENRIR', 'KEY_I']]": 'INDENT_CURR_LINE', "[1, ['KEY_B', 'KEY_FENRIR']]": 'CURR_SCREEN', "[1, ['KEY_FENRIR', 'KEY_KP8']]": 'CURR_SCREEN_BEFORE_CURSOR', "[1, ['KEY_FENRIR', 'KEY_KP2']]": 'CURR_SCREEN_AFTER_CURSOR', "[1, ['KEY_FENRIR', 'KEY_PAGEDOWN', 'KEY_SHIFT']]": 'CURSOR_READ_TO_END_OF_LINE', "[1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_T']]": 'TOGGLE_AUTO_TIME', "[1, ['KEY_1', 'KEY_CTRL', 'KEY_FENRIR']]": 'CLEAR_BOOKMARK_1', "[1, ['KEY_1', 'KEY_FENRIR', 'KEY_SHIFT']]": 'SET_BOOKMARK_1', "[1, ['KEY_1', 'KEY_FENRIR']]": 'BOOKMARK_1', "[1, ['KEY_FENRIR', 'KEY_K']]": 'BOOKMARK_1', "[1, ['KEY_2', 'KEY_CTRL', 'KEY_FENRIR']]": 'CLEAR_BOOKMARK_2', "[1, ['KEY_2', 'KEY_FENRIR', 'KEY_SHIFT']]": 'SET_BOOKMARK_2', "[1, ['KEY_2', 'KEY_FENRIR']]": 'BOOKMARK_2', "[1, ['KEY_3', 'KEY_CTRL', 'KEY_FENRIR']]": 'CLEAR_BOOKMARK_3', "[1, ['KEY_3', 'KEY_FENRIR', 'KEY_SHIFT']]": 'SET_BOOKMARK_3', "[1, ['KEY_3', 'KEY_FENRIR']]": 'BOOKMARK_3', "[1, ['KEY_4', 'KEY_CTRL', 'KEY_FENRIR']]": 'CLEAR_BOOKMARK_4', "[1, ['KEY_4', 'KEY_FENRIR', 'KEY_SHIFT']]": 'SET_BOOKMARK_4', "[1, ['KEY_4', 'KEY_FENRIR']]": 'BOOKMARK_4', "[1, ['KEY_6', 'KEY_CTRL', 'KEY_FENRIR']]": 'CLEAR_BOOKMARK_6', "[1, ['KEY_6', 'KEY_FENRIR', 'KEY_SHIFT']]": 'SET_BOOKMARK_6', "[1, ['KEY_6', 'KEY_FENRIR']]": 'BOOKMARK_6', "[1, ['KEY_7', 'KEY_CTRL', 'KEY_FENRIR']]": 'CLEAR_BOOKMARK_7', "[1, ['KEY_7', 'KEY_FENRIR', 'KEY_SHIFT']]": 'SET_BOOKMARK_7', "[1, ['KEY_7', 'KEY_FENRIR']]": 'BOOKMARK_7', "[1, ['KEY_8', 'KEY_CTRL', 'KEY_FENRIR']]": 'CLEAR_BOOKMARK_8', "[1, ['KEY_8', 'KEY_FENRIR', 'KEY_SHIFT']]": 'SET_BOOKMARK_8', "[1, ['KEY_8', 'KEY_FENRIR']]": 'BOOKMARK_8', "[1, ['KEY_9', 'KEY_CTRL', 'KEY_FENRIR']]": 'CLEAR_BOOKMARK_9', "[1, ['KEY_9', 'KEY_FENRIR', 'KEY_SHIFT']]": 'SET_BOOKMARK_9', "[1, ['KEY_9', 'KEY_FENRIR']]": 'BOOKMARK_9', "[1, ['KEY_0', 'KEY_CTRL', 'KEY_FENRIR']]": 'CLEAR_BOOKMARK_10', "[1, ['KEY_0', 'KEY_FENRIR', 'KEY_SHIFT']]": 'SET_BOOKMARK_10', "[1, ['KEY_0', 'KEY_FENRIR']]": 'BOOKMARK_10', "[1, ['KEY_FENRIR', 'KEY_KPSLASH']]": 'SET_WINDOW_APPLICATION', "[2, ['KEY_FENRIR', 'KEY_KPSLASH']]": 'CLEAR_WINDOW_APPLICATION', "[1, ['KEY_KPPLUS']]": 'LAST_INCOMING', "[1, ['KEY_F3', 'KEY_FENRIR']]": 'TOGGLE_SOUND', "[1, ['KEY_F4', 'KEY_FENRIR']]": 'TOGGLE_SPEECH', "[1, ['KEY_KPENTER']]": 'TEMP_DISABLE_SPEECH', "[1, ['KEY_FENRIR', 'KEY_P']]": 'TOGGLE_PUNCTUATION_LEVEL', "[1, ['KEY_FENRIR', 'KEY_RIGHTBRACE']]": 'TOGGLE_AUTO_SPELL_CHECK', "[1, ['KEY_FENRIR', 'KEY_S']]": 'TOGGLE_OUTPUT', "[1, ['KEY_CTRL', 'KEY_E', 'KEY_FENRIR']]": 'TOGGLE_EMOTICONS', "[1, ['KEY_5', 'KEY_FENRIR']]": 'TOGGLE_AUTO_READ', "[1, ['KEY_FENRIR', 'KEY_KPASTERISK']]": 'TOGGLE_HIGHLIGHT_TRACKING', "[1, ['KEY_FENRIR', 'KEY_KPMINUS']]": 'TOGGLE_BARRIER', "[1, ['KEY_FENRIR', 'KEY_Q']]": 'QUIT_FENRIR', "[1, ['KEY_FENRIR', 'KEY_T']]": 'TIME', "[1, ['KEY_F12', 'KEY_FENRIR']]": 'TIME', "[2, ['KEY_FENRIR', 'KEY_T']]": 'DATE', "[2, ['KEY_F12', 'KEY_FENRIR']]": 'DATE', "[1, ['KEY_KPSLASH']]": 'TOGGLE_AUTO_INDENT', "[1, ['KEY_F', 'KEY_FENRIR']]": 'ATTRIBUTE_CURSOR', "[1, ['KEY_F7', 'KEY_FENRIR']]": 'SPELL_CHECK', "[2, ['KEY_FENRIR', 'KEY_S']]": 'ADD_WORD_TO_SPELL_CHECK', "[1, ['KEY_FENRIR', 'KEY_S', 'KEY_SHIFT']]": 'REMOVE_WORD_FROM_SPELL_CHECK', "[1, ['KEY_F2', 'KEY_FENRIR']]": 'FORWARD_KEYPRESS', "[1, ['KEY_ALT', 'KEY_FENRIR', 'KEY_UP']]": 'INC_ALSA_VOLUME', "[1, ['KEY_ALT', 'KEY_DOWN', 'KEY_FENRIR']]": 'DEC_ALSA_VOLUME', "[1, ['KEY_C', 'KEY_CTRL', 'KEY_FENRIR', 'KEY_SHIFT']]": 'CLEAR_CLIPBOARD', "[1, ['KEY_FENRIR', 'KEY_HOME']]": 'FIRST_CLIPBOARD', "[1, ['KEY_END', 'KEY_FENRIR']]": 'LAST_CLIPBOARD', "[1, ['KEY_FENRIR', 'KEY_PAGEUP']]": 'PREV_CLIPBOARD', "[1, ['KEY_FENRIR', 'KEY_PAGEDOWN']]": 'NEXT_CLIPBOARD', "[1, ['KEY_C', 'KEY_FENRIR', 'KEY_SHIFT']]": 'CURR_CLIPBOARD', "[1, ['KEY_C', 'KEY_FENRIR']]": 'COPY_MARKED_TO_CLIPBOARD', "[1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_U']]": 'COPY_LAST_ECHO_TO_CLIPBOARD', "[1, ['KEY_FENRIR', 'KEY_V']]": 'PASTE_CLIPBOARD', "[1, ['KEY_F5', 'KEY_FENRIR']]": 'IMPORT_CLIPBOARD_FROM_FILE', "[1, ['KEY_F6', 'KEY_FENRIR']]": 'EXPORT_CLIPBOARD_TO_FILE', "[1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_SHIFT', 'KEY_X']]": 'REMOVE_MARKS', "[1, ['KEY_F9', 'KEY_FENRIR']]": 'SET_MARK', "[1, ['KEY_F10', 'KEY_FENRIR']]": 'TOGGLE_VMENU_MODE', "[1, ['KEY_FENRIR', 'KEY_SPACE']]": 'CURRENT_QUICK_MENU_ENTRY', "[1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_SPACE']]": 'CURRENT_QUICK_MENU_VALUE', "[1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_RIGHT']]": 'NEXT_QUICK_MENU_ENTRY', "[1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_UP']]": 'NEXT_QUICK_MENU_VALUE', "[1, ['KEY_CTRL', 'KEY_FENRIR', 'KEY_LEFT']]": 'PREV_QUICK_MENU_ENTRY', "[1, ['KEY_CTRL', 'KEY_DOWN', 'KEY_FENRIR']]": 'PREV_QUICK_MENU_VALUE', "[1, ['KEY_F8', 'KEY_FENRIR']]": 'EXPORT_CLIPBOARD_TO_X'}, 'commands': {'commands': {'SET_BOOKMARK_6': <set_bookmark_6.command object at 0x73ee3ed0>, 'TOGGLE_HAS_ATTRIBUTE': <toggle_has_attribute.command object at 0x73ee3cf0>, 'TOGGLE_AUTO_SPELL_CHECK': <toggle_auto_spell_check.command object at 0x73ef1330>, 'CURSOR_LINENO': <cursor_lineno.command object at 0x73ef1550>, 'TOGGLE_AUTO_INDENT': <toggle_auto_indent.command object at 0x73ef1770>, 'CLEAR_CLIPBOARD': <clear_clipboard.command object at 0x73ef19b0>, 'SUBPROCESS': <subprocess.command object at 0x73ef1b90>, 'REVIEW_NEXT_CHAR': <review_next_char.command object at 0x73ef1d70>, 'CURSOR_COLUMN': <cursor_column.command object at 0x73ef1df0>, 'REVIEW_LINE_LAST_CHAR': <review_line_last_char.command object at 0x73efc510>, 'CLEAR_BOOKMARK_8': <clear_bookmark_8.command object at 0x73efc6d0>, 'TOGGLE_BRAILLE': <toggle_braille.command object at 0x73efc8f0>, 'COPY_LAST_ECHO_TO_CLIPBOARD': <copy_last_echo_to_clipboard.command object at 0x73efcaf0>, 'SET_BOOKMARK_9': <set_bookmark_9.command object at 0x73efcd30>, 'TOGGLE_BARRIER': <toggle_barrier.command object at 0x73efcf50>, 'CLEAR_BOOKMARK_6': <clear_bookmark_6.command object at 0x73efcfd0>, 'BOOKMARK_7': <bookmark_7.command object at 0x73e3f3b0>, 'LAST_INCOMING': <last_incoming.command object at 0x73e3f590>, 'REMOVE_MARKS': <remove_marks.command object at 0x73e3f7b0>, 'INC_SOUND_VOLUME': <inc_sound_volume.command object at 0x73e3f9d0>, 'REVIEW_CURR_CHAR_PHONETIC': <review_curr_char_phonetic.command object at 0x73e3fbf0>, 'ADD_WORD_TO_SPELL_CHECK': <add_word_to_spell_check.command object at 0x73e3fdf0>, 'CLEAR_BOOKMARK_5': <clear_bookmark_5.command object at 0x73e3fe50>, 'EXPORT_CLIPBOARD_TO_X': <export_clipboard_to_x.command object at 0x73e5cf50>, 'CURR_SCREEN_AFTER_CURSOR': <curr_screen_after_cursor.command object at 0x73e733d0>, 'BRAILLE_FLUSH': <braille_flush.command object at 0x73e735b0>, 'CURRENT_QUICK_MENU_ENTRY': <current_quick_menu_entry.command object at 0x73e737d0>, 'REVIEW_BOTTOM': <review_bottom.command object at 0x73e739f0>, 'TOGGLE_SPEECH': <toggle_speech.command object at 0x73e73c10>, 'REVIEW_CURR_WORD': <review_curr_word.command object at 0x73e73e10>, 'LAST_CLIPBOARD': <last_clipboard.command object at 0x73e73e70>, 'REVIEW_NEXT_LINE': <review_next_line.command object at 0x72ce1230>, 'CURRENT_QUICK_MENU_VALUE': <current_quick_menu_value.command object at 0x72ce1410>, 'PASTE_CLIPBOARD': <paste_clipboard.command object at 0x72ce15d0>, 'NEXT_QUICK_MENU_VALUE': <next_quick_menu_value.command object at 0x72ce17d0>, 'CURR_SCREEN': <curr_screen.command object at 0x72ce19f0>, 'DEC_SOUND_VOLUME': <dec_sound_volume.command object at 0x72ce1bf0>, 'INDENT_CURR_LINE': <indent_curr_line.command object at 0x72ce1e30>, 'CURR_CLIPBOARD': <curr_clipboard.command object at 0x72ce1e90>, 'SET_BOOKMARK_1': <set_bookmark_1.command object at 0x72ce91d0>, 'QUIT_FENRIR': <quit_fenrir.command object at 0x72ce93d0>, 'BOOKMARK_10': <bookmark_10.command object at 0x72ce9610>, 'REVIEW_PREV_CHAR': <review_prev_char.command object at 0x72ce97d0>, 'TIME': <time.command object at 0x72ce99b0>, 'CURSOR_POSITION': <cursor_position.command object at 0x72ce9bd0>, 'SET_BOOKMARK_2': <set_bookmark_2.command object at 0x72ce9d50>, 'DATE': <date.command object at 0x72ce9f50>, 'CLEAR_WINDOW_APPLICATION': <clear_window_application.command object at 0x72ce9ff0>, 'REVIEW_LINE_FIRST_CHAR': <review_line_first_char.command object at 0x72cf43f0>, 'BOOKMARK_1': <bookmark_1.command object at 0x72cf45d0>, 'MARKED_TEXT': <marked_text.command object at 0x72cf47b0>, 'IMPORT_CLIPBOARD_FROM_FILE': <import_clipboard_from_file.command object at 0x72cf49f0>, 'BOOKMARK_5': <bookmark_5.command object at 0x72cf4bf0>, 'REVIEW_PREV_CHAR_PHONETIC': <review_prev_char_phonetic.command object at 0x72cf4db0>, 'EXIT_REVIEW': <exit_review.command object at 0x72cf4fd0>, 'SET_BOOKMARK_4': <set_bookmark_4.command object at 0x72cfe170>, 'REVIEW_NEXT_WORD': <review_next_word.command object at 0x72cfe370>, 'PREV_QUICK_MENU_VALUE': <prev_quick_menu_value.command object at 0x72cfe550>, 'DEC_ALSA_VOLUME': <dec_alsa_volume.command object at 0x72cfe7b0>, 'REVIEW_PREV_WORD_PHONETIC': <review_prev_word_phonetic.command object at 0x72cfe9b0>, 'TOGGLE_VMENU_MODE': <toggle_vmenu_mode.command object at 0x72cfeb70>, 'CLEAR_BOOKMARK_2': <clear_bookmark_2.command object at 0x72cfed50>, 'CLEAR_BOOKMARK_10': <clear_bookmark_10.command object at 0x72cfef30>, 'INC_SPEECH_PITCH': <inc_speech_pitch.command object at 0x72cfefb0>, 'SET_WINDOW_APPLICATION': <set_window_application.command object at 0x72d0c370>, 'TOGGLE_AUTO_READ': <toggle_auto_read.command object at 0x72d0c590>, 'SET_BOOKMARK_10': <set_bookmark_10.command object at 0x72d0c710>, '00_INIT_COMMANDS': <00_init_commands.command object at 0x72d0c890>, 'TOGGLE_PUNCTUATION_LEVEL': <toggle_punctuation_level.command object at 0x72d0ca50>, 'TOGGLE_SOUND': <toggle_sound.command object at 0x72d0cc70>, 'BRAILLE_PAN_RIGHT': <braille_pan_right.command object at 0x72d0ce50>, 'SET_MARK': <set_mark.command object at 0x72d0ced0>, 'TOGGLE_EMOTICONS': <toggle_emoticons.command object at 0x72d18290>, 'PRESENT_FIRST_LINE': <present_first_line.command object at 0x72d184d0>, 'CURR_SCREEN_BEFORE_CURSOR': <curr_screen_before_cursor.command object at 0x72d186f0>, 'REVIEW_CURR_CHAR': <review_curr_char.command object at 0x72d188d0>, 'TOGGLE_AUTO_TIME': <toggle_auto_time.command object at 0x72d18ad0>, 'FORWARD_KEYPRESS': <forward_keypress.command object at 0x72d18cf0>, 'IMPORT_CLIPBOARD_FROM_X': <import_clipboard_from_x.command object at 0x72d18f30>, 'CLEAR_BOOKMARK_1': <clear_bookmark_1.command object at 0x72d18f90>, 'SET_BOOKMARK_8': <set_bookmark_8.command object at 0x72ca4290>, 'TOGGLE_OUTPUT': <toggle_output.command object at 0x72ca4490>, 'TOGGLE_TUTORIAL_MODE': <toggle_tutorial_mode.command object at 0x72ca4670>, 'REVIEW_CURR_WORD_PHONETIC': <review_curr_word_phonetic.command object at 0x72ca4890>, 'REVIEW_TOP': <review_top.command object at 0x72ca4a90>, 'CLEAR_BOOKMARK_7': <clear_bookmark_7.command object at 0x72ca4c50>, 'BOOKMARK_8': <bookmark_8.command object at 0x72ca4e70>, 'BRAILLE_PAN_LEFT': <braille_pan_left.command object at 0x72ca4ed0>, 'REVIEW_NEXT_WORD_PHONETIC': <review_next_word_phonetic.command object at 0x72cad250>, 'SET_BOOKMARK_7': <set_bookmark_7.command object at 0x72cad390>, 'CLEAR_BOOKMARK_9': <clear_bookmark_9.command object at 0x72cad570>, 'BOOKMARK_4': <bookmark_4.command object at 0x72cad790>, 'SAVE_SETTINGS': <save_settings.command object at 0x72cad970>, 'PREV_CLIPBOARD': <prev_clipboard.command object at 0x72cadb90>, 'SHUT_UP': <shut_up.command object at 0x72caddb0>, 'REVIEW_UP': <review_up.command object at 0x72cadff0>, 'REVIEW_DOWN': <review_down.command object at 0x72cb8230>, 'CURSOR_READ_TO_END_OF_LINE': <cursor_read_to_end_of_line.command object at 0x72cb8450>, 'SET_BOOKMARK_3': <set_bookmark_3.command object at 0x72cb85b0>, 'REVIEW_PREV_WORD': <review_prev_word.command object at 0x72cb87b0>, 'BOOKMARK_2': <bookmark_2.command object at 0x72cb8990>, 'FIRST_CLIPBOARD': <first_clipboard.command object at 0x72cb8b70>, 'TOGGLE_HIGHLIGHT_TRACKING': <toggle_highlight_tracking.command object at 0x72cb8d70>, 'REVIEW_LINE_BEGIN': <review_line_begin.command object at 0x72cb8fb0>, 'PREV_QUICK_MENU_ENTRY': <prev_quick_menu_entry.command object at 0x72cb8ff0>, 'BRAILLE_RETURN_TO_CURSOR': <braille_return_to_cursor.command object at 0x72cc13b0>, 'REVIEW_CURR_LINE': <review_curr_line.command object at 0x72cc15d0>, 'REVIEW_PREV_LINE': <review_prev_line.command object at 0x72cc17b0>, 'BOOKMARK_3': <bookmark_3.command object at 0x72cc19b0>, 'BOOKMARK_6': <bookmark_6.command object at 0x72cc1b90>, 'BOOKMARK_9': <bookmark_9.command object at 0x72cc1d70>, 'NEXT_CLIPBOARD': <next_clipboard.command object at 0x72cc1f30>, 'PRESENT_LAST_LINE': <present_last_line.command object at 0x72cc1fb0>, 'INC_ALSA_VOLUME': <inc_alsa_volume.command object at 0x72cce390>, 'DEC_SPEECH_VOLUME': <dec_speech_volume.command object at 0x72cce570>, 'NEXT_QUICK_MENU_ENTRY': <next_quick_menu_entry.command object at 0x72cce770>, 'CLEAR_BOOKMARK_3': <clear_bookmark_3.command object at 0x72cce950>, 'ATTRIBUTE_CURSOR': <attribute_cursor.command object at 0x72cceb50>, 'TEMP_DISABLE_SPEECH': <temp_disable_speech.command object at 0x72cced30>, 'COPY_MARKED_TO_CLIPBOARD': <copy_marked_to_clipboard.command object at 0x72ccef50>, 'REMOVE_WORD_FROM_SPELL_CHECK': <remove_word_from_spell_check.command object at 0x72ccefb0>, 'SPELL_CHECK': <spell_check.command object at 0x72cd83b0>, 'REVIEW_NEXT_CHAR_PHONETIC': <review_next_char_phonetic.command object at 0x72cd85f0>, 'DEC_SPEECH_RATE': <dec_speech_rate.command object at 0x72cd87d0>, 'REVIEW_LINE_END': <review_line_end.command object at 0x72cd8a10>, 'DEC_SPEECH_PITCH': <dec_speech_pitch.command object at 0x72cd8bf0>, 'CLEAR_BOOKMARK_4': <clear_bookmark_4.command object at 0x72cd8dd0>, 'EXPORT_CLIPBOARD_TO_FILE': <export_clipboard_to_file.command object at 0x72cd8e50>, 'INC_SPEECH_RATE': <inc_speech_rate.command object at 0x72c63290>, 'INC_SPEECH_VOLUME': <inc_speech_volume.command object at 0x72c63490>, 'SET_BOOKMARK_5': <set_bookmark_5.command object at 0x72c63610>, 'SWITCH-LANGUAGE__-__KEY_L': <switch-language__-__key_l.command object at 0x72c3e370>, 'RESTORE-ACCESSIBILITY__-__KEY_ALT__+__KEY_R': <restore-accessibility__-__key_alt__+__key_r.command object at 0x72c3e570>, 'WLAN__-__KEY_Y': <wlan__-__key_y.command object at 0x72c3e770>, 'SWITCH-LANGUAGE__-__KEY_SHIFT__+__KEY_L': <switch-language__-__key_shift__+__key_l.command object at 0x72c3e910>}, 'onKeyInput': {'15000-ENABLE_TEMP_SPEECH': <15000-enable_temp_speech.command object at 0x72c63810>, '80300-SCROLLLOCK': <80300-scrolllock.command object at 0x72c63a10>, '81000-KEY_ECHO': <81000-key_echo.command object at 0x72c63bd0>, '10000-SHUT_UP': <10000-shut_up.command object at 0x72c63d70>, '80500-NUMLOCK': <80500-numlock.command object at 0x72c63f70>, '80000-CAPSLOCK': <80000-capslock.command object at 0x72c63ff0>}, 'onByteInput': {'15000-ENABLE_TEMP_SPEECH': <15000-enable_temp_speech.command object at 0x72c6d3d0>, '10000-SHUT_UP': <10000-shut_up.command object at 0x72c6d5b0>}, 'onCursorChange': {'77000-HAS_ATTRIBUTE': <77000-has_attribute.command object at 0x72c6d790>, '65000-CHAR_DELETE_ECHO': <65000-char_delete_echo.command object at 0x72c6d930>, '45000-CHAR_ECHO': <45000-char_echo.command object at 0x72c6daf0>, '60000-WORD_ECHO_TYPE': <60000-word_echo_type.command object at 0x72c6dcb0>, '50000-PRESENT_CHAR_IF_CURSOR_CHANGE_HORIZONTAL': <50000-present_char_if_cursor_change_horizontal.command object at 0x72c6de50>, '62000-SPELL_CHECK': <62000-spell_check.command object at 0x72c6deb0>, '66000-EXIT_REVIEW_MODE': <66000-exit_review_mode.command object at 0x72c76430>, '46000-TAB_COMPLETION': <46000-tab_completion.command object at 0x72c765d0>, '55000-PRESENT_LINE_IF_CURSOR_CHANGE_VERTICAL': <55000-present_line_if_cursor_change_vertical.command object at 0x72c767d0>, '61000-WORD_ECHO_NAVIGATION': <61000-word_echo_navigation.command object at 0x72c76950>}, 'onScreenUpdate': {'80000-BARRIER_DETECT': <80000-barrier_detect.command object at 0x72c76b30>, '56000-HIGHLIGHT_TRACKING': <56000-highlight_tracking.command object at 0x72c76d30>, '70000-INCOMING': <70000-incoming.command object at 0x72c76f10>, '75000-INCOMING_PROMOTE': <75000-incoming_promote.command object at 0x72c76f90>, '60000-HISTORY': <60000-history.command object at 0x72c832d0>}, 'onScreenChanged': {'80000-SCREEN_CHANGE_ANNOUNCEMENT': <80000-screen_change_announcement.command object at 0x72c83490>, '85000-RESET_MARKS': <85000-reset_marks.command object at 0x72c83650>, '10000-SHUT_UP': <10000-shut_up.command object at 0x72c83810>, '21000-RESET_BARRIER_CHANGE': <21000-reset_barrier_change.command object at 0x72c839d0>, '20000-RESET_LAST_CURSOR_ATTRIBUTE': <20000-reset_last_cursor_attribute.command object at 0x72c83b90>, '70000-BARRIER_DETECT': <70000-barrier_detect.command object at 0x72c83d50>, '89000-LEAVE_REVIEW_MODE': <89000-leave_review_mode.command object at 0x72c83f10>}, 'onHeartBeat': {'76000-TIME': <76000-time.command object at 0x72c83ff0>, '2000-GETSESSIONINFO': <2000-GetSessionInfo.command object at 0x72c8d270>}, 'onPlugInputDevice': {'80000-PLUGSOUND': <80000-plugSound.command object at 0x72c8d3b0>, '50000-UPDATEDEVICES': <50000-UpdateDevices.command object at 0x72c8d590>}, 'onApplicationChange': {}, 'onSwitchApplicationProfile': {'DEFAULT': <default.command object at 0x72c8d7b0>}, 'help': {'NEXT_HELP': <next_help.command object at 0x72c8d9f0>, 'PREV_HELP': <prev_help.command object at 0x72c8dbf0>, 'CURR_HELP': <curr_help.command object at 0x72c8ddf0>}, 'vmenu-navigation': {'SEARCH_U': <search_u.command object at 0x72c8dff0>, 'SEARCH_V': <search_v.command object at 0x72c9a230>, 'SEARCH_K': <search_k.command object at 0x72c9a450>, 'CURR_VMENU_ENTRY': <curr_vmenu_entry.command object at 0x72c9a650>, 'SEARCH_T': <search_t.command object at 0x72c9a870>, 'SEARCH_J': <search_j.command object at 0x72c9aa90>, 'SEARCH_H': <search_h.command object at 0x72c9acb0>, 'SEARCH_S': <search_s.command object at 0x72c9aed0>, 'SEARCH_C': <search_c.command object at 0x72c9af50>, 'PREV_VMENU_ENTRY': <prev_vmenu_entry.command object at 0x72c24310>, 'SEARCH_E': <search_e.command object at 0x72c24530>, 'SEARCH_X': <search_x.command object at 0x72c24750>, 'SEARCH_I': <search_i.command object at 0x72c24970>, 'SEARCH_A': <search_a.command object at 0x72c24b90>, 'SEARCH_P': <search_p.command object at 0x72c24db0>, 'SEARCH_D': <search_d.command object at 0x72c24ff0>, 'SEARCH_N': <search_n.command object at 0x72c2d210>, 'INC_LEVEL_VMENU': <inc_level_vmenu.command object at 0x72c2d410>, 'EXEC_VMENU_ENTRY': <exec_vmenu_entry.command object at 0x72c2d610>, 'SEARCH_Q': <search_q.command object at 0x72c2d810>, 'SEARCH_R': <search_r.command object at 0x72c2da30>, 'SEARCH_G': <search_g.command object at 0x72c2dc50>, 'SEARCH_Z': <search_z.command object at 0x72c2de70>, 'SEARCH_M': <search_m.command object at 0x72c2def0>, 'SEARCH_L': <search_l.command object at 0x72c372d0>, 'SEARCH_Y': <search_y.command object at 0x72c374f0>, 'DEC_LEVEL_VMENU': <dec_level_vmenu.command object at 0x72c376f0>, 'SEARCH_W': <search_w.command object at 0x72c37910>, 'SEARCH_F': <search_f.command object at 0x72c37b30>, 'NEXT_VMENU_ENTRY': <next_vmenu_entry.command object at 0x72c37d30>, 'SEARCH_O': <search_o.command object at 0x72c37f50>, 'SEARCH_B': <search_b.command object at 0x72c37fd0>}}, 'commandsIgnore': {'commands': {'SET_BOOKMARK_6_IGNORE': False, 'TOGGLE_HAS_ATTRIBUTE_IGNORE': False, 'TOGGLE_AUTO_SPELL_CHECK_IGNORE': False, 'CURSOR_LINENO_IGNORE': False, 'TOGGLE_AUTO_INDENT_IGNORE': False, 'CLEAR_CLIPBOARD_IGNORE': False, 'SUBPROCESS_IGNORE': False, 'REVIEW_NEXT_CHAR_IGNORE': False, 'CURSOR_COLUMN_IGNORE': False, 'REVIEW_LINE_LAST_CHAR_IGNORE': False, 'CLEAR_BOOKMARK_8_IGNORE': False, 'TOGGLE_BRAILLE_IGNORE': False, 'COPY_LAST_ECHO_TO_CLIPBOARD_IGNORE': False, 'SET_BOOKMARK_9_IGNORE': False, 'TOGGLE_BARRIER_IGNORE': False, 'CLEAR_BOOKMARK_6_IGNORE': False, 'BOOKMARK_7_IGNORE': False, 'LAST_INCOMING_IGNORE': False, 'REMOVE_MARKS_IGNORE': False, 'INC_SOUND_VOLUME_IGNORE': False, 'REVIEW_CURR_CHAR_PHONETIC_IGNORE': False, 'ADD_WORD_TO_SPELL_CHECK_IGNORE': False, 'CLEAR_BOOKMARK_5_IGNORE': False, 'EXPORT_CLIPBOARD_TO_X_IGNORE': False, 'CURR_SCREEN_AFTER_CURSOR_IGNORE': False, 'BRAILLE_FLUSH_IGNORE': False, 'CURRENT_QUICK_MENU_ENTRY_IGNORE': False, 'REVIEW_BOTTOM_IGNORE': False, 'TOGGLE_SPEECH_IGNORE': False, 'REVIEW_CURR_WORD_IGNORE': False, 'LAST_CLIPBOARD_IGNORE': False, 'REVIEW_NEXT_LINE_IGNORE': False, 'CURRENT_QUICK_MENU_VALUE_IGNORE': False, 'PASTE_CLIPBOARD_IGNORE': False, 'NEXT_QUICK_MENU_VALUE_IGNORE': False, 'CURR_SCREEN_IGNORE': False, 'DEC_SOUND_VOLUME_IGNORE': False, 'INDENT_CURR_LINE_IGNORE': False, 'CURR_CLIPBOARD_IGNORE': False, 'SET_BOOKMARK_1_IGNORE': False, 'QUIT_FENRIR_IGNORE': False, 'BOOKMARK_10_IGNORE': False, 'REVIEW_PREV_CHAR_IGNORE': False, 'TIME_IGNORE': False, 'CURSOR_POSITION_IGNORE': False, 'SET_BOOKMARK_2_IGNORE': False, 'DATE_IGNORE': False, 'CLEAR_WINDOW_APPLICATION_IGNORE': False, 'REVIEW_LINE_FIRST_CHAR_IGNORE': False, 'BOOKMARK_1_IGNORE': False, 'MARKED_TEXT_IGNORE': False, 'IMPORT_CLIPBOARD_FROM_FILE_IGNORE': False, 'BOOKMARK_5_IGNORE': False, 'REVIEW_PREV_CHAR_PHONETIC_IGNORE': False, 'EXIT_REVIEW_IGNORE': False, 'SET_BOOKMARK_4_IGNORE': False, 'REVIEW_NEXT_WORD_IGNORE': False, 'PREV_QUICK_MENU_VALUE_IGNORE': False, 'DEC_ALSA_VOLUME_IGNORE': False, 'REVIEW_PREV_WORD_PHONETIC_IGNORE': False, 'TOGGLE_VMENU_MODE_IGNORE': False, 'CLEAR_BOOKMARK_2_IGNORE': False, 'CLEAR_BOOKMARK_10_IGNORE': False, 'INC_SPEECH_PITCH_IGNORE': False, 'SET_WINDOW_APPLICATION_IGNORE': False, 'TOGGLE_AUTO_READ_IGNORE': False, 'SET_BOOKMARK_10_IGNORE': False, '00_INIT_COMMANDS_IGNORE': False, 'TOGGLE_PUNCTUATION_LEVEL_IGNORE': False, 'TOGGLE_SOUND_IGNORE': False, 'BRAILLE_PAN_RIGHT_IGNORE': False, 'SET_MARK_IGNORE': False, 'TOGGLE_EMOTICONS_IGNORE': False, 'PRESENT_FIRST_LINE_IGNORE': False, 'CURR_SCREEN_BEFORE_CURSOR_IGNORE': False, 'REVIEW_CURR_CHAR_IGNORE': False, 'TOGGLE_AUTO_TIME_IGNORE': False, 'FORWARD_KEYPRESS_IGNORE': False, 'IMPORT_CLIPBOARD_FROM_X_IGNORE': False, 'CLEAR_BOOKMARK_1_IGNORE': False, 'SET_BOOKMARK_8_IGNORE': False, 'TOGGLE_OUTPUT_IGNORE': False, 'TOGGLE_TUTORIAL_MODE_IGNORE': False, 'REVIEW_CURR_WORD_PHONETIC_IGNORE': False, 'REVIEW_TOP_IGNORE': False, 'CLEAR_BOOKMARK_7_IGNORE': False, 'BOOKMARK_8_IGNORE': False, 'BRAILLE_PAN_LEFT_IGNORE': False, 'REVIEW_NEXT_WORD_PHONETIC_IGNORE': False, 'SET_BOOKMARK_7_IGNORE': False, 'CLEAR_BOOKMARK_9_IGNORE': False, 'BOOKMARK_4_IGNORE': False, 'SAVE_SETTINGS_IGNORE': False, 'PREV_CLIPBOARD_IGNORE': False, 'SHUT_UP_IGNORE': False, 'REVIEW_UP_IGNORE': False, 'REVIEW_DOWN_IGNORE': False, 'CURSOR_READ_TO_END_OF_LINE_IGNORE': False, 'SET_BOOKMARK_3_IGNORE': False, 'REVIEW_PREV_WORD_IGNORE': False, 'BOOKMARK_2_IGNORE': False, 'FIRST_CLIPBOARD_IGNORE': False, 'TOGGLE_HIGHLIGHT_TRACKING_IGNORE': False, 'REVIEW_LINE_BEGIN_IGNORE': False, 'PREV_QUICK_MENU_ENTRY_IGNORE': False, 'BRAILLE_RETURN_TO_CURSOR_IGNORE': False, 'REVIEW_CURR_LINE_IGNORE': False, 'REVIEW_PREV_LINE_IGNORE': False, 'BOOKMARK_3_IGNORE': False, 'BOOKMARK_6_IGNORE': False, 'BOOKMARK_9_IGNORE': False, 'NEXT_CLIPBOARD_IGNORE': False, 'PRESENT_LAST_LINE_IGNORE': False, 'INC_ALSA_VOLUME_IGNORE': False, 'DEC_SPEECH_VOLUME_IGNORE': False, 'NEXT_QUICK_MENU_ENTRY_IGNORE': False, 'CLEAR_BOOKMARK_3_IGNORE': False, 'ATTRIBUTE_CURSOR_IGNORE': False, 'TEMP_DISABLE_SPEECH_IGNORE': False, 'COPY_MARKED_TO_CLIPBOARD_IGNORE': False, 'REMOVE_WORD_FROM_SPELL_CHECK_IGNORE': False, 'SPELL_CHECK_IGNORE': False, 'REVIEW_NEXT_CHAR_PHONETIC_IGNORE': False, 'DEC_SPEECH_RATE_IGNORE': False, 'REVIEW_LINE_END_IGNORE': False, 'DEC_SPEECH_PITCH_IGNORE': False, 'CLEAR_BOOKMARK_4_IGNORE': False, 'EXPORT_CLIPBOARD_TO_FILE_IGNORE': False, 'INC_SPEECH_RATE_IGNORE': False, 'INC_SPEECH_VOLUME_IGNORE': False, 'SET_BOOKMARK_5_IGNORE': False}, 'onKeyInput': {'ENABLE_TEMP_SPEECH_IGNORE': False, 'SCROLLLOCK_IGNORE': False, 'KEY_ECHO_IGNORE': False, 'SHUT_UP_IGNORE': False, 'NUMLOCK_IGNORE': False, 'CAPSLOCK_IGNORE': False}, 'onByteInput': {'ENABLE_TEMP_SPEECH_IGNORE': False, 'SHUT_UP_IGNORE': False}, 'onCursorChange': {'HAS_ATTRIBUTE_IGNORE': False, 'CHAR_DELETE_ECHO_IGNORE': False, 'CHAR_ECHO_IGNORE': False, 'WORD_ECHO_TYPE_IGNORE': False, 'PRESENT_CHAR_IF_CURSOR_CHANGE_HORIZONTAL_IGNORE': False, 'SPELL_CHECK_IGNORE': False, 'EXIT_REVIEW_MODE_IGNORE': False, 'TAB_COMPLETION_IGNORE': False, 'PRESENT_LINE_IF_CURSOR_CHANGE_VERTICAL_IGNORE': False, 'WORD_ECHO_NAVIGATION_IGNORE': False}, 'onScreenUpdate': {'BARRIER_DETECT_IGNORE': False, 'HIGHLIGHT_TRACKING_IGNORE': False, 'INCOMING_IGNORE': False, 'INCOMING_PROMOTE_IGNORE': False, 'HISTORY_IGNORE': False}, 'onScreenChanged': {'SCREEN_CHANGE_ANNOUNCEMENT_IGNORE': False, 'RESET_MARKS_IGNORE': False, 'SHUT_UP_IGNORE': False, 'RESET_BARRIER_CHANGE_IGNORE': False, 'RESET_LAST_CURSOR_ATTRIBUTE_IGNORE': False, 'BARRIER_DETECT_IGNORE': False, 'LEAVE_REVIEW_MODE_IGNORE': False}, 'onHeartBeat': {'TIME_IGNORE': False, 'GETSESSIONINFO_IGNORE': False}, 'onPlugInputDevice': {'PLUGSOUND_IGNORE': False, 'UPDATEDEVICES_IGNORE': False}, 'onApplicationChange': {}, 'onSwitchApplicationProfile': {'DEFAULT_IGNORE': False}, 'help': {'NEXT_HELP_IGNORE': False, 'PREV_HELP_IGNORE': False, 'CURR_HELP_IGNORE': False}, 'vmenu-navigation': {'SEARCH_U_IGNORE': False, 'SEARCH_V_IGNORE': False, 'SEARCH_K_IGNORE': False, 'CURR_VMENU_ENTRY_IGNORE': False, 'SEARCH_T_IGNORE': False, 'SEARCH_J_IGNORE': False, 'SEARCH_H_IGNORE': False, 'SEARCH_S_IGNORE': False, 'SEARCH_C_IGNORE': False, 'PREV_VMENU_ENTRY_IGNORE': False, 'SEARCH_E_IGNORE': False, 'SEARCH_X_IGNORE': False, 'SEARCH_I_IGNORE': False, 'SEARCH_A_IGNORE': False, 'SEARCH_P_IGNORE': False, 'SEARCH_D_IGNORE': False, 'SEARCH_N_IGNORE': False, 'INC_LEVEL_VMENU_IGNORE': False, 'EXEC_VMENU_ENTRY_IGNORE': False, 'SEARCH_Q_IGNORE': False, 'SEARCH_R_IGNORE': False, 'SEARCH_G_IGNORE': False, 'SEARCH_Z_IGNORE': False, 'SEARCH_M_IGNORE': False, 'SEARCH_L_IGNORE': False, 'SEARCH_Y_IGNORE': False, 'DEC_LEVEL_VMENU_IGNORE': False, 'SEARCH_W_IGNORE': False, 'SEARCH_F_IGNORE': False, 'NEXT_VMENU_ENTRY_IGNORE': False, 'SEARCH_O_IGNORE': False, 'SEARCH_B_IGNORE': False}}}
+ANY INFO 2019-08-28 10:18:19.087638: \/-------settings.conf-------\/
+ANY INFO 2019-08-28 10:18:19.089566: OrderedDict([('sound', OrderedDict([('enabled', 'True'), ('driver', 'genericDriver'), ('theme', 'default'), ('volume', '1.0'), ('genericplayfilecommand', 'play -q -v fenrirVolume fenrirSoundFile'), ('genericfrequencycommand', 'play -q -v fenrirVolume -n -c1 synth fenrirDuration sine fenrirFrequence')])), ('speech', OrderedDict([('enabled', 'True'), ('driver', 'speechdDriver'), ('serverpath', ''), ('rate', '0.50'), ('pitch', '0.5'), ('capitalpitch', '0.9'), ('volume', '1.0'), ('autoreadincoming', 'True'), ('genericspeechcommand', 'espeak -a fenrirVolume -s fenrirRate -p fenrirPitch -v fenrirVoice -- "fenrirText"'), ('fenrirminvolume', '0'), ('fenrirmaxvolume', '200'), ('fenrirminpitch', '0'), ('fenrirmaxpitch', '99'), ('fenrirminrate', '80'), ('fenrirmaxrate', '890')])), ('braille', OrderedDict([('enabled', 'False'), ('driver', 'dummyDriver'), ('layout', 'en'), ('flushmode', 'word'), ('flushtimeout', '3'), ('cursorfocusmode', 'page'), ('fixcursoroncell', '-1'), ('cursorfollowmode', 'review'), ('pansizehorizontal', '0')])), ('screen', OrderedDict([('driver', 'vcsaDriver'), ('encoding', 'auto'), ('screenupdatedelay', '0.05'), ('suspendingscreen', '1'), ('autodetectsuspendingscreen', 'False')])), ('keyboard', OrderedDict([('driver', 'evdevDriver'), ('device', 'ALL'), ('grabdevices', 'True'), ('ignoreshortcuts', 'False'), ('keyboardlayout', 'nvda-desktop'), ('charecho', 'False'), ('chardeleteecho', 'True'), ('wordecho', 'True'), ('interruptonkeypress', 'True'), ('interruptonkeypressfilter', ''), ('doubletaptimeout', '0.2')])), ('general', OrderedDict([('debuglevel', '1'), ('debugmode', 'File'), ('debugfile', '/home/omar/SRDebug/fenrir.log'), ('punctuationprofile', 'default'), ('punctuationlevel', 'some'), ('respectpunctuationpause', 'True'), ('newlinepause', 'True'), ('numberofclipboards', '10'), ('clipboardexportpath', '/tmp/fenrirClipboard'), ('emoticons', 'True'), ('fenrirkeys', 'KEY_KP0,KEY_CAPSLOCK'), ('scriptkeys', 'KEY_META,KEY_COMPOSE'), ('timeformat', '%H:%M:%P'), ('dateformat', '"%A, %B %d, %Y"'), ('autospellcheck', 'True'), ('spellchecklanguage', 'en_US'), ('scriptpath', '/usr/share/fenrirscreenreader/scripts'), ('commandpath', ''), ('attributeformatstring', 'Background fenrirBGColor,Foreground fenrirFGColor,fenrirUnderline,fenrirBold,fenrirBlink, Font fenrirFont,Fontsize fenrirFontSize'), ('autopresentindent', 'False'), ('hasattributes', 'False'), ('shell', '')])), ('focus', OrderedDict([('cursor', 'True'), ('highlight', 'False')])), ('remote', OrderedDict([('enable', 'True'), ('method', 'unix'), ('port', '22447'), ('socketpath', '/tmp/'), ('enablesettingsremote', 'True'), ('enablecommandremote', 'True')])), ('barrier', OrderedDict([('enabled', 'True'), ('leftbarriers', '│└┌─'), ('rightbarriers', '│┘┐─')])), ('review', OrderedDict([('linebreak', 'True'), ('endofscreen', 'True'), ('leavereviewoncursorchange', 'True'), ('leavereviewonscreenchange', 'True')])), ('promote', OrderedDict([('enabled', 'True'), ('inactivetimeoutsec', '120'), ('list', '')])), ('time', OrderedDict([('enabled', 'False'), ('presenttime', 'True'), ('presentdate', 'True'), ('delaysec', '0'), ('onminutes', '00,30'), ('announce', 'True'), ('interrupt', 'False')]))])
+ANY INFO 2019-08-28 10:18:19.090468: \/-------self.settingArgDict-------\/
+ANY INFO 2019-08-28 10:18:19.091189: {'screen': {'driver': 'ptyDriver'}, 'keyboard': {'driver': 'evdevDriver', 'keyboardLayout': '/etc/fenrirscreenreader/keyboard/nvda-desktop.conf'}, 'sound': {'theme': '/usr/share/sounds/fenrirscreenreader/default'}, 'general': {'punctuationProfile': '/etc/fenrirscreenreader/punctuation/default.conf'}}

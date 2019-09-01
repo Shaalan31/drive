@@ -1,0 +1,7 @@
+/etc/mlterm
+/home/omar/Programs/drive/mlterm
+/usr/lib/mlterm
+/usr/lib/mlterm/mlterm
+/usr/share/terminfo/m/mlterm
+/usr/share/mlterm
+/usr/bin/mlterm

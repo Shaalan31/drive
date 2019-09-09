@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-08 21:59-0400\n"
+"PO-Revision-Date: 2019-09-09 17:42+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar_EG\n"
+
+#: ../src/dragonfilemanager/commands/listManager-available/shell_quick_compress_1.py:32
+#: ../src/dragonfilemanager/commands/listManager-available/shell_compress_with_dialog.py:45
+#: ../src/dragonfilemanager/commands/listManager-available/shell_quick_compress_2.py:32
+msgid "Please enter an Name for the archive:"
+msgstr "الرجاء إدخال اسم للأرشيف:"
+
+#: ../src/dragonfilemanager/commands/listManager-available/shell_compress_with_dialog.py:19
+msgid "What format you want to compress the {} elements:"
+msgstr "ما التنسيق الذي تريده لضغط {} عناصر له :"
+
+#: ../src/dragonfilemanager/commands/listManager-available/delete.py:20
+msgid "Do you realy want to delete {} elements:"
+msgstr "هل حقا تريد حذف {} ملف:"
+
+#: ../src/dragonfilemanager/core/listManager.py:462
+#, python-brace-format
+msgid "Tab: {0} List"
+msgstr "Tab:  {0} القائمة"
+
+#: ../src/dragonfilemanager/core/listManager.py:466
+#: ../src/dragonfilemanager/core/listManager.py:468
+#, python-brace-format
+msgid "Location: {0}"
+msgstr "موقعك:  {0}"
+
+#: ../src/dragonfilemanager/core/listManager.py:468
+msgid "Favorits"
+msgstr "مفضل"
+
+#: ../src/dragonfilemanager/core/listManager.py:471
+#: ../src/dragonfilemanager/core/detailManager.py:146
+#, python-brace-format
+msgid "Page: {0}"
+msgstr "صفحة:  {0}"
+
+#: ../src/dragonfilemanager/core/baseCommand.py:15
+#: ../src/dragonfilemanager/core/baseCommand.py:22
+msgid "No description found"
+msgstr "لم يتم العثور على وصف"
+
+#: ../src/dragonfilemanager/core/fileManager.py:385
+msgid "Link"
+msgstr "الرابط"
+
+#: ../src/dragonfilemanager/core/detailManager.py:119
+#, python-brace-format
+msgid "Tab: {0} Detail"
+msgstr "Tab: {0} التفاصيل"
+
+#: ../src/dragonfilemanager/core/detailManager.py:122
+#, python-brace-format
+msgid "Active Elements: {0}"
+msgstr "العناصر النشطة: {0}"

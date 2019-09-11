@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-08 21:59-0400\n"
-"PO-Revision-Date: 2019-09-11 21:29+0200\n"
+"PO-Revision-Date: 2019-09-11 21:50+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,52 +22,52 @@ msgstr ""
 #: ../src/dragonfilemanager/commands/listManager-available/shell_compress_with_dialog.py:45
 #: ../src/dragonfilemanager/commands/listManager-available/shell_quick_compress_2.py:32
 msgid "Please enter an Name for the archive:"
-msgstr "الرجاء إدخال اسم للأرشيف:"
+msgstr "الرَّجَاءُ إدْخَالَ اِسْمِ للأرشيف:"
 
 #: ../src/dragonfilemanager/commands/listManager-available/shell_compress_with_dialog.py:19
 msgid "What format you want to compress the {} elements:"
-msgstr "ما التنسيق الذي تريده لضغط {} عناصر له :"
+msgstr "مَا التَّنْسِيقِ الَّذِي تُرِيدُهُ لِضَغْطِ{} عَنَاصِرَ لَهُ:"
 
 #: ../src/dragonfilemanager/commands/listManager-available/delete.py:20
 msgid "Do you realy want to delete {} elements:"
-msgstr "هل حقا تريد حذف {} ملف:"
+msgstr "هَلْ حَقَّا تُرِيدُ حَذَفَ{} مَلَفٌّ:"
 
 #: ../src/dragonfilemanager/core/listManager.py:462
 #, python-brace-format
 msgid "Tab: {0} List"
-msgstr "التبويب:  {0} القائمة"
+msgstr "التَّبْوِيبُ:{0} الْقَائِمَةَ"
 
 #: ../src/dragonfilemanager/core/listManager.py:466
 #: ../src/dragonfilemanager/core/listManager.py:468
 #, python-brace-format
 msgid "Location: {0}"
-msgstr "موقعك:  {0}"
+msgstr "مَوْقِعُكَ:  {0}"
 
 #: ../src/dragonfilemanager/core/listManager.py:468
 msgid "Favorits"
-msgstr "مفضل"
+msgstr "مُفَضَّلٌ"
 
 #: ../src/dragonfilemanager/core/listManager.py:471
 #: ../src/dragonfilemanager/core/detailManager.py:146
 #, python-brace-format
 msgid "Page: {0}"
-msgstr "صفحة:  {0}"
+msgstr "صَفْحَةٌ:  {0}"
 
 #: ../src/dragonfilemanager/core/baseCommand.py:15
 #: ../src/dragonfilemanager/core/baseCommand.py:22
 msgid "No description found"
-msgstr "لم يتم العثور على وصف"
+msgstr "لَمْ يَتِمُّ الْعُثُورُ عَلَى وَصْفٍ"
 
 #: ../src/dragonfilemanager/core/fileManager.py:385
 msgid "Link"
-msgstr "الرابط"
+msgstr "الرَّابِطُ"
 
 #: ../src/dragonfilemanager/core/detailManager.py:119
 #, python-brace-format
 msgid "Tab: {0} Detail"
-msgstr "التبويب: {0} التفاصيل"
+msgstr "التَّبْوِيبُ:{0} التَّفَاصِيلَ"
 
 #: ../src/dragonfilemanager/core/detailManager.py:122
 #, python-brace-format
 msgid "Active Elements: {0}"
-msgstr "العناصر النشطة: {0}"
+msgstr "الْعَنَاصِرُ النَّشَطَةُ:{0}"

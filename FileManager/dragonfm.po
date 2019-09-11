@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-08 21:59-0400\n"
-"PO-Revision-Date: 2019-09-09 17:42+0200\n"
+"PO-Revision-Date: 2019-09-11 21:29+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgstr "هل حقا تريد حذف {} ملف:"
 #: ../src/dragonfilemanager/core/listManager.py:462
 #, python-brace-format
 msgid "Tab: {0} List"
-msgstr "Tab:  {0} القائمة"
+msgstr "التبويب:  {0} القائمة"
 
 #: ../src/dragonfilemanager/core/listManager.py:466
 #: ../src/dragonfilemanager/core/listManager.py:468
@@ -65,7 +65,7 @@ msgstr "الرابط"
 #: ../src/dragonfilemanager/core/detailManager.py:119
 #, python-brace-format
 msgid "Tab: {0} Detail"
-msgstr "Tab: {0} التفاصيل"
+msgstr "التبويب: {0} التفاصيل"
 
 #: ../src/dragonfilemanager/core/detailManager.py:122
 #, python-brace-format

@@ -1,0 +1,1 @@
+.ece-button { cursor: pointer; }

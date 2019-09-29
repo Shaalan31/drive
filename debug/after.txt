@@ -1,0 +1,72 @@
+  أَهَلًّا بِكُمْ فِي فويس wav
+  cat
+  قَائِمَةُ الإنترنت wav
+  َا
+  wav
+  د
+  wav
+  space
+  cat
+  أَهَلًّا بِكُمْ فِي فويس, wav
+  إِرْسَالُ بَريدِ إلِكْتُرونِيِّ, wav
+  c
+  قَائِمَةُ الإنترنت, wav
+  cat
+  عَزِيزِيُّ عُمَرٍ ،, أَكَتَبَ إِلَيْكَ هَذَا الْبَريدِ الْإلِكْتُرونِيِّ مِنَ الْحَاسوبِ فويس.
+ , فَأَخِيرَا أَصْبَحَ هُنَاكَ حَاسوبَا يُسَاعِدُنِي عَلَى قِرَاءةِ الْكُتُبِ وَ الْمَقَالَاتُ ، أَتَصَفُّحَ الإنترنت مِنْ خِلَالَهُ ، وَ أَكَتَبَ مُذَكِّرَاتُي عَلَيْهِ.
+ , هَذَا الْحَاسوبِ ثَمَّنَهُ قَلِيلُ وَ امكانياته كَثِيرَ ، وَ يُمَكِّنْ ٣٦ مِلْيُونُ شَخْصِ كَفِيفِ مِثْلِيِّ مَنِ التَّوَاصُلِ عَبْرَ الإنترنت دُونَ الحاجه الِيَّ أَجَهَّزَهُ بَاهِظُهُ اِلْثَمِنَّ.
+ , wav
+  wav espeak,
+  espeak
+  dash v
+  mb dash ar1
+  dash f
+  dash f
+  e
+  email. wav
+  عَزِيزِيُّ عُمَرٍ ،  أَكَتَبَ إِلَيْكَ هَذَا الْبَريدِ الْإلِكْتُرونِيِّ مِنَ الْحَاسوبِ " فويس ".  فَأَخِيرَا أَصْبَحَ هُنَاكَ حَاسوبَا يُسَاعِدُنِي عَلَى قِرَاءةِ الْكُتُبِ وَ الْمَقَالَاتُ ، أَتَصَفُّحَ الإنترنت مِنْ خِلَالَهُ ، وَ أَكَتَبَ مُذَكِّرَاتُي عَلَيْهِ.  هَذَا الْحَاسوبِ ثَمَّنَهُ قَلِيلُ وَ امكانياته كَثِيرَ ، وَ يُمَكِّنْ ٣٦ مِلْيُونُ شَخْصِ كَفِيفِ مِثْلِيِّ مَنِ التَّوَاصُلِ عَبْرَ الإنترنت دُونَ الحاجه الِيَّ أَجَهَّزَهُ بَاهِظُهُ اِلْثَمِنَّ.
+  l
+  space
+  ..
+  slash
+  gi
+  space
+  On branch master
+  space
+  drive,
+  space
+  wav,
+  dot.
+  w
+  space
+  أَهَلًّا بِكُمْ فِي فويس
+  wav,
+  قَائِمَةُ الإنترنت
+  إِرْسَالُ بَريدِ إلِكْتُرونِيِّ
+  wav,
+  ls
+  Menu. txt choice. txt choice. wav email. txt email. wav intro. txt intro. wav menu. wav send. txt, wav
+  إِرْسَالٌ إِلَى عُمَرٍ
+  wav,
+  cd
+  ..
+  space
+  sh
+  Enumerating objects: 9, done.
+ , Counting objects: 44 4 slash 9
+  Counting objects: 100 9 slash 9, done.
+ , Delta compression using up to 4 threads, Compressing objects: 100 7 slash 7, done.
+ , Writing objects: 100 7 slash 7, 142. 45 KiB 3. 03 MiB slash s, done.
+ , Total 7 delta 2, reused 0 delta 0,
+  remote: Resolving deltas: 100 2 slash 2, completed with 2 local objects.
+  remote: This repository moved.
+  Please use the new location :, remote: https: slash slash github. com slash Shaalan31 slash drive. git
+  To https: slash slash github. com slash shaalan31 slash drive, cdd22a2 .. 71502a7 master dash master
+  drive
+  space
+  r slash
+  unds slash
+  r
+  s
+  ' slash usr slash share slash sounds slash fenrirscreenreader slash ' dash 'extra slash fenrirscreenreader', ' slash usr slash share slash sounds slash fenrirscreenreader slash default' dash 'extra slash fenrirscreenreader slash default', ' slash usr slash share slash sounds slash fenrirsc
+  reenreader slash default slash Accept. wav' dash 'extra slash fenrirscreenreader slash default slash Accept. wav', ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash Announce. wav' dash 'extra slash fenrirscreenreader slash default slash Announce. wav', ' slash u

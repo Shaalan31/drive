@@ -1,0 +1,358 @@
+ space 
+bash: lol: command not found  , 127   tilde 
+أعلنت سلسلة مطاعم كنتاكي أنها ستجرب قطع دجاج من مكونات نباتية  خالية من اللحم ، في إطار سعيها للاستفادة م , ن الشعبية المتزايدة لبدائل اللحوم.وتعاونت كنتاكي مع شركة  �
+يوند ميت  المصنعة للأغذية النباتية، لتقديم ما  , يشبه قطع وأجنحة الدجاج، لكنها خالية من اللحم، على نطاق تجريبي محدود بالولايات المتحدة.وتعد كنتاكي واحدة م , ن العديد 
+من سلاسل مطاعم الوجبات السريعة، التي تعمل على تجريب الأغذية النباتية البديلة للحوم.وكانت سلسلة م , طاعم  برغر كنغ  قد أعلنت، في وقت سابق من هذا العام، عن تقديم شطيرة  �
+وبر  الشهيرة من مكونات نباتية، في حي , ن قالت سلسلة مطاعم   صب واي  أيضا أنها ستختبر كرات اللحم النباتية.ووفقا لبيانها الصحفي، سيتم تقديم وجبة ب , ديل الدجاج المقلي  بي�
+ند فرايد تشيكن  في أحد مطاعم كنتاكي في أتلانتا، في 27 من أغسطس slash  آب الجاري، وسيظل مذ , اقه رائعا، كما يتعهد شعار الشركة.وقالت الشركة إنها أول سلسلة مطاعم للوجبات الس�
+يعة في الولايات المتحدة تق , دم دجاجا نباتيا.
+ وكانت قد اختبرت بديلا نباتيا لبرغر الدجاج، في وقت سابق من هذا العام في المملكة المتحدة.و , قالت شركة كنتاكي إنها ستأخذ في الاعتبار آراء العملاء، لتقرير ما إذا كانت س�
+طرح هذا المنتج في جميع أنحاء ا , لولايات المتحدة.
+ وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر هذ 
+لولايات المتحدة.
+ وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر هذا النبأ.
+ وكانت الشركة ال , مصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، عندما أدرجت أسهمها في البورصة الأمريكية، في وقت  , سابق من العام الجاري.
+  ,   tilde 
+  tilde 
+Screen reader on.
+  OS
+ space 
+VOISS, a nova F One Two Three - Mozilla Firefox إطار
+T 
+g 
+o 
+g 
+m 
+عودة 
+انتهى تحميل New Tab.
+main content
+يجري التحميل.
+ الرجاء الإنتظار.
+انتهى تحميل Google.
+لسان 
+لسان 
+e 
+g 
+e 
+e 
+g 
+g 
+e 
+e 
+g 
+e 
+لسان 
+ firefox:1124 : GLib dash GObject dash WARNING  star  star : 01:01:24.204: ..
+ slash glib slash gobject slash gsignal.c:3492: signal name 'selection changed' is invalid for instance '0x5e5fa040' of type 'MaiAtkType13b'  , 
+الخصوصية رابط.
+البنود رابط.
+انتهى تحميل VOISS, a nova F One Two Three.
+لسان 
+لسان 
+لسان 
+لسان 
+ firefox:1124 : GLib dash GObject dash WARNING  star  star : 01:02:51.654: ..
+عودة 
+ Parent 1124, Gecko IOThread  WARNING: pipe error  60 : Connection reset by peer: file  slash build slash firefox slash src slash firefox dash 67.0.4 slash ipc slash chromium slash src slash chrome slash common slash ipc channel posix.cc, line 357 
+  tilde 
+firefox
+ space 
+VOISS, a nova F One Two Three - Mozilla Firefox إطار
+T 
+Browser tabs شريط الأدوات
+New Tab لسان الصفحة.
+Search with Google or enter address خانة.
+انتهى تحميل New Tab.
+Page has 1 landmark, 10 من الترويسات, 2 من الوصلات المزارة, 7 من الوصلات غير المزارة.
+g 
+o 
+o 
+عودة 
+انتهى تحميل google - بحث Google.
+Page has 12 من الترويسات, 1 من الاستمارات, 49 من الوصلات غير المزارة.
+رابط.
+لسان 
+لسان 
+لسان 
+لسان 
+عودة 
+يجري التحميل.
+لسان 
+عودة 
+لسان 
+عودة 
+انتهى تحميل egypt - بحث Google.
+Page has 10 من الترويسات, 1 من الاستمارات, 51 من الوصلات غير المزارة.
+Browse mode
+رابط.
+لسان 
+لسان 
+عودة 
+يجري التحميل.
+ الرجاء الإنتظار.
+لسان 
+لسان 
+عودة 
+  tilde 
+pluma
+ space 
+o
+a
+ space 
+يحلّ الاعتماديّات... 
+يبحث عن الحزم المتضاربة... 
+:: يجلب الحزم... 
+ zenity dash 3.32.0 plus 17 plus gfb0938f dash 1 dash armv7h 0.0 B 0.00B slash s 00:00  42  left bracket  dash    0 
+ zenity dash 3.32.0 plus 17 plus gfb0938f dash 1 dash armv7h 21.5 KiB 35.9K slash s 01:58  42  left bracket  dash    0 
+ space 
+test.txt (~) - Pluma إطار
+test.txt لسان الصفحة.
+نص.
+لسان 
+ألغ زر ضغط.
+Alt+غ
+ألغ زر ضغط.
+*test.txt (~) - Pluma إطار
+F10 
+ملف قائمة.
+عودة 
+ pluma:3701 : Gtk dash CRITICAL  star  star : 01:15:22.256: gtk notebook get tab label: assertion 'list !  NULL' failed  , 
+cp
+ drive    sudo cp pluma.mo  slash us                                                                                                                                                                                                     , 
+ drive    sudo cp pluma.mo  slash usr slash                                                                                                                                                                                                    , 
+nm
+pluma
+افتحنقطة نقطة نقطة 
+عودة 
+ drive    sudo cp pluma.mo  slash usr slash share slash locale slash ar slash LC MESSAGES slash                                                                                                                                                                        , 
+ مَرْحبًا بِكُم فِي إف123لايت  ,  قَائِمةُ إف123لايت الرَّئِيسِيَّة  ,   قَائِمَةُ الْإِنْتَرنِت   ,   قَائِمَةُ الْمَكْتَب   ,   مُدِيرُ الْمَلَفَّات   ,     ,   
+قَائِمةُ الْإِعْدَادَات   ,   قَائِمَةُ الْمُسَاعَدَة   ,   إِيْقَافُ أَوْ إِعَادَةُ تَشْغِيلِ الْحَاسوب   ,     , اِسْتَخْدِمْ السَّهْمَ الْأعْلَى وَالسَّهْمَ 
+Screen reader on.
+ space 
+Desktop Documents Downloads Music Pictures Programs Public Templates Videos debug logfile  ,   tilde 
+fire
+plum
+  tilde     pluma  , 
+F10 
+افتحنقطة نقطة نقطة 
+جديد.
+ج
+Ctrl+N.
+معاينة الطّباعة.
+1.
+إغلاق.
+إ
+خروج.
+تحرير قائمة.
+ت
+اختر الكل.
+خروج.
+عودة 
+  tilde 
+VOISS, a nova F One Two Three - Mozilla Firefox إطار
+l 
+e 
+عودة 
+y 
+فراغ 
+i 
+l 
+f 
+w 
+v 
+d 
+عودة 
+ firefox:1459 : GLib dash GObject dash WARNING  star  star : 01:22:52.548: ..
+ slash glib slash gobject slash gsignal.c:3492: signal name 'selection changed' is invalid for instance '0x5eb5ed00' of type 'MaiAtkType139'  , 
+ firefox:1459 : GLib dash GObject dash WARNING  star  star : 01:22:52.592: ..
+ slash glib slash gobject slash gsignal.c:3492: signal name 'selection changed' is invalid for instance '0x5eb5ed00' of type 'MaiAtkType139'  ,   ,  firefox:1459 : GLib dash GObject dash WARNING  star  star : 01:22:52.622: ..
+مصر - ويكيبيديا - Mozilla Firefox إطار
+الصفحة الرئيسية رابط.
+انتهى تحميل مصر - ويكيبيديا.
+لسان 
+لسان 
+ firefox:2257 : GLib dash GObject dash WARNING  star  star : 01:24:52.924: ..
+q 
+لسان 
+لسان 
+q 
+  tilde 
+ space 
+Configuring the computer in your selected language... 
+ مَرْحبًا بِكُم فِي إف123لايت  ,  قَائِمةُ إف123لايت الرَّئِيسِيَّة  ,   قَائِمَةُ الْإِنْتَرنِت   ,   قَائِمَةُ الْمَكْتَب   ,   مُدِيرُ الْمَلَفَّات   ,     ,   
+قَائِمةُ الْإِعْدَادَات   ,   قَائِمَةُ الْمُسَاعَدَة   ,   إِيْقَافُ أَوْ إِعَادَةُ تَشْغِيلِ الْحَاسوب   ,     , اِسْتَخْدِمْ السَّهْمَ الْأعْلَى وَالسَّهْمَ 
+الْأَسْفَلَ لِاِخْتِيَارِ الْعُنْصُرِ الْمُرَاد، ثُمَّ اِضْغَطْ مِفْتَاحَ الْإدْخَالِ لِلتَّنْشِيط.
+ 
+Screen reader on.
+ قَائِمَةُ الْمَكْتَب 
+cd
+Programs slash 
+ drive 
+ wav 
+أهلا بكم في فويس wav 
+أهلا بكم في فويس wav    cat intro.txt 
+أهلا بكم في فويس wav 
+ space 
+أهلا بكم في فويس wav 
+cat
+قائمة الإنترنت  wav 
+ا
+ wav 
+د
+ wav 
+ مَرْحبًا بِكُم فِي إف123لايت  ,  قَائِمةُ إف123لايت الرَّئِيسِيَّة  ,   قَائِمَةُ الْإِنْتَرنِت   ,   قَائِمَةُ الْمَكْتَب   ,   مُدِيرُ الْمَلَفَّات   ,     ,   
+قَائِمةُ الْإِعْدَادَات   ,   قَائِمَةُ الْمُسَاعَدَة   ,   إِيْقَافُ أَوْ إِعَادَةُ تَشْغِيلِ الْحَاسوب   ,     , اِسْتَخْدِمْ السَّهْمَ الْأعْلَى وَالسَّهْمَ 
+الْأَسْفَلَ لِاِخْتِيَارِ الْعُنْصُرِ الْمُرَاد، ثُمَّ اِضْغَطْ مِفْتَاحَ الْإدْخَالِ لِلتَّنْشِيط.
+ 
+Screen reader on.
+ space 
+cat
+أهلا بكم في فويس  ,  wav 
+إرسال بريد إلكتروني  ,  wav 
+c
+قائمة الإنترنت  ,   wav 
+cat
+عزيزي عمر،  , أكتب إليك هذا البريد الإلكتروني من الحاسوب   فويس .
+  , فأخيرا أصبح هناك حاسوبا يساعدني على قراءة الكتب و المقالات، أتصفح الإنترنت من خلاله، و أكتب مذكراتي عليه.
+  ,  هذا الحاسوب ثمنه قليل و امكانياته كثير، و يُمَكِنْ ٣٦ مليون شخص كفيف مثلي من التواصل عبر الإنترنت دون الحاجه الي أجهزه باهظه الثمن.
+  ,  wav 
+ wav    espeak                                                                                                                                                                                                                     , 
+espeak
+ dash v
+mb dash ar1
+ dash f
+ dash f
+e
+email.wav
+عزيزي عمر،
+أكتب إليك هذا البريد الإلكتروني من الحاسوب  " فويس".
+فأخيرا أصبح هناك حاسوبا يساعدني على قراءة الكتب و المقالات، أتصفح الإنترنت من خلاله، و أكتب مذكراتي عليه.
+ هذا الحاسوب ثمنه قليل  و امكانياته كثير، و يُمَكِنْ ٣٦ مليون شخص كفيف مثلي من التواصل عبر الإنترنت دون الحاجه الي أجهزه باهظه الثمن.
+
+l
+ space 
+..
+ slash 
+gi
+ space 
+On branch master 
+ space 
+ drive                                                                                                                                                                                                                             , 
+git
+ 
+ space 
+ star  star  star  Please tell me who you are.
+git
+ space 
+ wav                                                                                                                                                                                                                               , 
+ dot. 
+w
+ space 
+أهلا بكم في فويس
+
+ wav                                                                                                                                                                                                                               , 
+قائمة الإنترنت
+ 
+إرسال بريد إلكتروني 
+
+
+ wav                                                                                                                                                                                                                               , 
+ls
+Menu.txt choice.txt choice.wav email.txt email.wav intro.txt intro.wav menu.wav send.txt  ,  wav 
+إرسال إلى عمر
+
+ wav                                                                                                                                                                                                                               , 
+cd
+..
+ space 
+sh
+Enumerating objects: 9, done.
+  , Counting objects: 44   4 slash 9 
+Counting objects: 100   9 slash 9 , done.
+  , Delta compression using up to 4 threads  , Compressing objects: 100   7 slash 7 , done.
+  , Writing objects: 100   7 slash 7 , 142.45 KiB   3.03 MiB slash s, done.
+  , Total 7  delta 2 , reused 0  delta 0   , 
+remote: Resolving deltas: 100   2 slash 2 , completed with 2 local objects. 
+remote: This repository moved.
+ Please use the new location:  , remote: https: slash  slash github.com slash Shaalan31 slash drive.git 
+To https: slash  slash github.com slash shaalan31 slash drive  ,  cdd22a2..71502a7 master  dash   master 
+ drive 
+ space 
+r slash 
+unds slash 
+r
+s
+' slash usr slash share slash sounds slash fenrirscreenreader slash '  dash   'extra slash fenrirscreenreader'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default'  dash   'extra slash fenrirscreenreader slash default'  , ' slash usr slash share slash sounds slash fenrirsc
+reenreader slash default slash Accept.wav'  dash   'extra slash fenrirscreenreader slash default slash Accept.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash Announce.wav'  dash   'extra slash fenrirscreenreader slash default slash Announce.wav'  , ' slash u
+sr slash share slash sounds slash fenrirscreenreader slash default slash BrailleOff.wav'  dash   'extra slash fenrirscreenreader slash default slash BrailleOff.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash BrailleOn.wav'  dash   'extra slash fenrirscreenre
+ader slash default slash BrailleOn.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash Cancel.wav'  dash   'extra slash fenrirscreenreader slash default slash Cancel.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash Caps.w
+av'  dash   'extra slash fenrirscreenreader slash default slash Caps.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash ChangeTTY.wav'  dash   'extra slash fenrirscreenreader slash default slash ChangeTTY.wav'  , ' slash usr slash share slash sounds slash fenri
+rscreenreader slash default slash ContentChanged.wav'  dash   'extra slash fenrirscreenreader slash default slash ContentChanged.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash CopyToClipboard.wav'  dash   'extra slash fenrirscreenreader slash default slash 
+CopyToClipboard.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash EmptyLine.wav'  dash   'extra slash fenrirscreenreader slash default slash EmptyLine.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash EndOfLine.wav'  das
+h   'extra slash fenrirscreenreader slash default slash EndOfLine.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash EndOfScreen.wav'  dash   'extra slash fenrirscreenreader slash default slash EndOfScreen.wav'  , ' slash usr slash share slash sounds slash fenr
+irscreenreader slash default slash ErrorBraille.wav'  dash   'extra slash fenrirscreenreader slash default slash ErrorBraille.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash ErrorScreen.wav'  dash   'extra slash fenrirscreenreader slash default slash ErrorSc
+reen.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash ErrorSpeech.wav'  dash   'extra slash fenrirscreenreader slash default slash ErrorSpeech.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash PTYBypass.wav'  dash   'ex
+tra slash fenrirscreenreader slash default slash PTYBypass.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash PasteClipboardOnScreen.wav'  dash   'extra slash fenrirscreenreader slash default slash PasteClipboardOnScreen.wav'  , ' slash usr slash share slash so
+unds slash fenrirscreenreader slash default slash PlaceEndMark.wav'  dash   'extra slash fenrirscreenreader slash default slash PlaceEndMark.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash PlaceStartMark.wav'  dash   'extra slash fenrirscreenreader slash def
+ault slash PlaceStartMark.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash PromotedText.wav'  dash   'extra slash fenrirscreenreader slash default slash PromotedText.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash Scr
+eenReaderOff.wav'  dash   'extra slash fenrirscreenreader slash default slash ScreenReaderOff.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash ScreenReaderOn.wav'  dash   'extra slash fenrirscreenreader slash default slash ScreenReaderOn.wav'  , ' slash usr s
+lash share slash sounds slash fenrirscreenreader slash default slash SoundOff.wav'  dash   'extra slash fenrirscreenreader slash default slash SoundOff.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash SoundOn.wav'  dash   'extra slash fenrirscreenreader slash
+ default slash SoundOn.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash SpeechOff.wav'  dash   'extra slash fenrirscreenreader slash default slash SpeechOff.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash SpeechOn.wav
+'  dash   'extra slash fenrirscreenreader slash default slash SpeechOn.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash StartOfLine.wav'  dash   'extra slash fenrirscreenreader slash default slash StartOfLine.wav'  , ' slash usr slash share slash sounds slash
+ fenrirscreenreader slash default slash StartOfScreen.wav'  dash   'extra slash fenrirscreenreader slash default slash StartOfScreen.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash barrier.wav'  dash   'extra slash fenrirscreenreader slash default slash barr
+ier.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash barrier end.wav'  dash   'extra slash fenrirscreenreader slash default slash barrier end.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash barrier start.wav'  dash   
+'extra slash fenrirscreenreader slash default slash barrier start.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash has attribute.wav'  dash   'extra slash fenrirscreenreader slash default slash has attribute.wav'  , ' slash usr slash share slash sounds slash 
+fenrirscreenreader slash default slash mispell.wav'  dash   'extra slash fenrirscreenreader slash default slash mispell.wav'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash default slash soundicons.conf'  dash   'extra slash fenrirscreenreader slash default slash soundicons.co
+nf'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash template'  dash   'extra slash fenrirscreenreader slash template'  , ' slash usr slash share slash sounds slash fenrirscreenreader slash template slash soundicons.conf'  dash   'extra slash fenrirscreenreader slash template s
+lash soundicons.conf'  ,  drive 
+ مَرْحبًا بِكُم فِي إف123لايت  ,  قَائِمةُ إف123لايت الرَّئِيسِيَّة  ,   قَائِمَةُ الْإِنْتَرنِت   ,   قَائِمَةُ الْمَكْتَب   ,   مُدِيرُ الْمَلَفَّات   ,     ,   
+قَائِمةُ الْإِعْدَادَات   ,   قَائِمَةُ الْمُسَاعَدَة   ,   إِيْقَافُ أَوْ إِعَادَةُ تَشْغِيلِ الْحَاسوب   ,     , اِسْتَخْدِمْ السَّهْمَ الْأعْلَى وَالسَّهْمَ 
+الْأَسْفَلَ لِاِخْتِيَارِ الْعُنْصُرِ الْمُرَاد، ثُمَّ اِضْغَطْ مِفْتَاحَ الْإدْخَالِ لِلتَّنْشِيط.
+ 
+Screen reader on.
+Numlock off
+ قَائِمَةُ الْمَكْتَب 
+Numlock on
+Numlock off
+ مُدِيرُ الْمَلَفَّات 
+ قَائِمَةُ الْمَكْتَب 
+ الْإِنْتَرْنِت  ,   قَا E dash mail    ,   قَا مُتَصَفِّحَاتُ الْوِيب    ,   مُدِ مُتَصَفِّحُ وِيب مُتَكَامِل  فَايَرفُوكس     ,    التَّوَاصُل    ,   قَ�
+ مُدِيرُ الْمَلَفَّات 
+ space 
+Desktop Documents Downloads Music Pictures Programs Public Templates Videos debug logfile  ,   tilde 
+ إِيقَاف 
+ مَرْحبًا بِكُم فِي إف123لايت  ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,  قَائِمةُ إف123لايت الرَّئِيسِيَّة  ,   قَائِمَةُ الْإِنْتَرنِت   ,   قَائِمَةُ الْمَكْتَب   ,   مُدِيرُ �
+لْمَلَفَّات   ,     ,   قَائِمةُ الْإِعْدَادَات   ,   قَائِمَةُ الْمُسَاعَدَة   ,   إِيْقَافُ أَوْ إِعَادَةُ تَشْغِيلِ الْحَاسوب   ,     ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   
+,   ,   , اِسْتَخْدِمْ السَّهْمَ الْأعْلَى وَالسَّهْمَ الْأَسْفَلَ لِاِخْتِيَارِ الْعُنْصُرِ الْمُرَاد، ثُمَّ اِضْغَطْ مِفْتَاحَ الْإدْخَالِ لِلتَّنْشِيط.
+ 
+Screen reader on.
+  OS
+ space 
+Screen reader on.
+rx
+ مَرْحبًا بِكُم فِي إف123لايت  ,  قَائِمةُ إف123لايت الرَّئِيسِيَّة  ,   قَائِمَةُ الْإِنْتَرنِت   ,   قَائِمَةُ الْمَكْتَب   ,   مُدِيرُ الْمَلَفَّات   ,     ,   
+قَائِمةُ الْإِعْدَادَات   ,   قَائِمَةُ الْمُسَاعَدَة   ,   إِيْقَافُ أَوْ إِعَادَةُ تَشْغِيلِ الْحَاسوب   ,     , اِسْتَخْدِمْ السَّهْمَ الْأعْلَى وَالسَّهْمَ 
+الْأَسْفَلَ لِاِخْتِيَارِ الْعُنْصُرِ الْمُرَاد، ثُمَّ اِضْغَطْ مِفْتَاحَ الْإدْخَالِ لِلتَّنْشِيط.
+ 
+Screen reader on.
+ مَرْحبًا بِكُم فِي إف123لايت  ,  قَائِمةُ إف123لايت الرَّئِيسِيَّة  ,   قَائِمَةُ الْإِنْتَرنِت   ,   قَائِمَةُ الْمَكْتَب   ,   مُدِيرُ الْمَلَفَّات   ,     ,   
+قَائِمةُ الْإِعْدَادَات   ,   قَائِمَةُ الْمُسَاعَدَة   ,   إِيْقَافُ أَوْ إِعَادَةُ تَشْغِيلِ الْحَاسوب   ,     , اِسْتَخْدِمْ السَّهْمَ الْأعْلَى وَالسَّهْمَ 
+الْأَسْفَلَ لِاِخْتِيَارِ الْعُنْصُرِ الْمُرَاد، ثُمَّ اِضْغَطْ مِفْتَاحَ الْإدْخَالِ لِلتَّنْشِيط.
+ 
+Screen reader on.
+Numlock off
+  OS
+vt
+ space 
+  tilde 
+ space 
+ مَرْحبًا بِكُم فِي إف123لايت  ,  قَائِمةُ إف123لايت الرَّئِيسِيَّة  ,   قَائِمَةُ الْإِنْتَرنِت   ,   قَائِمَةُ الْمَكْتَب   ,   مُدِيرُ الْمَلَفَّات   ,     ,   
+قَائِمةُ الْإِعْدَادَات   ,   قَائِمَةُ الْمُسَاعَدَة   ,   إِيْقَافُ أَوْ إِعَادَةُ تَشْغِيلِ الْحَاسوب   ,     , اِسْتَخْدِمْ السَّهْمَ الْأعْلَى وَالسَّهْمَ 
+الْأَسْفَلَ لِاِخْتِيَارِ الْعُنْصُرِ الْمُرَاد، ثُمَّ اِضْغَطْ مِفْتَاحَ الْإدْخَالِ لِلتَّنْشِيط.
+ 
+Screen reader on.
+ قَائِمَةُ الْمَكْتَب 
+ space 
+l
+cd
+..

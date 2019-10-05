@@ -434,15 +434,17 @@ static espeak_ng_STATUS Synthesize(unsigned int unique_identifier, const void *t
 	fprintf(duringChar,text);
 	fprintf(duringChar,"\n");
 
-        FILE *duringVoid;
-        duringVoid = fopen("/home/omar/debug/duringVoid.txt","a");
-        fprintf(duringVoid,editableText);
-	fprintf(duringVoid,"\n");
+
 */
 
 	// Do pre-proceesing only for Arabic language
 	if (strcmp(translator->dictionary_name, "ar") == 0)
 	{
+		FILE *beforeEdit;
+        beforeEdit = fopen("/home/omar/debug/beforeEdit.txt","a");
+        fprintf(beforeEdit,editableText);
+		fprintf(beforeEdit,"\n");
+		
 		int i;
         	for (i=0;i<strlen(editableText);i++)
         	{
@@ -475,6 +477,11 @@ static espeak_ng_STATUS Synthesize(unsigned int unique_identifier, const void *t
 				memmove(&editableText[i], &editableText[i+1], strlen(editableText) - i);
 				i--;
         	}
+		FILE *afterEdit;
+        afterEdit = fopen("/home/omar/debug/afterEdit.txt","a");
+        fprintf(afterEdit,editableText);
+		fprintf(afterEdit,"\n");
+		
 		preprocessText(&editableText);
 	}
 	// Fill the buffer with output sound

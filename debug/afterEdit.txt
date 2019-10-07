@@ -173,3 +173,10 @@ long.txt
  وكانت الشركة المصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، 
 عندما أدرجت أسهمها في البورصة الأمريكية، في وقت سابق من العام الجاري.
 شريط الحالة
+ى 
+عودة 
+Screen reader on.
+Use thee arrow keys to explore the desktop.
+ Use Control+Escape to access the menu.
+
+

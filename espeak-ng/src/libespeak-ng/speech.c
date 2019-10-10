@@ -442,8 +442,8 @@ static espeak_ng_STATUS Synthesize(unsigned int unique_identifier, const void *t
 	{
 		FILE *beforeEdit;
         beforeEdit = fopen("/home/omar/debug/beforeEdit.txt","a");
-        fprintf(beforeEdit,editableText);
-		fprintf(beforeEdit,"\n");
+        wprintf(beforeEdit,editableText);
+		wprintf(beforeEdit,"\n");
 		
 		int i;
         	for (i=0;i<strlen(editableText);i++)
@@ -479,8 +479,8 @@ static espeak_ng_STATUS Synthesize(unsigned int unique_identifier, const void *t
         	}
 		FILE *afterEdit;
         afterEdit = fopen("/home/omar/debug/afterEdit.txt","a");
-        fprintf(afterEdit,editableText);
-		fprintf(afterEdit,"\n");
+        wprintf(afterEdit,editableText);
+		wprintf(afterEdit,"\n");
 		
 		preprocessText(&editableText);
 	}

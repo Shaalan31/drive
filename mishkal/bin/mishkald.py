@@ -14,7 +14,7 @@ sys.path.append(os.path.join(base_dir, '../')) # used for core
 import tashkeel.tashkeel as ArabicVocalizer
 import core.adaat 
 import pyarabic.araby as araby
-
+import  time
 scriptversion = '0.3'
 AuthorName = "chrys"
 
@@ -24,7 +24,7 @@ class mishkald():
         self.running = True
         self.port = 6123
         self.bufferSize = 65536
-        self.debug = True
+        self.debug = False
         self.sockets = []
         self.acceptSock = None
         self.vocalizer = None
@@ -60,8 +60,16 @@ class mishkald():
                 if '\00' not in data:
                     break
                 ready, _, _ = select.select([conn], [], [], 0)
-
+            print "FIRST THINGS FIRST"
+            print data
+            arr = bytearray(data)
+            print arr
+            for item in arr:
+                print item
+            print "FIXAY"
+            print len(arr)
             options["text"] = data.decode('utf8').replace('\00', '')
+            self.start_time = time.time()
         except:
             self.closeSock(conn)
             return (options)
@@ -101,7 +109,7 @@ class mishkald():
                     print options
                     print '\n'
                     continue
-                print 'First' + text
+                #print 'First' + text
                 lines = text.split('\n')
 
                 result = u''
@@ -120,6 +128,7 @@ class mishkald():
                             print lineResult.strip('\n').encode('utf8')
                 try:
                     answer = result + '\00'
+                    print("--- %s seconds ---" % (time.time() - self.start_time))
                     conn.send(answer.encode('utf-8'))
                     if self.isDebug():
                         print result.strip('\n').encode('utf8')

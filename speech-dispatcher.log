@@ -1,0 +1,3263 @@
+[Thu Oct 10 03:09:06 2019 : 304474] speechd:   Speech Dispatcher Logging to file /run/user/1000/speech-dispatcher/log//speech-dispatcher.log
+[Thu Oct 10 03:09:06 2019 : 305069] speechd:     Module name=espeak-ng being inserted into requested_modules list
+[Thu Oct 10 03:09:06 2019 : 305206] speechd:     Module name=pico being inserted into requested_modules list
+[Thu Oct 10 03:09:06 2019 : 305337] speechd:     Module name=espeak-ng-mbrola-generic being inserted into requested_modules list
+[Thu Oct 10 03:09:06 2019 : 305464] speechd:     Module name=rhvoice being inserted into requested_modules list
+[Thu Oct 10 03:09:06 2019 : 307397] speechd:    Reading configuration for pattern emacs:*
+[Thu Oct 10 03:09:06 2019 : 307571] speechd:  Configuration has been read from "/etc/speech-dispatcher/speechd.conf"
+[Thu Oct 10 03:09:06 2019 : 307732] speechd:  Initializing output module espeak-ng with binary /usr/lib/speech-dispatcher-modules/sd_espeak-ng and configuration /etc/speech-dispatcher/modules/espeak-ng.conf
+[Thu Oct 10 03:09:06 2019 : 307795] speechd:   Output module is logging to file /run/user/1000/speech-dispatcher/log//espeak-ng.log
+[Thu Oct 10 03:09:06 2019 : 308634] speechd:  Module espeak-ng loaded.
+[Thu Oct 10 03:09:06 2019 : 308729] speechd:    Trying to initialize espeak-ng.
+[Thu Oct 10 03:09:06 2019 : 308808] speechd:     Command sent to output module: |INIT
+| (0)
+[Thu Oct 10 03:09:06 2019 : 663128] speechd:     Reply from output module: 120 299-Espeak-ng: Initialized successfully.
+
+[Thu Oct 10 03:09:06 2019 : 663200] speechd:     Reply from output module: 120 299 OK LOADED SUCCESSFULLY
+
+[Thu Oct 10 03:09:06 2019 : 663246] speechd:  Module espeak-ng started successfully with message: 
+---------------
+Espeak-ng: Initialized successfully.
+---------------
+
+[Thu Oct 10 03:09:06 2019 : 663279] speechd:    Module set parameters.
+[Thu Oct 10 03:09:06 2019 : 663337] speechd:     Command sent to output module: |AUDIO
+| (1)
+[Thu Oct 10 03:09:06 2019 : 663410] speechd:     Got 32 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 663437] speechd:     Reply from output module: |207 OK RECEIVING AUDIO SETTINGS
+|
+[Thu Oct 10 03:09:06 2019 : 663473] speechd:     Command sent to output module: |audio_output_method=pulse
+audio_oss_device=/dev/dsp
+audio_alsa_device=default
+audio_nas_server=tcp/localhost:5450
+audio_pulse_server=default
+audio_pulse_min_length=100
+| (0)
+[Thu Oct 10 03:09:06 2019 : 663502] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:06 2019 : 673095] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 673175] speechd:     Reply from output module: |203 OK AUDIO INITIALIZED
+|
+[Thu Oct 10 03:09:06 2019 : 673214] speechd:    Module set parameters.
+[Thu Oct 10 03:09:06 2019 : 673283] speechd:     Command sent to output module: |LOGLEVEL
+| (1)
+[Thu Oct 10 03:09:06 2019 : 673367] speechd:     Got 35 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 673398] speechd:     Reply from output module: |207 OK RECEIVING LOGLEVEL SETTINGS
+|
+[Thu Oct 10 03:09:06 2019 : 673443] speechd:     Command sent to output module: |log_level=5
+| (0)
+[Thu Oct 10 03:09:06 2019 : 673482] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:06 2019 : 673539] speechd:     Got 21 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 673571] speechd:     Reply from output module: |203 OK LOG LEVEL SET
+|
+[Thu Oct 10 03:09:06 2019 : 673717] speechd:  Initializing output module pico with binary /usr/lib/speech-dispatcher-modules/sd_generic and configuration /etc/speech-dispatcher/modules/nanotts-generic.conf
+[Thu Oct 10 03:09:06 2019 : 673748] speechd:   Output module is logging to file /run/user/1000/speech-dispatcher/log//pico.log
+[Thu Oct 10 03:09:06 2019 : 674586] speechd:  Module pico loaded.
+[Thu Oct 10 03:09:06 2019 : 674683] speechd:    Trying to initialize pico.
+[Thu Oct 10 03:09:06 2019 : 674749] speechd:     Command sent to output module: |INIT
+| (0)
+[Thu Oct 10 03:09:06 2019 : 688264] speechd:     Reply from output module: 120 299-Everything ok so far.
+
+[Thu Oct 10 03:09:06 2019 : 688333] speechd:     Reply from output module: 120 299 OK LOADED SUCCESSFULLY
+
+[Thu Oct 10 03:09:06 2019 : 688377] speechd:  Module pico started successfully with message: 
+---------------
+Everything ok so far.
+---------------
+
+[Thu Oct 10 03:09:06 2019 : 688407] speechd:    Module set parameters.
+[Thu Oct 10 03:09:06 2019 : 688460] speechd:     Command sent to output module: |AUDIO
+| (1)
+[Thu Oct 10 03:09:06 2019 : 688530] speechd:     Got 32 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 688557] speechd:     Reply from output module: |207 OK RECEIVING AUDIO SETTINGS
+|
+[Thu Oct 10 03:09:06 2019 : 688591] speechd:     Command sent to output module: |audio_output_method=pulse
+audio_oss_device=/dev/dsp
+audio_alsa_device=default
+audio_nas_server=tcp/localhost:5450
+audio_pulse_server=default
+audio_pulse_min_length=100
+| (0)
+[Thu Oct 10 03:09:06 2019 : 688627] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:06 2019 : 708943] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 708999] speechd:     Reply from output module: |203 OK AUDIO INITIALIZED
+|
+[Thu Oct 10 03:09:06 2019 : 709033] speechd:    Module set parameters.
+[Thu Oct 10 03:09:06 2019 : 709079] speechd:     Command sent to output module: |LOGLEVEL
+| (1)
+[Thu Oct 10 03:09:06 2019 : 709152] speechd:     Got 35 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 709178] speechd:     Reply from output module: |207 OK RECEIVING LOGLEVEL SETTINGS
+|
+[Thu Oct 10 03:09:06 2019 : 709212] speechd:     Command sent to output module: |log_level=5
+| (0)
+[Thu Oct 10 03:09:06 2019 : 709245] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:06 2019 : 709300] speechd:     Got 21 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 709326] speechd:     Reply from output module: |203 OK LOG LEVEL SET
+|
+[Thu Oct 10 03:09:06 2019 : 709431] speechd:  Initializing output module espeak-ng-mbrola-generic with binary /usr/lib/speech-dispatcher-modules/sd_generic and configuration /etc/speech-dispatcher/modules/espeak-ng-mbrola-generic.conf
+[Thu Oct 10 03:09:06 2019 : 709457] speechd:   Output module is logging to file /run/user/1000/speech-dispatcher/log//espeak-ng-mbrola-generic.log
+[Thu Oct 10 03:09:06 2019 : 710157] speechd:  Module espeak-ng-mbrola-generic loaded.
+[Thu Oct 10 03:09:06 2019 : 710216] speechd:    Trying to initialize espeak-ng-mbrola-generic.
+[Thu Oct 10 03:09:06 2019 : 710255] speechd:     Command sent to output module: |INIT
+| (0)
+[Thu Oct 10 03:09:06 2019 : 719082] speechd:     Reply from output module: 120 299-Everything ok so far.
+
+[Thu Oct 10 03:09:06 2019 : 719139] speechd:     Reply from output module: 120 299 OK LOADED SUCCESSFULLY
+
+[Thu Oct 10 03:09:06 2019 : 719178] speechd:  Module espeak-ng-mbrola-generic started successfully with message: 
+---------------
+Everything ok so far.
+---------------
+
+[Thu Oct 10 03:09:06 2019 : 719208] speechd:    Module set parameters.
+[Thu Oct 10 03:09:06 2019 : 719700] speechd:     Command sent to output module: |AUDIO
+| (1)
+[Thu Oct 10 03:09:06 2019 : 719788] speechd:     Got 32 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 719820] speechd:     Reply from output module: |207 OK RECEIVING AUDIO SETTINGS
+|
+[Thu Oct 10 03:09:06 2019 : 719858] speechd:     Command sent to output module: |audio_output_method=pulse
+audio_oss_device=/dev/dsp
+audio_alsa_device=default
+audio_nas_server=tcp/localhost:5450
+audio_pulse_server=default
+audio_pulse_min_length=100
+| (0)
+[Thu Oct 10 03:09:06 2019 : 719889] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:06 2019 : 738629] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 738694] speechd:     Reply from output module: |203 OK AUDIO INITIALIZED
+|
+[Thu Oct 10 03:09:06 2019 : 738727] speechd:    Module set parameters.
+[Thu Oct 10 03:09:06 2019 : 738801] speechd:     Command sent to output module: |LOGLEVEL
+| (1)
+[Thu Oct 10 03:09:06 2019 : 738876] speechd:     Got 35 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 738921] speechd:     Reply from output module: |207 OK RECEIVING LOGLEVEL SETTINGS
+|
+[Thu Oct 10 03:09:06 2019 : 738957] speechd:     Command sent to output module: |log_level=5
+| (0)
+[Thu Oct 10 03:09:06 2019 : 738989] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:06 2019 : 739057] speechd:     Got 21 bytes from output module over socket
+[Thu Oct 10 03:09:06 2019 : 739085] speechd:     Reply from output module: |203 OK LOG LEVEL SET
+|
+[Thu Oct 10 03:09:06 2019 : 739191] speechd:  Initializing output module rhvoice with binary /usr/lib/speech-dispatcher-modules/sd_rhvoice and configuration /etc/speech-dispatcher/modules/rhvoice.conf
+[Thu Oct 10 03:09:06 2019 : 739218] speechd:   Output module is logging to file /run/user/1000/speech-dispatcher/log//rhvoice.log
+[Thu Oct 10 03:09:06 2019 : 739911] speechd:  Module rhvoice loaded.
+[Thu Oct 10 03:09:06 2019 : 739990] speechd:    Trying to initialize rhvoice.
+[Thu Oct 10 03:09:06 2019 : 740052] speechd:     Command sent to output module: |INIT
+| (0)
+[Thu Oct 10 03:09:07 2019 : 143016] speechd:     Reply from output module: 120 299-RHVoice initialized
+
+[Thu Oct 10 03:09:07 2019 : 143065] speechd:     Reply from output module: 120 299 OK LOADED SUCCESSFULLY
+
+[Thu Oct 10 03:09:07 2019 : 143103] speechd:  Module rhvoice started successfully with message: 
+---------------
+RHVoice initialized
+---------------
+
+[Thu Oct 10 03:09:07 2019 : 143135] speechd:    Module set parameters.
+[Thu Oct 10 03:09:07 2019 : 143192] speechd:     Command sent to output module: |AUDIO
+| (1)
+[Thu Oct 10 03:09:07 2019 : 143263] speechd:     Got 32 bytes from output module over socket
+[Thu Oct 10 03:09:07 2019 : 143292] speechd:     Reply from output module: |207 OK RECEIVING AUDIO SETTINGS
+|
+[Thu Oct 10 03:09:07 2019 : 143326] speechd:     Command sent to output module: |audio_output_method=pulse
+audio_oss_device=/dev/dsp
+audio_alsa_device=default
+audio_nas_server=tcp/localhost:5450
+audio_pulse_server=default
+audio_pulse_min_length=100
+| (0)
+[Thu Oct 10 03:09:07 2019 : 143354] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:07 2019 : 146607] speechd:     Got 29 bytes from output module over socket
+[Thu Oct 10 03:09:07 2019 : 146785] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:09:07 2019 : 146823] speechd:     Reply from output module: |203-Opened a playback stream
+203 OK AUDIO INITIALIZED
+|
+[Thu Oct 10 03:09:07 2019 : 146857] speechd:    Module set parameters.
+[Thu Oct 10 03:09:07 2019 : 146908] speechd:     Command sent to output module: |LOGLEVEL
+| (1)
+[Thu Oct 10 03:09:07 2019 : 146981] speechd:     Got 35 bytes from output module over socket
+[Thu Oct 10 03:09:07 2019 : 147020] speechd:     Reply from output module: |207 OK RECEIVING LOGLEVEL SETTINGS
+|
+[Thu Oct 10 03:09:07 2019 : 147055] speechd:     Command sent to output module: |log_level=5
+| (0)
+[Thu Oct 10 03:09:07 2019 : 147084] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:07 2019 : 147199] speechd:     Got 21 bytes from output module over socket
+[Thu Oct 10 03:09:07 2019 : 147226] speechd:     Reply from output module: |203 OK LOG LEVEL SET
+|
+[Thu Oct 10 03:09:07 2019 : 147320] speechd:   Speech Dispatcher Logging to file /run/user/1000/speech-dispatcher/log//speech-dispatcher.log
+[Thu Oct 10 03:09:07 2019 : 147357] speechd:   Speech Dispatcher started with 4 output modules
+[Thu Oct 10 03:09:07 2019 : 147393] speechd:    Speech Dispatcher will use local unix socket: /run/user/1000/speech-dispatcher/speechd.sock
+[Thu Oct 10 03:09:07 2019 : 148815] speechd:    Creating new thread for speak()
+[Thu Oct 10 03:09:07 2019 : 148969] speechd: Speech Dispatcher started and waiting for clients ...
+[Thu Oct 10 03:09:07 2019 : 149002] speechd:    Currently no clients connected, enabling shutdown timer.
+[Thu Oct 10 03:09:07 2019 : 149462] speechd:    Adding client on fd 24
+[Thu Oct 10 03:09:07 2019 : 149633] speechd:    Data structures for client on fd 24 created
+[Thu Oct 10 03:09:07 2019 : 149665] speechd:    Clients connected, disabling shutdown timer.
+[Thu Oct 10 03:09:07 2019 : 151145] speechd:     24:DATA:|SET self CLIENT_NAME unknown:Orca:default
+| (43)
+[Thu Oct 10 03:09:07 2019 : 151202] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 151241] speechd:    Updating client specific settings unknown:orca:default against emacs:*
+[Thu Oct 10 03:09:07 2019 : 157770] speechd:     24:REPLY:|208 OK CLIENT NAME SET
+|
+[Thu Oct 10 03:09:07 2019 : 158413] speechd:     24:DATA:|HISTORY GET CLIENT_ID
+| (23)
+[Thu Oct 10 03:09:07 2019 : 158460] speechd:     Command caught: "history"
+[Thu Oct 10 03:09:07 2019 : 158505] speechd:     24:REPLY:|245-1
+245 OK CLIENT ID SENT
+|
+[Thu Oct 10 03:09:07 2019 : 158932] speechd:     24:DATA:|SET self NOTIFICATION index_marks on
+| (38)
+[Thu Oct 10 03:09:07 2019 : 158963] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 159002] speechd:     24:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 159282] speechd:     24:DATA:|SET self NOTIFICATION begin on
+| (32)
+[Thu Oct 10 03:09:07 2019 : 159311] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 159343] speechd:     24:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 159768] speechd:     24:DATA:|SET self NOTIFICATION end on
+| (30)
+[Thu Oct 10 03:09:07 2019 : 159809] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 159845] speechd:     24:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 160168] speechd:     24:DATA:|SET self NOTIFICATION cancel on
+| (33)
+[Thu Oct 10 03:09:07 2019 : 160197] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 160232] speechd:     24:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 160505] speechd:     24:DATA:|SET self NOTIFICATION pause on
+| (32)
+[Thu Oct 10 03:09:07 2019 : 160533] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 160567] speechd:     24:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 160838] speechd:     24:DATA:|SET self NOTIFICATION resume on
+| (33)
+[Thu Oct 10 03:09:07 2019 : 160868] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 160902] speechd:     24:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 161251] speechd:     24:DATA:|SET self PRIORITY message
+| (27)
+[Thu Oct 10 03:09:07 2019 : 161280] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 161311] speechd:     24:REPLY:|202 OK PRIORITY SET
+|
+[Thu Oct 10 03:09:07 2019 : 161627] speechd:     24:DATA:|SET self PUNCTUATION some
+| (27)
+[Thu Oct 10 03:09:07 2019 : 161664] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 161697] speechd:     24:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 161981] speechd:     24:DATA:|SET self SSML_MODE on
+| (23)
+[Thu Oct 10 03:09:07 2019 : 162013] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 162045] speechd:     24:REPLY:|219 OK SSML MODE SET
+|
+[Thu Oct 10 03:09:07 2019 : 226208] speechd:     24:DATA:|SET self PUNCTUATION some
+| (27)
+[Thu Oct 10 03:09:07 2019 : 226267] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 226307] speechd:     24:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 227156] speechd:     24:DATA:|SET self CAP_LET_RECOGN none
+| (30)
+[Thu Oct 10 03:09:07 2019 : 227204] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 227240] speechd:     24:REPLY:|206 OK CAP LET RECOGNITION SET
+|
+[Thu Oct 10 03:09:07 2019 : 485469] speechd:     24:DATA:|SET self CAP_LET_RECOGN none
+| (30)
+[Thu Oct 10 03:09:07 2019 : 485534] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 485573] speechd:     24:REPLY:|206 OK CAP LET RECOGNITION SET
+|
+[Thu Oct 10 03:09:07 2019 : 486048] speechd:     24:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:09:07 2019 : 486083] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 486118] speechd:     24:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 487766] speechd:     24:DATA:|SET self RATE 2
+| (17)
+[Thu Oct 10 03:09:07 2019 : 487816] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 487869] speechd:     24:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:09:07 2019 : 488274] speechd:     24:DATA:|SET self PITCH 10
+| (19)
+[Thu Oct 10 03:09:07 2019 : 488306] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 488341] speechd:     24:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:09:07 2019 : 488659] speechd:     24:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:09:07 2019 : 488690] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 488722] speechd:     24:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:09:07 2019 : 489415] speechd:     24:DATA:|SET self LANGUAGE ar
+| (22)
+[Thu Oct 10 03:09:07 2019 : 489452] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 489575] speechd:     24:REPLY:|201 OK LANGUAGE SET
+|
+[Thu Oct 10 03:09:07 2019 : 489959] speechd:     24:DATA:|SET self SYNTHESIS_VOICE 
+| (27)
+[Thu Oct 10 03:09:07 2019 : 489992] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 490037] speechd:     24:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:09:07 2019 : 490338] speechd:     24:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:09:07 2019 : 490369] speechd:     Command caught: "speak"
+[Thu Oct 10 03:09:07 2019 : 490398] speechd:    Switching to data mode...
+[Thu Oct 10 03:09:07 2019 : 490423] speechd:     24:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:09:07 2019 : 490760] speechd:     24:DATA:|<speak>Screen <mark name="7"/>reader <mark name="14"/>on.</speak>
+| (67)
+[Thu Oct 10 03:09:07 2019 : 490790] speechd:     Buffer: |<speak>Screen <mark name="7"/>reader <mark name="14"/>on.</speak>
+| bytes:
+[Thu Oct 10 03:09:07 2019 : 490850] speechd:     24:DATA:|.
+| (3)
+[Thu Oct 10 03:09:07 2019 : 490876] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:09:07 2019 : 490901] speechd:     Finishing data
+[Thu Oct 10 03:09:07 2019 : 490925] speechd:     Switching back to command mode...
+[Thu Oct 10 03:09:07 2019 : 490954] speechd:     New buf is now: |<speak>Screen <mark name="7"/>reader <mark name="14"/>on.</speak>|
+[Thu Oct 10 03:09:07 2019 : 490981] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:09:07 2019 : 491010] speechd:     Queueing message |<speak>Screen <mark name="7"/>reader <mark name="14"/>on.</speak>| with priority 2
+[Thu Oct 10 03:09:07 2019 : 491061] speechd:     Message inserted into queue.
+[Thu Oct 10 03:09:07 2019 : 491108] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=0
+[Thu Oct 10 03:09:07 2019 : 491145] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:09:07 2019 : 491181] speechd:     24:REPLY:|225-1
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:09:07 2019 : 491219] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:09:07 2019 : 491261] speechd:     MSG before index marking: |<speak>Screen <mark name="7"/>reader <mark name="14"/>on.</speak>|, ssml_mode=1
+[Thu Oct 10 03:09:07 2019 : 491386] speechd:     MSG after index marking: |<speak>Screen <mark name="7"/>reader <mark name="14"/>on.<mark name="__spd_0"/></speak>|
+[Thu Oct 10 03:09:07 2019 : 491415] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:09:07 2019 : 491443] speechd:     Incoming text: |<speak>Screen <mark name="7"/>reader <mark name="14"/>on.<mark name="__spd_0"/></speak>|
+[Thu Oct 10 03:09:07 2019 : 491471] speechd:    Module set parameters.
+[Thu Oct 10 03:09:07 2019 : 491552] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:09:07 2019 : 491640] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:09:07 2019 : 491670] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:09:07 2019 : 491710] speechd:     24:DATA:|SET self CAP_LET_RECOGN none
+| (30)
+[Thu Oct 10 03:09:07 2019 : 491749] speechd:     Command sent to output module: |pitch=10
+pitch_range=0
+rate=2
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=
+| (0)
+[Thu Oct 10 03:09:07 2019 : 491790] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 491838] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:07 2019 : 491877] speechd:     24:REPLY:|206 OK CAP LET RECOGNITION SET
+|
+[Thu Oct 10 03:09:07 2019 : 491904] speechd:     Got 21 bytes from output module over socket
+[Thu Oct 10 03:09:07 2019 : 491932] speechd:     Reply from output module: |302 ERROR BAD SYNTAX
+|
+[Thu Oct 10 03:09:07 2019 : 491958] speechd:  Error: Module reported error in request from speechd (code 3xx): 302 ERROR BAD SYNTAX
+.
+[Thu Oct 10 03:09:07 2019 : 491986] speechd:    Message sent to output module
+[Thu Oct 10 03:09:07 2019 : 492013] speechd:  ERROR: Can't say message. Module reported error in speaking: -2
+[Thu Oct 10 03:09:07 2019 : 492284] speechd:     24:DATA:|SET self PUNCTUATION some
+| (27)
+[Thu Oct 10 03:09:07 2019 : 492315] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 492349] speechd:     24:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:09:07 2019 : 730810] speechd:     24:DATA:|SET self RATE 2
+| (17)
+[Thu Oct 10 03:09:07 2019 : 730922] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 731004] speechd:     24:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:09:07 2019 : 731908] speechd:     24:DATA:|SET self PITCH 10
+| (19)
+[Thu Oct 10 03:09:07 2019 : 731981] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 732057] speechd:     24:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:09:07 2019 : 732744] speechd:     24:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:09:07 2019 : 732811] speechd:     Command caught: "set"
+[Thu Oct 10 03:09:07 2019 : 732884] speechd:     24:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:09:07 2019 : 733514] speechd:     24:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:09:07 2019 : 733586] speechd:     Command caught: "speak"
+[Thu Oct 10 03:09:07 2019 : 733653] speechd:    Switching to data mode...
+[Thu Oct 10 03:09:07 2019 : 733711] speechd:     24:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:09:07 2019 : 735355] speechd:     24:DATA:|<speak>Use <mark name="4"/>thee <mark name="9"/>arrow <mark name="15"/>keys <mark name="20"/>to <mark name="23"/>explore <mark name="31"/>the <mark name="35"/>desktop. <mark name="44"/>Use <mark name="48"/>Control+Escape <mark name="63"/>to <mark name="66"/>access <mark name="73"/>the <mark name="77"/>menu.
+</speak>
+| (319)
+[Thu Oct 10 03:09:07 2019 : 735420] speechd:     Buffer: |<speak>Use <mark name="4"/>thee <mark name="9"/>arrow <mark name="15"/>keys <mark name="20"/>to <mark name="23"/>explore <mark name="31"/>the <mark name="35"/>desktop. <mark name="44"/>Use <mark name="48"/>Control+Escape <mark name="63"/>to <mark name="66"/>access <mark name="73"/>the <mark name="77"/>menu.
+</speak>
+| bytes:
+[Thu Oct 10 03:09:07 2019 : 735552] speechd:     24:DATA:|.
+| (3)
+[Thu Oct 10 03:09:07 2019 : 735613] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:09:07 2019 : 735673] speechd:     Finishing data
+[Thu Oct 10 03:09:07 2019 : 735729] speechd:     Switching back to command mode...
+[Thu Oct 10 03:09:07 2019 : 735799] speechd:     New buf is now: |<speak>Use <mark name="4"/>thee <mark name="9"/>arrow <mark name="15"/>keys <mark name="20"/>to <mark name="23"/>explore <mark name="31"/>the <mark name="35"/>desktop. <mark name="44"/>Use <mark name="48"/>Control+Escape <mark name="63"/>to <mark name="66"/>access <mark name="73"/>the <mark name="77"/>menu.
+</speak>|
+[Thu Oct 10 03:09:07 2019 : 735860] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:09:07 2019 : 735931] speechd:     Queueing message |<speak>Use <mark name="4"/>thee <mark name="9"/>arrow <mark name="15"/>keys <mark name="20"/>to <mark name="23"/>explore <mark name="31"/>the <mark name="35"/>desktop. <mark name="44"/>Use <mark name="48"/>Control+Escape <mark name="63"/>to <mark name="66"/>access <mark name="73"/>the <mark name="77"/>menu.
+</speak>| with priority 2
+[Thu Oct 10 03:09:07 2019 : 736026] speechd:     Message inserted into queue.
+[Thu Oct 10 03:09:07 2019 : 736129] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=0
+[Thu Oct 10 03:09:07 2019 : 736233] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:09:07 2019 : 736318] speechd:     24:REPLY:|225-2
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:09:07 2019 : 736410] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:09:07 2019 : 736512] speechd:     MSG before index marking: |<speak>Use <mark name="4"/>thee <mark name="9"/>arrow <mark name="15"/>keys <mark name="20"/>to <mark name="23"/>explore <mark name="31"/>the <mark name="35"/>desktop. <mark name="44"/>Use <mark name="48"/>Control+Escape <mark name="63"/>to <mark name="66"/>access <mark name="73"/>the <mark name="77"/>menu.
+</speak>|, ssml_mode=1
+[Thu Oct 10 03:09:07 2019 : 737358] speechd:     MSG after index marking: |<speak>Use <mark name="4"/>thee <mark name="9"/>arrow <mark name="15"/>keys <mark name="20"/>to <mark name="23"/>explore <mark name="31"/>the <mark name="35"/>desktop.<mark name="__spd_0"/> <mark name="44"/>Use <mark name="48"/>Control+Escape <mark name="63"/>to <mark name="66"/>access <mark name="73"/>the <mark name="77"/>menu.<mark name="__spd_1"/>
+</speak>|
+[Thu Oct 10 03:09:07 2019 : 737437] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:09:07 2019 : 737505] speechd:     Incoming text: |<speak>Use <mark name="4"/>thee <mark name="9"/>arrow <mark name="15"/>keys <mark name="20"/>to <mark name="23"/>explore <mark name="31"/>the <mark name="35"/>desktop.<mark name="__spd_0"/> <mark name="44"/>Use <mark name="48"/>Control+Escape <mark name="63"/>to <mark name="66"/>access <mark name="73"/>the <mark name="77"/>menu.<mark name="__spd_1"/>
+</speak>|
+[Thu Oct 10 03:09:07 2019 : 737579] speechd:    Module set parameters.
+[Thu Oct 10 03:09:07 2019 : 737730] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:09:07 2019 : 737894] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:09:07 2019 : 737958] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:09:07 2019 : 738044] speechd:     Command sent to output module: |pitch=10
+pitch_range=0
+rate=2
+volume=100
+punctuation_mode=some
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=
+| (0)
+[Thu Oct 10 03:09:07 2019 : 738131] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:09:07 2019 : 738268] speechd:     Got 21 bytes from output module over socket
+[Thu Oct 10 03:09:07 2019 : 738332] speechd:     Reply from output module: |302 ERROR BAD SYNTAX
+|
+[Thu Oct 10 03:09:07 2019 : 738394] speechd:  Error: Module reported error in request from speechd (code 3xx): 302 ERROR BAD SYNTAX
+.
+[Thu Oct 10 03:09:07 2019 : 738456] speechd:    Message sent to output module
+[Thu Oct 10 03:09:07 2019 : 738516] speechd:  ERROR: Can't say message. Module reported error in speaking: -2
+[Thu Oct 10 03:12:30 2019 : 362214] speechd:     24:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:30 2019 : 362284] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:30 2019 : 362313] speechd:    Cancel received from fd 24.
+[Thu Oct 10 03:12:30 2019 : 362346] speechd:     24:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:30 2019 : 518685] speechd:     24:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:30 2019 : 518762] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:30 2019 : 518791] speechd:    Cancel received from fd 24.
+[Thu Oct 10 03:12:30 2019 : 518826] speechd:     24:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:31 2019 : 318308] speechd:     24:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:31 2019 : 318367] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:31 2019 : 318394] speechd:    Cancel received from fd 24.
+[Thu Oct 10 03:12:31 2019 : 318426] speechd:     24:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:31 2019 : 528360] speechd:     24:DATA:|SET self PUNCTUATION some
+| (27)
+[Thu Oct 10 03:12:31 2019 : 528422] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:31 2019 : 528464] speechd:     24:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:31 2019 : 529062] speechd:     24:DATA:|SET self CAP_LET_RECOGN none
+| (30)
+[Thu Oct 10 03:12:31 2019 : 529133] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:31 2019 : 529176] speechd:     24:REPLY:|206 OK CAP LET RECOGNITION SET
+|
+[Thu Oct 10 03:12:31 2019 : 611660] speechd:     24:DATA:|SET self RATE 2
+| (17)
+[Thu Oct 10 03:12:31 2019 : 611726] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:31 2019 : 611766] speechd:     24:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:31 2019 : 612420] speechd:     24:DATA:|SET self PITCH 10
+| (19)
+[Thu Oct 10 03:12:31 2019 : 612472] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:31 2019 : 612512] speechd:     24:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:31 2019 : 613195] speechd:     24:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:31 2019 : 613244] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:31 2019 : 613284] speechd:     24:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:31 2019 : 613617] speechd:     24:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:31 2019 : 613648] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:31 2019 : 613681] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:31 2019 : 613706] speechd:     24:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:31 2019 : 613973] speechd:     24:DATA:|<speak>F 1 2 3</speak>
+| (24)
+[Thu Oct 10 03:12:31 2019 : 614001] speechd:     Buffer: |<speak>F 1 2 3</speak>
+| bytes:
+[Thu Oct 10 03:12:31 2019 : 614059] speechd:     24:DATA:|.
+| (3)
+[Thu Oct 10 03:12:31 2019 : 614085] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:31 2019 : 614110] speechd:     Finishing data
+[Thu Oct 10 03:12:31 2019 : 614134] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:31 2019 : 614183] speechd:     New buf is now: |<speak>F 1 2 3</speak>|
+[Thu Oct 10 03:12:31 2019 : 614210] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:31 2019 : 614241] speechd:     Queueing message |<speak>F 1 2 3</speak>| with priority 2
+[Thu Oct 10 03:12:31 2019 : 614299] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:31 2019 : 614341] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=0
+[Thu Oct 10 03:12:31 2019 : 614379] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:31 2019 : 614418] speechd:     24:REPLY:|225-3
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:31 2019 : 614455] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:31 2019 : 614493] speechd:     MSG before index marking: |<speak>F 1 2 3</speak>|, ssml_mode=1
+[Thu Oct 10 03:12:31 2019 : 614547] speechd:     MSG after index marking: |<speak>F 1 2 3</speak>|
+[Thu Oct 10 03:12:31 2019 : 614574] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:31 2019 : 614601] speechd:     Incoming text: |<speak>F 1 2 3</speak>|
+[Thu Oct 10 03:12:31 2019 : 614629] speechd:    Module set parameters.
+[Thu Oct 10 03:12:31 2019 : 614696] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:31 2019 : 614766] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:31 2019 : 614795] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:31 2019 : 614832] speechd:     Command sent to output module: |pitch=10
+pitch_range=0
+rate=2
+volume=100
+punctuation_mode=some
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=
+| (0)
+[Thu Oct 10 03:12:31 2019 : 614862] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:31 2019 : 614920] speechd:     Got 21 bytes from output module over socket
+[Thu Oct 10 03:12:31 2019 : 614946] speechd:     Reply from output module: |302 ERROR BAD SYNTAX
+|
+[Thu Oct 10 03:12:31 2019 : 614974] speechd:  Error: Module reported error in request from speechd (code 3xx): 302 ERROR BAD SYNTAX
+.
+[Thu Oct 10 03:12:31 2019 : 614999] speechd:    Message sent to output module
+[Thu Oct 10 03:12:31 2019 : 615024] speechd:  ERROR: Can't say message. Module reported error in speaking: -2
+[Thu Oct 10 03:12:33 2019 : 463734] speechd:    Adding client on fd 25
+[Thu Oct 10 03:12:33 2019 : 463847] speechd:    Data structures for client on fd 25 created
+[Thu Oct 10 03:12:33 2019 : 463877] speechd:    Clients connected, disabling shutdown timer.
+[Thu Oct 10 03:12:33 2019 : 464754] speechd:     25:DATA:|SET self CLIENT_NAME unknown:fenrir:default
+| (45)
+[Thu Oct 10 03:12:33 2019 : 464809] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:33 2019 : 464849] speechd:    Updating client specific settings unknown:fenrir:default against emacs:*
+[Thu Oct 10 03:12:33 2019 : 464884] speechd:     25:REPLY:|208 OK CLIENT NAME SET
+|
+[Thu Oct 10 03:12:33 2019 : 465242] speechd:     25:DATA:|HISTORY GET CLIENT_ID
+| (23)
+[Thu Oct 10 03:12:33 2019 : 465273] speechd:     Command caught: "history"
+[Thu Oct 10 03:12:33 2019 : 465315] speechd:     25:REPLY:|245-2
+245 OK CLIENT ID SENT
+|
+[Thu Oct 10 03:12:33 2019 : 465681] speechd:     25:DATA:|SET self NOTIFICATION index_marks on
+| (38)
+[Thu Oct 10 03:12:33 2019 : 465712] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:33 2019 : 465749] speechd:     25:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:12:33 2019 : 466060] speechd:     25:DATA:|SET self NOTIFICATION begin on
+| (32)
+[Thu Oct 10 03:12:33 2019 : 466093] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:33 2019 : 466128] speechd:     25:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:12:33 2019 : 466409] speechd:     25:DATA:|SET self NOTIFICATION end on
+| (30)
+[Thu Oct 10 03:12:33 2019 : 466441] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:33 2019 : 466472] speechd:     25:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:12:33 2019 : 466752] speechd:     25:DATA:|SET self NOTIFICATION cancel on
+| (33)
+[Thu Oct 10 03:12:33 2019 : 466782] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:33 2019 : 466816] speechd:     25:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:12:33 2019 : 467096] speechd:     25:DATA:|SET self NOTIFICATION pause on
+| (32)
+[Thu Oct 10 03:12:33 2019 : 467125] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:33 2019 : 467158] speechd:     25:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:12:33 2019 : 467430] speechd:     25:DATA:|SET self NOTIFICATION resume on
+| (33)
+[Thu Oct 10 03:12:33 2019 : 467459] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:33 2019 : 467491] speechd:     25:REPLY:|220 OK NOTIFICATION SET
+|
+[Thu Oct 10 03:12:36 2019 : 932961] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:36 2019 : 933029] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:36 2019 : 933069] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:36 2019 : 933730] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:36 2019 : 933769] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:36 2019 : 933805] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:36 2019 : 934405] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:36 2019 : 934443] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:36 2019 : 934480] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:36 2019 : 945853] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:36 2019 : 945911] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:36 2019 : 945965] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:36 2019 : 946396] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:36 2019 : 946431] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:36 2019 : 946467] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:36 2019 : 946722] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:36 2019 : 946750] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:36 2019 : 946781] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:36 2019 : 946805] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:36 2019 : 947074] speechd:     25:DATA:|  tilde 
+| (10)
+[Thu Oct 10 03:12:36 2019 : 947104] speechd:     Buffer: |  tilde 
+| bytes:
+[Thu Oct 10 03:12:36 2019 : 947165] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:36 2019 : 947191] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:36 2019 : 947232] speechd:     Finishing data
+[Thu Oct 10 03:12:36 2019 : 947258] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:36 2019 : 947285] speechd:     New buf is now: |  tilde |
+[Thu Oct 10 03:12:36 2019 : 947311] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:36 2019 : 947341] speechd:     Queueing message |  tilde | with priority 2
+[Thu Oct 10 03:12:36 2019 : 947388] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:36 2019 : 947432] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=0
+[Thu Oct 10 03:12:36 2019 : 947472] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:36 2019 : 947507] speechd:     25:REPLY:|225-4
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:36 2019 : 947544] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:36 2019 : 947581] speechd:     MSG before index marking: |  tilde |, ssml_mode=0
+[Thu Oct 10 03:12:36 2019 : 947629] speechd:     MSG after index marking: |<speak>  tilde </speak>|
+[Thu Oct 10 03:12:36 2019 : 947657] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:36 2019 : 947686] speechd:     Incoming text: |<speak>  tilde </speak>|
+[Thu Oct 10 03:12:36 2019 : 947718] speechd:    Module set parameters.
+[Thu Oct 10 03:12:36 2019 : 947788] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:36 2019 : 947861] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:36 2019 : 947891] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:36 2019 : 947927] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:36 2019 : 947959] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:36 2019 : 948021] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:36 2019 : 948048] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:36 2019 : 948074] speechd:    Module speak!
+[Thu Oct 10 03:12:36 2019 : 948110] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:36 2019 : 948206] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:36 2019 : 948233] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:36 2019 : 948269] speechd:     Command sent to output module: |<speak>  tilde </speak>| (0)
+[Thu Oct 10 03:12:36 2019 : 948303] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:36 2019 : 949784] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:36 2019 : 949843] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:36 2019 : 949877] speechd:    Message sent to output module
+[Thu Oct 10 03:12:36 2019 : 949907] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:36 2019 : 949935] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:36 2019 : 949960] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:36 2019 : 949987] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:36 2019 : 950036] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:36 2019 : 950067] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:36 2019 : 950095] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:36 2019 : 950123] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:36 2019 : 950157] speechd:     25:REPLY:|701-4
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:36 2019 : 950243] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:38 2019 : 2612] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:38 2019 : 2708] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:38 2019 : 2789] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:38 2019 : 2851] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:38 2019 : 2959] speechd:     Got 8 bytes from output module over socket
+[Thu Oct 10 03:12:38 2019 : 3028] speechd:     Reply from output module: |702 END
+|
+[Thu Oct 10 03:12:38 2019 : 3087] speechd:     Received event:
+ 702 END
+
+[Thu Oct 10 03:12:38 2019 : 3149] speechd:     INDEX MARK: __spd_end
+[Thu Oct 10 03:12:38 2019 : 3215] speechd:     25:REPLY:|702-4
+702-2
+702 END
+|
+[Thu Oct 10 03:12:38 2019 : 3328] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:38 2019 : 3394] speechd:     No message in the queue
+[Thu Oct 10 03:12:38 2019 : 3461] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:38 2019 : 3520] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:38 2019 : 3586] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:38 2019 : 3646] speechd:     No message in the queue
+[Thu Oct 10 03:12:38 2019 : 728475] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:38 2019 : 728601] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:38 2019 : 728675] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:38 2019 : 728754] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:38 2019 : 822497] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:38 2019 : 822558] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:38 2019 : 822586] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:38 2019 : 822620] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:38 2019 : 936519] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:38 2019 : 936592] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:38 2019 : 936621] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:38 2019 : 936655] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:38 2019 : 938191] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:38 2019 : 938249] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:38 2019 : 938293] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:38 2019 : 943963] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:38 2019 : 944023] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:38 2019 : 944061] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:38 2019 : 949963] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:38 2019 : 950024] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:38 2019 : 950066] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:38 2019 : 980024] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:38 2019 : 980084] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:38 2019 : 980137] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:38 2019 : 995276] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:38 2019 : 995335] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:38 2019 : 995373] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:39 2019 : 771] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:39 2019 : 827] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:39 2019 : 859] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:39 2019 : 886] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:39 2019 : 16290] speechd:     25:DATA:|c
+| (3)
+[Thu Oct 10 03:12:39 2019 : 16341] speechd:     Buffer: |c
+| bytes:
+[Thu Oct 10 03:12:39 2019 : 16412] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:39 2019 : 16440] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:39 2019 : 16464] speechd:     Finishing data
+[Thu Oct 10 03:12:39 2019 : 16488] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:39 2019 : 16516] speechd:     New buf is now: |c|
+[Thu Oct 10 03:12:39 2019 : 16544] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:39 2019 : 16589] speechd:     Queueing message |c| with priority 2
+[Thu Oct 10 03:12:39 2019 : 16644] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:39 2019 : 16686] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 16725] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:39 2019 : 16762] speechd:     25:REPLY:|225-5
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:39 2019 : 16800] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 16836] speechd:     MSG before index marking: |c|, ssml_mode=0
+[Thu Oct 10 03:12:39 2019 : 16874] speechd:     MSG after index marking: |<speak>c</speak>|
+[Thu Oct 10 03:12:39 2019 : 16900] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:39 2019 : 16928] speechd:     Incoming text: |<speak>c</speak>|
+[Thu Oct 10 03:12:39 2019 : 16955] speechd:    Module set parameters.
+[Thu Oct 10 03:12:39 2019 : 17027] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:39 2019 : 17117] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 17145] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:39 2019 : 17180] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:39 2019 : 17210] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:39 2019 : 17273] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 17299] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:39 2019 : 17325] speechd:    Module speak!
+[Thu Oct 10 03:12:39 2019 : 17359] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:39 2019 : 17421] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 17447] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:39 2019 : 17498] speechd:     Command sent to output module: |<speak>c</speak>| (0)
+[Thu Oct 10 03:12:39 2019 : 17532] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:39 2019 : 17629] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 17657] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:39 2019 : 17683] speechd:    Message sent to output module
+[Thu Oct 10 03:12:39 2019 : 17736] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 17764] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:39 2019 : 17788] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:39 2019 : 17813] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:39 2019 : 17859] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 17887] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:39 2019 : 17911] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:39 2019 : 17937] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:39 2019 : 17970] speechd:     25:REPLY:|701-5
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:39 2019 : 18008] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:39 2019 : 100485] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:39 2019 : 100544] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:39 2019 : 100572] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:39 2019 : 100602] speechd:    Module stop!
+[Thu Oct 10 03:12:39 2019 : 100649] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:39 2019 : 100679] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 103403] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 103461] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:39 2019 : 103512] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:39 2019 : 103541] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:39 2019 : 103597] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 103628] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:39 2019 : 103654] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:39 2019 : 103685] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:39 2019 : 103716] speechd:     25:REPLY:|703-5
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 103768] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 103798] speechd:     No message in the queue
+[Thu Oct 10 03:12:39 2019 : 103825] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 103852] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:39 2019 : 103880] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 103905] speechd:     No message in the queue
+[Thu Oct 10 03:12:39 2019 : 148866] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:39 2019 : 148933] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:39 2019 : 148962] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:39 2019 : 148996] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 160527] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:39 2019 : 160591] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 160632] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:39 2019 : 176372] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:39 2019 : 176429] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 176469] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:39 2019 : 192417] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:39 2019 : 192476] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 192516] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:39 2019 : 237417] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:39 2019 : 237478] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 237529] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:39 2019 : 253133] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:39 2019 : 253193] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 253234] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:39 2019 : 268670] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:39 2019 : 268719] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:39 2019 : 268752] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:39 2019 : 268777] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:39 2019 : 274103] speechd:     25:DATA:|a
+| (3)
+[Thu Oct 10 03:12:39 2019 : 274151] speechd:     Buffer: |a
+| bytes:
+[Thu Oct 10 03:12:39 2019 : 274219] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:39 2019 : 274245] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:39 2019 : 274270] speechd:     Finishing data
+[Thu Oct 10 03:12:39 2019 : 274295] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:39 2019 : 274325] speechd:     New buf is now: |a|
+[Thu Oct 10 03:12:39 2019 : 274354] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:39 2019 : 274383] speechd:     Queueing message |a| with priority 2
+[Thu Oct 10 03:12:39 2019 : 274435] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:39 2019 : 274480] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 274518] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:39 2019 : 274554] speechd:     25:REPLY:|225-6
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:39 2019 : 274596] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 274646] speechd:     MSG before index marking: |a|, ssml_mode=0
+[Thu Oct 10 03:12:39 2019 : 274684] speechd:     MSG after index marking: |<speak>a</speak>|
+[Thu Oct 10 03:12:39 2019 : 274712] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:39 2019 : 274739] speechd:     Incoming text: |<speak>a</speak>|
+[Thu Oct 10 03:12:39 2019 : 274767] speechd:    Module set parameters.
+[Thu Oct 10 03:12:39 2019 : 274836] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:39 2019 : 274906] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 274934] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:39 2019 : 274970] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:39 2019 : 274999] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:39 2019 : 275061] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 275088] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:39 2019 : 275113] speechd:    Module speak!
+[Thu Oct 10 03:12:39 2019 : 275146] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:39 2019 : 275209] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 275235] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:39 2019 : 275268] speechd:     Command sent to output module: |<speak>a</speak>| (0)
+[Thu Oct 10 03:12:39 2019 : 275301] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:39 2019 : 275399] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 275427] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:39 2019 : 275452] speechd:    Message sent to output module
+[Thu Oct 10 03:12:39 2019 : 275491] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 275519] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:39 2019 : 275543] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:39 2019 : 275568] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:39 2019 : 275613] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 275639] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:39 2019 : 275665] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:39 2019 : 275693] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:39 2019 : 275723] speechd:     25:REPLY:|701-6
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:39 2019 : 275760] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:39 2019 : 348588] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:39 2019 : 348654] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:39 2019 : 348692] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:39 2019 : 348725] speechd:    Module stop!
+[Thu Oct 10 03:12:39 2019 : 348776] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:39 2019 : 348810] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 350769] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:39 2019 : 350837] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 350878] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:39 2019 : 351157] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 351218] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:39 2019 : 351247] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:39 2019 : 351275] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:39 2019 : 351338] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 351394] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:39 2019 : 351421] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:39 2019 : 351454] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:39 2019 : 351485] speechd:     25:REPLY:|703-6
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 351558] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 351590] speechd:     No message in the queue
+[Thu Oct 10 03:12:39 2019 : 351624] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 351650] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:39 2019 : 351682] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 351709] speechd:     No message in the queue
+[Thu Oct 10 03:12:39 2019 : 351860] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:39 2019 : 351898] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 351937] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:39 2019 : 352787] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:39 2019 : 352832] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 352868] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:39 2019 : 356807] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:39 2019 : 356853] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 356903] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:39 2019 : 357229] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:39 2019 : 357260] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 357293] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:39 2019 : 357527] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:39 2019 : 357555] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:39 2019 : 357585] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:39 2019 : 357611] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:39 2019 : 357819] speechd:     25:DATA:|t
+| (3)
+[Thu Oct 10 03:12:39 2019 : 357848] speechd:     Buffer: |t
+| bytes:
+[Thu Oct 10 03:12:39 2019 : 357903] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:39 2019 : 357928] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:39 2019 : 357954] speechd:     Finishing data
+[Thu Oct 10 03:12:39 2019 : 357978] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:39 2019 : 358005] speechd:     New buf is now: |t|
+[Thu Oct 10 03:12:39 2019 : 358032] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:39 2019 : 358060] speechd:     Queueing message |t| with priority 2
+[Thu Oct 10 03:12:39 2019 : 358110] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:39 2019 : 358154] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 358192] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:39 2019 : 358226] speechd:     25:REPLY:|225-7
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:39 2019 : 358261] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 358296] speechd:     MSG before index marking: |t|, ssml_mode=0
+[Thu Oct 10 03:12:39 2019 : 358332] speechd:     MSG after index marking: |<speak>t</speak>|
+[Thu Oct 10 03:12:39 2019 : 358359] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:39 2019 : 358389] speechd:     Incoming text: |<speak>t</speak>|
+[Thu Oct 10 03:12:39 2019 : 358416] speechd:    Module set parameters.
+[Thu Oct 10 03:12:39 2019 : 358485] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:39 2019 : 358555] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 358583] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:39 2019 : 358638] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:39 2019 : 358671] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:39 2019 : 358736] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 358762] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:39 2019 : 358788] speechd:    Module speak!
+[Thu Oct 10 03:12:39 2019 : 358822] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:39 2019 : 358884] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 358910] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:39 2019 : 358944] speechd:     Command sent to output module: |<speak>t</speak>| (0)
+[Thu Oct 10 03:12:39 2019 : 358977] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:39 2019 : 359084] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 359114] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:39 2019 : 359142] speechd:    Message sent to output module
+[Thu Oct 10 03:12:39 2019 : 359180] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 359208] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:39 2019 : 359232] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:39 2019 : 359257] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:39 2019 : 359301] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 359330] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:39 2019 : 359355] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:39 2019 : 359381] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:39 2019 : 359410] speechd:     25:REPLY:|701-7
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:39 2019 : 359468] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:39 2019 : 410125] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:39 2019 : 410250] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:39 2019 : 410293] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:39 2019 : 410344] speechd:    Module stop!
+[Thu Oct 10 03:12:39 2019 : 410413] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:39 2019 : 410461] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 412842] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 412900] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:39 2019 : 412928] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:39 2019 : 412955] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:39 2019 : 413008] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 413039] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:39 2019 : 413065] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:39 2019 : 413096] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:39 2019 : 413127] speechd:     25:REPLY:|703-7
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 413213] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 413244] speechd:     No message in the queue
+[Thu Oct 10 03:12:39 2019 : 413277] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 413303] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:39 2019 : 413333] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 413360] speechd:     No message in the queue
+[Thu Oct 10 03:12:39 2019 : 580056] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:39 2019 : 580115] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:39 2019 : 580164] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:39 2019 : 580197] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 581229] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:39 2019 : 581270] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 581309] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:39 2019 : 581787] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:39 2019 : 581824] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 581857] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:39 2019 : 582420] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:39 2019 : 582458] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 582494] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:39 2019 : 584530] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:39 2019 : 584573] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 584621] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:39 2019 : 584967] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:39 2019 : 584997] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:39 2019 : 585032] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:39 2019 : 585282] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:39 2019 : 585310] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:39 2019 : 585341] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:39 2019 : 585366] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:39 2019 : 585592] speechd:     25:DATA:|cat
+| (5)
+[Thu Oct 10 03:12:39 2019 : 585620] speechd:     Buffer: |cat
+| bytes:
+[Thu Oct 10 03:12:39 2019 : 585677] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:39 2019 : 585705] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:39 2019 : 585730] speechd:     Finishing data
+[Thu Oct 10 03:12:39 2019 : 585754] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:39 2019 : 585782] speechd:     New buf is now: |cat|
+[Thu Oct 10 03:12:39 2019 : 585808] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:39 2019 : 585837] speechd:     Queueing message |cat| with priority 2
+[Thu Oct 10 03:12:39 2019 : 585884] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:39 2019 : 585926] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 585964] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:39 2019 : 586000] speechd:     25:REPLY:|225-8
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:39 2019 : 586039] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 586075] speechd:     MSG before index marking: |cat|, ssml_mode=0
+[Thu Oct 10 03:12:39 2019 : 586113] speechd:     MSG after index marking: |<speak>cat</speak>|
+[Thu Oct 10 03:12:39 2019 : 586141] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:39 2019 : 586168] speechd:     Incoming text: |<speak>cat</speak>|
+[Thu Oct 10 03:12:39 2019 : 586195] speechd:    Module set parameters.
+[Thu Oct 10 03:12:39 2019 : 586291] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:39 2019 : 586362] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 586391] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:39 2019 : 586427] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:39 2019 : 586457] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:39 2019 : 586519] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 586546] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:39 2019 : 586589] speechd:    Module speak!
+[Thu Oct 10 03:12:39 2019 : 586623] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:39 2019 : 586685] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 586711] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:39 2019 : 586745] speechd:     Command sent to output module: |<speak>cat</speak>| (0)
+[Thu Oct 10 03:12:39 2019 : 586778] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:39 2019 : 586897] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 586925] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:39 2019 : 586952] speechd:    Message sent to output module
+[Thu Oct 10 03:12:39 2019 : 586992] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 587020] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:39 2019 : 587044] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:39 2019 : 587069] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:39 2019 : 587111] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 587137] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:39 2019 : 587163] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:39 2019 : 587192] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:39 2019 : 587223] speechd:     25:REPLY:|701-8
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:39 2019 : 587285] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:39 2019 : 863965] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:39 2019 : 864075] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:39 2019 : 864137] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:39 2019 : 864205] speechd:    Module stop!
+[Thu Oct 10 03:12:39 2019 : 864309] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:39 2019 : 864377] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 869258] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 869360] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:39 2019 : 869419] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:39 2019 : 869628] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:39 2019 : 869771] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:39 2019 : 869840] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:39 2019 : 869900] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:39 2019 : 869964] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:39 2019 : 870031] speechd:     25:REPLY:|703-8
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:39 2019 : 870147] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 870213] speechd:     No message in the queue
+[Thu Oct 10 03:12:39 2019 : 870279] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:39 2019 : 870338] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:39 2019 : 870405] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:39 2019 : 870464] speechd:     No message in the queue
+[Thu Oct 10 03:12:40 2019 : 215074] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:40 2019 : 215197] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:40 2019 : 215280] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:40 2019 : 215353] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:40 2019 : 433709] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:40 2019 : 433779] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:40 2019 : 433809] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:40 2019 : 433841] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:40 2019 : 435185] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:40 2019 : 435242] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 435297] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:40 2019 : 436107] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:40 2019 : 436167] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 436211] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:40 2019 : 437092] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:40 2019 : 437143] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 437186] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:40 2019 : 441878] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:40 2019 : 441937] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 441992] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:40 2019 : 442449] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:40 2019 : 442488] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 442527] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:40 2019 : 442826] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:40 2019 : 442861] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:40 2019 : 442893] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:40 2019 : 442922] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:40 2019 : 443252] speechd:     25:DATA:|P
+| (3)
+[Thu Oct 10 03:12:40 2019 : 443289] speechd:     Buffer: |P
+| bytes:
+[Thu Oct 10 03:12:40 2019 : 443354] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:40 2019 : 443380] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:40 2019 : 443406] speechd:     Finishing data
+[Thu Oct 10 03:12:40 2019 : 443434] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:40 2019 : 443462] speechd:     New buf is now: |P|
+[Thu Oct 10 03:12:40 2019 : 443491] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:40 2019 : 443521] speechd:     Queueing message |P| with priority 2
+[Thu Oct 10 03:12:40 2019 : 443575] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:40 2019 : 443627] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 443667] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:40 2019 : 443704] speechd:     25:REPLY:|225-9
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:40 2019 : 443743] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:40 2019 : 443783] speechd:     MSG before index marking: |P|, ssml_mode=0
+[Thu Oct 10 03:12:40 2019 : 443826] speechd:     MSG after index marking: |<speak>P</speak>|
+[Thu Oct 10 03:12:40 2019 : 443853] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:40 2019 : 443881] speechd:     Incoming text: |<speak>P</speak>|
+[Thu Oct 10 03:12:40 2019 : 443909] speechd:    Module set parameters.
+[Thu Oct 10 03:12:40 2019 : 443980] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:40 2019 : 444054] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 444084] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:40 2019 : 444122] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:40 2019 : 444152] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:40 2019 : 444216] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 444243] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:40 2019 : 444270] speechd:    Module speak!
+[Thu Oct 10 03:12:40 2019 : 444303] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:40 2019 : 444381] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 444411] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:40 2019 : 444445] speechd:     Command sent to output module: |<speak>P</speak>| (0)
+[Thu Oct 10 03:12:40 2019 : 444478] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:40 2019 : 444649] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 444688] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:40 2019 : 444718] speechd:    Message sent to output module
+[Thu Oct 10 03:12:40 2019 : 444771] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 444800] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:40 2019 : 444825] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:40 2019 : 444852] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:40 2019 : 444900] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 444929] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:40 2019 : 444957] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:40 2019 : 444987] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:40 2019 : 445026] speechd:     25:REPLY:|701-9
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:40 2019 : 445097] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:40 2019 : 490455] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:40 2019 : 490524] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:40 2019 : 490552] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:40 2019 : 490585] speechd:    Module stop!
+[Thu Oct 10 03:12:40 2019 : 490641] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:40 2019 : 490676] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:40 2019 : 492297] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 492393] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:40 2019 : 492424] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:40 2019 : 492454] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:40 2019 : 492519] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 492556] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:40 2019 : 492583] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:40 2019 : 492616] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:40 2019 : 492647] speechd:     25:REPLY:|703-9
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:40 2019 : 492704] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:40 2019 : 492733] speechd:     No message in the queue
+[Thu Oct 10 03:12:40 2019 : 492763] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 492789] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:40 2019 : 492818] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:40 2019 : 492845] speechd:     No message in the queue
+[Thu Oct 10 03:12:40 2019 : 662102] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:40 2019 : 662174] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:40 2019 : 662203] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:40 2019 : 662238] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:40 2019 : 663362] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:40 2019 : 663408] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 663446] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:40 2019 : 663931] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:40 2019 : 663969] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 664001] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:40 2019 : 664598] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:40 2019 : 664638] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 664673] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:40 2019 : 668665] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:40 2019 : 668710] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 668757] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:40 2019 : 669121] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:40 2019 : 669153] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 669188] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:40 2019 : 669440] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:40 2019 : 669470] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:40 2019 : 669613] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:40 2019 : 669650] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:40 2019 : 669968] speechd:     25:DATA:|r
+| (3)
+[Thu Oct 10 03:12:40 2019 : 669997] speechd:     Buffer: |r
+| bytes:
+[Thu Oct 10 03:12:40 2019 : 670059] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:40 2019 : 670085] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:40 2019 : 670110] speechd:     Finishing data
+[Thu Oct 10 03:12:40 2019 : 670136] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:40 2019 : 670164] speechd:     New buf is now: |r|
+[Thu Oct 10 03:12:40 2019 : 670192] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:40 2019 : 670220] speechd:     Queueing message |r| with priority 2
+[Thu Oct 10 03:12:40 2019 : 670269] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:40 2019 : 670314] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 670352] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:40 2019 : 670388] speechd:     25:REPLY:|225-10
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:40 2019 : 670423] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:40 2019 : 670457] speechd:     MSG before index marking: |r|, ssml_mode=0
+[Thu Oct 10 03:12:40 2019 : 670493] speechd:     MSG after index marking: |<speak>r</speak>|
+[Thu Oct 10 03:12:40 2019 : 670519] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:40 2019 : 670548] speechd:     Incoming text: |<speak>r</speak>|
+[Thu Oct 10 03:12:40 2019 : 670576] speechd:    Module set parameters.
+[Thu Oct 10 03:12:40 2019 : 670645] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:40 2019 : 670715] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 670743] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:40 2019 : 670780] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:40 2019 : 670810] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:40 2019 : 670873] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 670899] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:40 2019 : 670926] speechd:    Module speak!
+[Thu Oct 10 03:12:40 2019 : 670959] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:40 2019 : 671021] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 671048] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:40 2019 : 671081] speechd:     Command sent to output module: |<speak>r</speak>| (0)
+[Thu Oct 10 03:12:40 2019 : 671116] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:40 2019 : 671251] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 671307] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:40 2019 : 671336] speechd:    Message sent to output module
+[Thu Oct 10 03:12:40 2019 : 671377] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 671403] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:40 2019 : 671428] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:40 2019 : 671453] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:40 2019 : 671496] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 671523] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:40 2019 : 671548] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:40 2019 : 671575] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:40 2019 : 671605] speechd:     25:REPLY:|701-10
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:40 2019 : 671675] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:40 2019 : 701572] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:40 2019 : 701642] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:40 2019 : 701673] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:40 2019 : 701703] speechd:    Module stop!
+[Thu Oct 10 03:12:40 2019 : 701769] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:40 2019 : 701803] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:40 2019 : 709276] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 709335] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:40 2019 : 709364] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:40 2019 : 709391] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:40 2019 : 709452] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 709641] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:40 2019 : 709675] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:40 2019 : 709707] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:40 2019 : 709741] speechd:     25:REPLY:|703-10
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:40 2019 : 709846] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:40 2019 : 709889] speechd:     No message in the queue
+[Thu Oct 10 03:12:40 2019 : 709939] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 709978] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:40 2019 : 710009] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:40 2019 : 710041] speechd:     No message in the queue
+[Thu Oct 10 03:12:40 2019 : 880165] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:40 2019 : 880226] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:40 2019 : 880257] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:40 2019 : 880290] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:40 2019 : 881348] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:40 2019 : 881421] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 881460] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:40 2019 : 881959] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:40 2019 : 881995] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 882029] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:40 2019 : 882612] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:40 2019 : 882652] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 882687] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:40 2019 : 884765] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:40 2019 : 884807] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 884852] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:40 2019 : 885211] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:40 2019 : 885244] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:40 2019 : 885278] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:40 2019 : 885520] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:40 2019 : 885548] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:40 2019 : 885579] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:40 2019 : 885604] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:40 2019 : 885842] speechd:     25:DATA:|ograms slash 
+| (15)
+[Thu Oct 10 03:12:40 2019 : 885869] speechd:     Buffer: |ograms slash 
+| bytes:
+[Thu Oct 10 03:12:40 2019 : 885930] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:40 2019 : 885956] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:40 2019 : 885981] speechd:     Finishing data
+[Thu Oct 10 03:12:40 2019 : 886008] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:40 2019 : 886037] speechd:     New buf is now: |ograms slash |
+[Thu Oct 10 03:12:40 2019 : 886062] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:40 2019 : 886090] speechd:     Queueing message |ograms slash | with priority 2
+[Thu Oct 10 03:12:40 2019 : 886143] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:40 2019 : 886189] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 886227] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:40 2019 : 886265] speechd:     25:REPLY:|225-11
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:40 2019 : 886302] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:40 2019 : 886338] speechd:     MSG before index marking: |ograms slash |, ssml_mode=0
+[Thu Oct 10 03:12:40 2019 : 886386] speechd:     MSG after index marking: |<speak>ograms slash </speak>|
+[Thu Oct 10 03:12:40 2019 : 886414] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:40 2019 : 886442] speechd:     Incoming text: |<speak>ograms slash </speak>|
+[Thu Oct 10 03:12:40 2019 : 886470] speechd:    Module set parameters.
+[Thu Oct 10 03:12:40 2019 : 886538] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:40 2019 : 886608] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 886635] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:40 2019 : 886672] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:40 2019 : 886702] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:40 2019 : 886765] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 886793] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:40 2019 : 886821] speechd:    Module speak!
+[Thu Oct 10 03:12:40 2019 : 886854] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:40 2019 : 886916] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 886943] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:40 2019 : 886977] speechd:     Command sent to output module: |<speak>ograms slash </speak>| (0)
+[Thu Oct 10 03:12:40 2019 : 887011] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:40 2019 : 887167] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 887200] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:40 2019 : 887228] speechd:    Message sent to output module
+[Thu Oct 10 03:12:40 2019 : 887367] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:40 2019 : 887406] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:40 2019 : 887487] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:40 2019 : 887536] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:40 2019 : 887605] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:40 2019 : 887639] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:40 2019 : 887665] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:40 2019 : 887696] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:40 2019 : 887726] speechd:     25:REPLY:|701-11
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:40 2019 : 887784] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:41 2019 : 599727] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:41 2019 : 599877] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:41 2019 : 599950] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:41 2019 : 600022] speechd:    Module stop!
+[Thu Oct 10 03:12:41 2019 : 600124] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:41 2019 : 600194] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:41 2019 : 604390] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:41 2019 : 604526] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:41 2019 : 604590] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:41 2019 : 604653] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:41 2019 : 604778] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:41 2019 : 604848] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:41 2019 : 604912] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:41 2019 : 604979] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:41 2019 : 605051] speechd:     25:REPLY:|703-11
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:41 2019 : 605193] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:41 2019 : 605264] speechd:     No message in the queue
+[Thu Oct 10 03:12:41 2019 : 605330] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:41 2019 : 605388] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:41 2019 : 605455] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:41 2019 : 605515] speechd:     No message in the queue
+[Thu Oct 10 03:12:41 2019 : 729682] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:41 2019 : 729745] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:41 2019 : 729774] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:41 2019 : 729807] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:41 2019 : 780395] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:41 2019 : 780462] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:41 2019 : 780492] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:41 2019 : 780531] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:41 2019 : 781800] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:41 2019 : 781855] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:41 2019 : 781893] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:41 2019 : 782559] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:41 2019 : 782611] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:41 2019 : 782648] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:41 2019 : 783438] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:41 2019 : 783488] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:41 2019 : 783528] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:41 2019 : 787749] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:41 2019 : 787800] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:41 2019 : 787848] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:41 2019 : 788314] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:41 2019 : 788382] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:41 2019 : 788422] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:41 2019 : 788920] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:41 2019 : 788983] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:41 2019 : 789019] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:41 2019 : 789044] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:41 2019 : 789474] speechd:     25:DATA:|d
+| (3)
+[Thu Oct 10 03:12:41 2019 : 789701] speechd:     Buffer: |d
+| bytes:
+[Thu Oct 10 03:12:41 2019 : 789817] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:41 2019 : 789852] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:41 2019 : 789878] speechd:     Finishing data
+[Thu Oct 10 03:12:41 2019 : 789903] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:41 2019 : 789938] speechd:     New buf is now: |d|
+[Thu Oct 10 03:12:41 2019 : 789972] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:41 2019 : 790008] speechd:     Queueing message |d| with priority 2
+[Thu Oct 10 03:12:41 2019 : 790068] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:41 2019 : 790130] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:41 2019 : 790172] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:41 2019 : 790208] speechd:     25:REPLY:|225-12
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:41 2019 : 790246] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:41 2019 : 790288] speechd:     MSG before index marking: |d|, ssml_mode=0
+[Thu Oct 10 03:12:41 2019 : 790330] speechd:     MSG after index marking: |<speak>d</speak>|
+[Thu Oct 10 03:12:41 2019 : 790358] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:41 2019 : 790386] speechd:     Incoming text: |<speak>d</speak>|
+[Thu Oct 10 03:12:41 2019 : 790416] speechd:    Module set parameters.
+[Thu Oct 10 03:12:41 2019 : 790490] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:41 2019 : 790561] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:41 2019 : 790592] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:41 2019 : 790637] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:41 2019 : 790669] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:41 2019 : 790812] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:41 2019 : 790844] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:41 2019 : 790874] speechd:    Module speak!
+[Thu Oct 10 03:12:41 2019 : 790911] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:41 2019 : 791012] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:41 2019 : 791040] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:41 2019 : 791078] speechd:     Command sent to output module: |<speak>d</speak>| (0)
+[Thu Oct 10 03:12:41 2019 : 791107] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:41 2019 : 793013] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:41 2019 : 793100] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:41 2019 : 793140] speechd:    Message sent to output module
+[Thu Oct 10 03:12:41 2019 : 793195] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:41 2019 : 793225] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:41 2019 : 793252] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:41 2019 : 793278] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:41 2019 : 793341] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:41 2019 : 793395] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:41 2019 : 793428] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:41 2019 : 793464] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:41 2019 : 793504] speechd:     25:REPLY:|701-12
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:41 2019 : 793572] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:42 2019 : 5083] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:42 2019 : 5141] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:42 2019 : 5169] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:42 2019 : 5198] speechd:    Module stop!
+[Thu Oct 10 03:12:42 2019 : 5250] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:42 2019 : 5281] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 6914] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:42 2019 : 6976] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 7018] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:42 2019 : 7372] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 7423] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:42 2019 : 7450] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:42 2019 : 7478] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:42 2019 : 7546] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 7581] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:42 2019 : 7608] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:42 2019 : 7643] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:42 2019 : 7679] speechd:     25:REPLY:|703-12
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 7752] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 7785] speechd:     No message in the queue
+[Thu Oct 10 03:12:42 2019 : 7814] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 7840] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:42 2019 : 7870] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 7896] speechd:     No message in the queue
+[Thu Oct 10 03:12:42 2019 : 8291] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:42 2019 : 8346] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 8387] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:42 2019 : 9306] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:42 2019 : 9356] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 9394] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:42 2019 : 11852] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:42 2019 : 11910] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 11962] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:42 2019 : 12324] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:42 2019 : 12355] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 12391] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:42 2019 : 12631] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:42 2019 : 12660] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:42 2019 : 12689] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:42 2019 : 12714] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:42 2019 : 12944] speechd:     25:DATA:|rive slash 
+| (13)
+[Thu Oct 10 03:12:42 2019 : 12973] speechd:     Buffer: |rive slash 
+| bytes:
+[Thu Oct 10 03:12:42 2019 : 13031] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:42 2019 : 13057] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:42 2019 : 13082] speechd:     Finishing data
+[Thu Oct 10 03:12:42 2019 : 13106] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:42 2019 : 13148] speechd:     New buf is now: |rive slash |
+[Thu Oct 10 03:12:42 2019 : 13175] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:42 2019 : 13204] speechd:     Queueing message |rive slash | with priority 2
+[Thu Oct 10 03:12:42 2019 : 13251] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:42 2019 : 13292] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 13328] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:42 2019 : 13362] speechd:     25:REPLY:|225-13
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:42 2019 : 13398] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 13433] speechd:     MSG before index marking: |rive slash |, ssml_mode=0
+[Thu Oct 10 03:12:42 2019 : 13481] speechd:     MSG after index marking: |<speak>rive slash </speak>|
+[Thu Oct 10 03:12:42 2019 : 13507] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:42 2019 : 13534] speechd:     Incoming text: |<speak>rive slash </speak>|
+[Thu Oct 10 03:12:42 2019 : 13562] speechd:    Module set parameters.
+[Thu Oct 10 03:12:42 2019 : 13627] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:42 2019 : 13699] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 13729] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:42 2019 : 13765] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:42 2019 : 13795] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:42 2019 : 13857] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 13883] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:42 2019 : 13911] speechd:    Module speak!
+[Thu Oct 10 03:12:42 2019 : 13945] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:42 2019 : 14008] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 14034] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:42 2019 : 14067] speechd:     Command sent to output module: |<speak>rive slash </speak>| (0)
+[Thu Oct 10 03:12:42 2019 : 14101] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:42 2019 : 14214] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 14244] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:42 2019 : 14274] speechd:    Message sent to output module
+[Thu Oct 10 03:12:42 2019 : 14311] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 14338] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:42 2019 : 14363] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:42 2019 : 14387] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:42 2019 : 14430] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 14457] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:42 2019 : 14482] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:42 2019 : 14510] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:42 2019 : 14540] speechd:     25:REPLY:|701-13
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:42 2019 : 14601] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:42 2019 : 207607] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:42 2019 : 207720] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:42 2019 : 207785] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:42 2019 : 207851] speechd:    Module stop!
+[Thu Oct 10 03:12:42 2019 : 207946] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:42 2019 : 208041] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 213845] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 213967] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:42 2019 : 214036] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:42 2019 : 214217] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:42 2019 : 214343] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 214411] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:42 2019 : 214475] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:42 2019 : 214541] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:42 2019 : 214612] speechd:     25:REPLY:|703-13
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 214745] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 214814] speechd:     No message in the queue
+[Thu Oct 10 03:12:42 2019 : 214882] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 214945] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:42 2019 : 215013] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 215075] speechd:     No message in the queue
+[Thu Oct 10 03:12:42 2019 : 387522] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:42 2019 : 387591] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:42 2019 : 387620] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:42 2019 : 387650] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 388740] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:42 2019 : 388784] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 388823] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:42 2019 : 389329] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:42 2019 : 389367] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 389399] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:42 2019 : 390090] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:42 2019 : 390131] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 390165] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:42 2019 : 394201] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:42 2019 : 394247] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 394297] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:42 2019 : 394639] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:42 2019 : 394670] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 394703] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:42 2019 : 394945] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:42 2019 : 394973] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:42 2019 : 395004] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:42 2019 : 395028] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:42 2019 : 395248] speechd:     25:DATA:|l
+| (3)
+[Thu Oct 10 03:12:42 2019 : 395277] speechd:     Buffer: |l
+| bytes:
+[Thu Oct 10 03:12:42 2019 : 395331] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:42 2019 : 395357] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:42 2019 : 395381] speechd:     Finishing data
+[Thu Oct 10 03:12:42 2019 : 395405] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:42 2019 : 395433] speechd:     New buf is now: |l|
+[Thu Oct 10 03:12:42 2019 : 395460] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:42 2019 : 395490] speechd:     Queueing message |l| with priority 2
+[Thu Oct 10 03:12:42 2019 : 395537] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:42 2019 : 395577] speechd:     25:REPLY:|225-14
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:42 2019 : 395653] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 395687] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:42 2019 : 395720] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 395755] speechd:     MSG before index marking: |l|, ssml_mode=0
+[Thu Oct 10 03:12:42 2019 : 395791] speechd:     MSG after index marking: |<speak>l</speak>|
+[Thu Oct 10 03:12:42 2019 : 395820] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:42 2019 : 395849] speechd:     Incoming text: |<speak>l</speak>|
+[Thu Oct 10 03:12:42 2019 : 395879] speechd:    Module set parameters.
+[Thu Oct 10 03:12:42 2019 : 395951] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:42 2019 : 396022] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 396049] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:42 2019 : 396089] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:42 2019 : 396120] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:42 2019 : 396184] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 396210] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:42 2019 : 396237] speechd:    Module speak!
+[Thu Oct 10 03:12:42 2019 : 396271] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:42 2019 : 396335] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 396363] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:42 2019 : 396397] speechd:     Command sent to output module: |<speak>l</speak>| (0)
+[Thu Oct 10 03:12:42 2019 : 396435] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:42 2019 : 396566] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 396600] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:42 2019 : 396628] speechd:    Message sent to output module
+[Thu Oct 10 03:12:42 2019 : 396669] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 396697] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:42 2019 : 396722] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:42 2019 : 396747] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:42 2019 : 396791] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 396830] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:42 2019 : 396855] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:42 2019 : 396884] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:42 2019 : 396913] speechd:     25:REPLY:|701-14
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:42 2019 : 396976] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:42 2019 : 472346] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:42 2019 : 472474] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:42 2019 : 472541] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:42 2019 : 472614] speechd:    Module stop!
+[Thu Oct 10 03:12:42 2019 : 472740] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:42 2019 : 472818] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 475950] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 476060] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:42 2019 : 476123] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:42 2019 : 476186] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:42 2019 : 476335] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 476407] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:42 2019 : 476467] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:42 2019 : 476533] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:42 2019 : 476602] speechd:     25:REPLY:|703-14
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 476746] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 476813] speechd:     No message in the queue
+[Thu Oct 10 03:12:42 2019 : 476878] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 476939] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:42 2019 : 477007] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 477066] speechd:     No message in the queue
+[Thu Oct 10 03:12:42 2019 : 648496] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:42 2019 : 648557] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:42 2019 : 648586] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:42 2019 : 648618] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 649890] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:42 2019 : 649949] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 649989] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:42 2019 : 650568] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:42 2019 : 650605] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 650639] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:42 2019 : 651227] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:42 2019 : 651265] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 651299] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:42 2019 : 655255] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:42 2019 : 655302] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 655354] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:42 2019 : 655701] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:42 2019 : 655731] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:42 2019 : 655765] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:42 2019 : 656002] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:42 2019 : 656031] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:42 2019 : 656061] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:42 2019 : 656086] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:42 2019 : 656305] speechd:     25:DATA:|i
+| (3)
+[Thu Oct 10 03:12:42 2019 : 656332] speechd:     Buffer: |i
+| bytes:
+[Thu Oct 10 03:12:42 2019 : 656389] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:42 2019 : 656414] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:42 2019 : 656439] speechd:     Finishing data
+[Thu Oct 10 03:12:42 2019 : 656463] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:42 2019 : 656493] speechd:     New buf is now: |i|
+[Thu Oct 10 03:12:42 2019 : 656518] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:42 2019 : 656549] speechd:     Queueing message |i| with priority 2
+[Thu Oct 10 03:12:42 2019 : 656596] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:42 2019 : 656643] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 656679] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:42 2019 : 656715] speechd:     25:REPLY:|225-15
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:42 2019 : 656752] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 656789] speechd:     MSG before index marking: |i|, ssml_mode=0
+[Thu Oct 10 03:12:42 2019 : 656825] speechd:     MSG after index marking: |<speak>i</speak>|
+[Thu Oct 10 03:12:42 2019 : 656868] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:42 2019 : 656896] speechd:     Incoming text: |<speak>i</speak>|
+[Thu Oct 10 03:12:42 2019 : 656924] speechd:    Module set parameters.
+[Thu Oct 10 03:12:42 2019 : 656993] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:42 2019 : 657062] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 657090] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:42 2019 : 657125] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:42 2019 : 657156] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:42 2019 : 657218] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 657244] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:42 2019 : 657272] speechd:    Module speak!
+[Thu Oct 10 03:12:42 2019 : 657306] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:42 2019 : 657369] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 657395] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:42 2019 : 657429] speechd:     Command sent to output module: |<speak>i</speak>| (0)
+[Thu Oct 10 03:12:42 2019 : 657462] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:42 2019 : 657567] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 657595] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:42 2019 : 657621] speechd:    Message sent to output module
+[Thu Oct 10 03:12:42 2019 : 657663] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 657690] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:42 2019 : 657715] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:42 2019 : 657740] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:42 2019 : 657782] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 657809] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:42 2019 : 657835] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:42 2019 : 657862] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:42 2019 : 657893] speechd:     25:REPLY:|701-15
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:42 2019 : 657957] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:42 2019 : 775119] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:42 2019 : 775235] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:42 2019 : 775299] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:42 2019 : 775367] speechd:    Module stop!
+[Thu Oct 10 03:12:42 2019 : 775464] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:42 2019 : 775532] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 783602] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 783675] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:42 2019 : 783703] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:42 2019 : 783731] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:42 2019 : 783787] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:42 2019 : 783818] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:42 2019 : 783843] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:42 2019 : 783872] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:42 2019 : 783904] speechd:     25:REPLY:|703-15
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:42 2019 : 783974] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 784028] speechd:     No message in the queue
+[Thu Oct 10 03:12:42 2019 : 784063] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:42 2019 : 784091] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:42 2019 : 784122] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:42 2019 : 784150] speechd:     No message in the queue
+[Thu Oct 10 03:12:43 2019 : 191005] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:43 2019 : 191122] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:43 2019 : 191189] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:43 2019 : 191260] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:43 2019 : 356135] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:43 2019 : 356204] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:43 2019 : 356232] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:43 2019 : 356266] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:43 2019 : 357370] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:43 2019 : 357413] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 357452] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:43 2019 : 357927] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:43 2019 : 357964] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 357997] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:43 2019 : 358551] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:43 2019 : 358587] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 358621] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:43 2019 : 362734] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:43 2019 : 362790] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 362840] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:43 2019 : 363222] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:43 2019 : 363253] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 363292] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:43 2019 : 363535] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:43 2019 : 363564] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:43 2019 : 363592] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:43 2019 : 363618] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:43 2019 : 363850] speechd:     25:DATA:| backslash 
+| (13)
+[Thu Oct 10 03:12:43 2019 : 363877] speechd:     Buffer: | backslash 
+| bytes:
+[Thu Oct 10 03:12:43 2019 : 363938] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:43 2019 : 363964] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:43 2019 : 363989] speechd:     Finishing data
+[Thu Oct 10 03:12:43 2019 : 364014] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:43 2019 : 364044] speechd:     New buf is now: | backslash |
+[Thu Oct 10 03:12:43 2019 : 364070] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:43 2019 : 364098] speechd:     Queueing message | backslash | with priority 2
+[Thu Oct 10 03:12:43 2019 : 364147] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:43 2019 : 364191] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:43 2019 : 364228] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:43 2019 : 364265] speechd:     25:REPLY:|225-16
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:43 2019 : 364302] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:43 2019 : 364338] speechd:     MSG before index marking: | backslash |, ssml_mode=0
+[Thu Oct 10 03:12:43 2019 : 364383] speechd:     MSG after index marking: |<speak> backslash </speak>|
+[Thu Oct 10 03:12:43 2019 : 364409] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:43 2019 : 364454] speechd:     Incoming text: |<speak> backslash </speak>|
+[Thu Oct 10 03:12:43 2019 : 364484] speechd:    Module set parameters.
+[Thu Oct 10 03:12:43 2019 : 364554] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:43 2019 : 364626] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 364654] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:43 2019 : 364691] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:43 2019 : 364721] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:43 2019 : 364784] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 364810] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:43 2019 : 364839] speechd:    Module speak!
+[Thu Oct 10 03:12:43 2019 : 364872] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:43 2019 : 364935] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 364962] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:43 2019 : 364997] speechd:     Command sent to output module: |<speak> backslash </speak>| (0)
+[Thu Oct 10 03:12:43 2019 : 365031] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:43 2019 : 365151] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 365182] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:43 2019 : 365213] speechd:    Message sent to output module
+[Thu Oct 10 03:12:43 2019 : 365255] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:43 2019 : 365284] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:43 2019 : 365309] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:43 2019 : 365334] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:43 2019 : 365379] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 365407] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:43 2019 : 365432] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:43 2019 : 365459] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:43 2019 : 365490] speechd:     25:REPLY:|701-16
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:43 2019 : 365549] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:43 2019 : 704772] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:43 2019 : 704891] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:43 2019 : 704956] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:43 2019 : 705024] speechd:    Module stop!
+[Thu Oct 10 03:12:43 2019 : 705123] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:43 2019 : 705189] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:43 2019 : 710115] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:43 2019 : 710236] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:43 2019 : 710299] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:43 2019 : 710360] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:43 2019 : 710474] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 710546] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:43 2019 : 710605] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:43 2019 : 710674] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:43 2019 : 710741] speechd:     25:REPLY:|703-16
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:43 2019 : 710859] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:43 2019 : 710925] speechd:     No message in the queue
+[Thu Oct 10 03:12:43 2019 : 711024] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:43 2019 : 711086] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:43 2019 : 711907] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:43 2019 : 712044] speechd:     No message in the queue
+[Thu Oct 10 03:12:43 2019 : 886220] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:43 2019 : 886285] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:43 2019 : 886314] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:43 2019 : 886347] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:43 2019 : 887399] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:43 2019 : 887444] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 887482] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:43 2019 : 887962] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:43 2019 : 887997] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 888031] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:43 2019 : 888606] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:43 2019 : 888645] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 888679] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:43 2019 : 892913] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:43 2019 : 892965] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 893017] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:43 2019 : 893371] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:43 2019 : 893403] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:43 2019 : 893436] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:43 2019 : 893684] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:43 2019 : 893713] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:43 2019 : 893743] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:43 2019 : 893768] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:43 2019 : 894001] speechd:     25:DATA:| backslash 
+| (13)
+[Thu Oct 10 03:12:43 2019 : 894030] speechd:     Buffer: | backslash 
+| bytes:
+[Thu Oct 10 03:12:43 2019 : 894086] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:43 2019 : 894113] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:43 2019 : 894138] speechd:     Finishing data
+[Thu Oct 10 03:12:43 2019 : 894161] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:43 2019 : 894188] speechd:     New buf is now: | backslash |
+[Thu Oct 10 03:12:43 2019 : 894213] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:43 2019 : 894244] speechd:     Queueing message | backslash | with priority 2
+[Thu Oct 10 03:12:43 2019 : 894293] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:43 2019 : 894338] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:43 2019 : 894376] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:43 2019 : 894412] speechd:     25:REPLY:|225-17
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:43 2019 : 894451] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:43 2019 : 894485] speechd:     MSG before index marking: | backslash |, ssml_mode=0
+[Thu Oct 10 03:12:43 2019 : 894531] speechd:     MSG after index marking: |<speak> backslash </speak>|
+[Thu Oct 10 03:12:43 2019 : 894557] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:43 2019 : 894584] speechd:     Incoming text: |<speak> backslash </speak>|
+[Thu Oct 10 03:12:43 2019 : 894611] speechd:    Module set parameters.
+[Thu Oct 10 03:12:43 2019 : 894679] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:43 2019 : 894749] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 894777] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:43 2019 : 894842] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:43 2019 : 894872] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:43 2019 : 894935] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 894961] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:43 2019 : 894989] speechd:    Module speak!
+[Thu Oct 10 03:12:43 2019 : 895022] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:43 2019 : 895084] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 895111] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:43 2019 : 895144] speechd:     Command sent to output module: |<speak> backslash </speak>| (0)
+[Thu Oct 10 03:12:43 2019 : 895177] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:43 2019 : 895291] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 895319] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:43 2019 : 895345] speechd:    Message sent to output module
+[Thu Oct 10 03:12:43 2019 : 895384] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:43 2019 : 895410] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:43 2019 : 895434] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:43 2019 : 895460] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:43 2019 : 895501] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 895529] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:43 2019 : 895554] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:43 2019 : 895582] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:43 2019 : 895610] speechd:     25:REPLY:|701-17
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:43 2019 : 895675] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:43 2019 : 924565] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:43 2019 : 924637] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:43 2019 : 924670] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:43 2019 : 924703] speechd:    Module stop!
+[Thu Oct 10 03:12:43 2019 : 924766] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:43 2019 : 924800] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:43 2019 : 926113] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:43 2019 : 926185] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:43 2019 : 926213] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:43 2019 : 926244] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:43 2019 : 926304] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:43 2019 : 926336] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:43 2019 : 926364] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:43 2019 : 926394] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:43 2019 : 926426] speechd:     25:REPLY:|703-17
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:43 2019 : 926502] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:43 2019 : 926535] speechd:     No message in the queue
+[Thu Oct 10 03:12:43 2019 : 926568] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:43 2019 : 926594] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:43 2019 : 926627] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:43 2019 : 926653] speechd:     No message in the queue
+[Thu Oct 10 03:12:44 2019 : 95084] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:44 2019 : 95171] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:44 2019 : 95200] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:44 2019 : 95233] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:44 2019 : 97540] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:44 2019 : 97595] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 97637] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:44 2019 : 98178] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:44 2019 : 98216] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 98251] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:44 2019 : 98836] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:44 2019 : 98871] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 98904] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:44 2019 : 103399] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:44 2019 : 103453] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 103503] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:44 2019 : 103880] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:44 2019 : 103911] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 103945] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:44 2019 : 104189] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:44 2019 : 104218] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:44 2019 : 104247] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:44 2019 : 104272] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:44 2019 : 104489] speechd:     25:DATA:|i
+| (3)
+[Thu Oct 10 03:12:44 2019 : 104516] speechd:     Buffer: |i
+| bytes:
+[Thu Oct 10 03:12:44 2019 : 104571] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:44 2019 : 104597] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:44 2019 : 104622] speechd:     Finishing data
+[Thu Oct 10 03:12:44 2019 : 104645] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:44 2019 : 104673] speechd:     New buf is now: |i|
+[Thu Oct 10 03:12:44 2019 : 104701] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:44 2019 : 104728] speechd:     Queueing message |i| with priority 2
+[Thu Oct 10 03:12:44 2019 : 104776] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:44 2019 : 104821] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:44 2019 : 104860] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:44 2019 : 104895] speechd:     25:REPLY:|225-18
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:44 2019 : 104933] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:44 2019 : 104967] speechd:     MSG before index marking: |i|, ssml_mode=0
+[Thu Oct 10 03:12:44 2019 : 105007] speechd:     MSG after index marking: |<speak>i</speak>|
+[Thu Oct 10 03:12:44 2019 : 105036] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:44 2019 : 105063] speechd:     Incoming text: |<speak>i</speak>|
+[Thu Oct 10 03:12:44 2019 : 105090] speechd:    Module set parameters.
+[Thu Oct 10 03:12:44 2019 : 105167] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:44 2019 : 105274] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 105302] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:44 2019 : 105340] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:44 2019 : 105376] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:44 2019 : 105439] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 105465] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:44 2019 : 105532] speechd:    Module speak!
+[Thu Oct 10 03:12:44 2019 : 105569] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:44 2019 : 105633] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 105663] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:44 2019 : 105697] speechd:     Command sent to output module: |<speak>i</speak>| (0)
+[Thu Oct 10 03:12:44 2019 : 105732] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:44 2019 : 105841] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 105874] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:44 2019 : 105901] speechd:    Message sent to output module
+[Thu Oct 10 03:12:44 2019 : 105947] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:44 2019 : 105973] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:44 2019 : 106000] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:44 2019 : 106025] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:44 2019 : 106068] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 106095] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:44 2019 : 106121] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:44 2019 : 106149] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:44 2019 : 106179] speechd:     25:REPLY:|701-18
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:44 2019 : 106243] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:44 2019 : 132484] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:44 2019 : 132591] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:44 2019 : 132630] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:44 2019 : 132664] speechd:    Module stop!
+[Thu Oct 10 03:12:44 2019 : 132757] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:44 2019 : 132793] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:44 2019 : 139893] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:44 2019 : 139946] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:44 2019 : 139978] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:44 2019 : 140005] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:44 2019 : 140060] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 140090] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:44 2019 : 140118] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:44 2019 : 140149] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:44 2019 : 140179] speechd:     25:REPLY:|703-18
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:44 2019 : 140244] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:44 2019 : 140275] speechd:     No message in the queue
+[Thu Oct 10 03:12:44 2019 : 140307] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:44 2019 : 140334] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:44 2019 : 140365] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:44 2019 : 140392] speechd:     No message in the queue
+[Thu Oct 10 03:12:44 2019 : 326192] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:44 2019 : 326257] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:44 2019 : 326285] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:44 2019 : 326317] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:44 2019 : 327349] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:44 2019 : 327391] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 327430] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:44 2019 : 327923] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:44 2019 : 327958] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 327995] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:44 2019 : 328537] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:44 2019 : 328570] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 328609] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:44 2019 : 332780] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:44 2019 : 332837] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 332895] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:44 2019 : 333305] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:44 2019 : 333336] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:44 2019 : 333371] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:44 2019 : 333616] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:44 2019 : 333647] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:44 2019 : 333675] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:44 2019 : 333700] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:44 2019 : 333925] speechd:     25:DATA:|ong
+| (5)
+[Thu Oct 10 03:12:44 2019 : 333951] speechd:     Buffer: |ong
+| bytes:
+[Thu Oct 10 03:12:44 2019 : 334007] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:44 2019 : 334033] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:44 2019 : 334058] speechd:     Finishing data
+[Thu Oct 10 03:12:44 2019 : 334082] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:44 2019 : 334111] speechd:     New buf is now: |ong|
+[Thu Oct 10 03:12:44 2019 : 334138] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:44 2019 : 334167] speechd:     Queueing message |ong| with priority 2
+[Thu Oct 10 03:12:44 2019 : 334223] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:44 2019 : 334268] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:44 2019 : 334306] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:44 2019 : 334340] speechd:     25:REPLY:|225-19
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:44 2019 : 334379] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:44 2019 : 334415] speechd:     MSG before index marking: |ong|, ssml_mode=0
+[Thu Oct 10 03:12:44 2019 : 334455] speechd:     MSG after index marking: |<speak>ong</speak>|
+[Thu Oct 10 03:12:44 2019 : 334484] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:44 2019 : 334513] speechd:     Incoming text: |<speak>ong</speak>|
+[Thu Oct 10 03:12:44 2019 : 334541] speechd:    Module set parameters.
+[Thu Oct 10 03:12:44 2019 : 334610] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:44 2019 : 334681] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 334709] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:44 2019 : 334746] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:44 2019 : 334776] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:44 2019 : 334838] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 334866] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:44 2019 : 334893] speechd:    Module speak!
+[Thu Oct 10 03:12:44 2019 : 334928] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:44 2019 : 334992] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 335020] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:44 2019 : 335054] speechd:     Command sent to output module: |<speak>ong</speak>| (0)
+[Thu Oct 10 03:12:44 2019 : 335107] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:44 2019 : 335247] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 335280] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:44 2019 : 335309] speechd:    Message sent to output module
+[Thu Oct 10 03:12:44 2019 : 335351] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:44 2019 : 335378] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:44 2019 : 335402] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:44 2019 : 335428] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:44 2019 : 335471] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:44 2019 : 335498] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:44 2019 : 335525] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:44 2019 : 335551] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:44 2019 : 335581] speechd:     25:REPLY:|701-19
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:44 2019 : 335646] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:45 2019 : 176160] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:45 2019 : 176259] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:45 2019 : 176320] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:45 2019 : 176380] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:45 2019 : 176488] speechd:     Got 8 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 176557] speechd:     Reply from output module: |702 END
+|
+[Thu Oct 10 03:12:45 2019 : 176616] speechd:     Received event:
+ 702 END
+
+[Thu Oct 10 03:12:45 2019 : 176682] speechd:     INDEX MARK: __spd_end
+[Thu Oct 10 03:12:45 2019 : 176749] speechd:     25:REPLY:|702-19
+702-2
+702 END
+|
+[Thu Oct 10 03:12:45 2019 : 176871] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:45 2019 : 176935] speechd:     No message in the queue
+[Thu Oct 10 03:12:45 2019 : 176998] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:45 2019 : 177057] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:45 2019 : 177123] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:45 2019 : 177182] speechd:     No message in the queue
+[Thu Oct 10 03:12:45 2019 : 177519] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:45 2019 : 177596] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:45 2019 : 177658] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:45 2019 : 177726] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:45 2019 : 329845] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:45 2019 : 329906] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:45 2019 : 329935] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:45 2019 : 329966] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:45 2019 : 362242] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:45 2019 : 362310] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:45 2019 : 362341] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:45 2019 : 362373] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:45 2019 : 363671] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:45 2019 : 363727] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 363767] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:45 2019 : 364470] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:45 2019 : 364521] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 364559] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:45 2019 : 365409] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:45 2019 : 365485] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 365523] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:45 2019 : 368098] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:45 2019 : 368175] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 368241] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:45 2019 : 368884] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:45 2019 : 368944] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 368986] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:45 2019 : 369776] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:45 2019 : 369854] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:45 2019 : 369889] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:45 2019 : 369915] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:45 2019 : 370439] speechd:     25:DATA:|..
+| (4)
+[Thu Oct 10 03:12:45 2019 : 370485] speechd:     Buffer: |..
+| bytes:
+[Thu Oct 10 03:12:45 2019 : 370578] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:45 2019 : 370617] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:45 2019 : 370655] speechd:     Finishing data
+[Thu Oct 10 03:12:45 2019 : 370693] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:45 2019 : 370736] speechd:     New buf is now: |.|
+[Thu Oct 10 03:12:45 2019 : 370770] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:45 2019 : 370808] speechd:     Queueing message |.| with priority 2
+[Thu Oct 10 03:12:45 2019 : 370871] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:45 2019 : 370935] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:45 2019 : 371006] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:45 2019 : 371044] speechd:     25:REPLY:|225-20
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:45 2019 : 371085] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:45 2019 : 371133] speechd:     MSG before index marking: |.|, ssml_mode=0
+[Thu Oct 10 03:12:45 2019 : 371177] speechd:     MSG after index marking: |<speak>.</speak>|
+[Thu Oct 10 03:12:45 2019 : 371206] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:45 2019 : 371236] speechd:     Incoming text: |<speak>.</speak>|
+[Thu Oct 10 03:12:45 2019 : 371267] speechd:    Module set parameters.
+[Thu Oct 10 03:12:45 2019 : 371357] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:45 2019 : 371436] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 371465] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:45 2019 : 371501] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:45 2019 : 371532] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:45 2019 : 371597] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 371625] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:45 2019 : 371662] speechd:    Module speak!
+[Thu Oct 10 03:12:45 2019 : 371711] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:45 2019 : 371808] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 371838] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:45 2019 : 371876] speechd:     Command sent to output module: |<speak>.</speak>| (0)
+[Thu Oct 10 03:12:45 2019 : 371910] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:45 2019 : 372037] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 372069] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:45 2019 : 372118] speechd:    Message sent to output module
+[Thu Oct 10 03:12:45 2019 : 372180] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:45 2019 : 372208] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:45 2019 : 372232] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:45 2019 : 372257] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:45 2019 : 372302] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 372337] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:45 2019 : 372363] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:45 2019 : 372391] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:45 2019 : 372425] speechd:     25:REPLY:|701-20
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:45 2019 : 372539] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:45 2019 : 566972] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:45 2019 : 567024] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:45 2019 : 567050] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:45 2019 : 567078] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:45 2019 : 567130] speechd:     Got 8 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 567162] speechd:     Reply from output module: |702 END
+|
+[Thu Oct 10 03:12:45 2019 : 567187] speechd:     Received event:
+ 702 END
+
+[Thu Oct 10 03:12:45 2019 : 567216] speechd:     INDEX MARK: __spd_end
+[Thu Oct 10 03:12:45 2019 : 567247] speechd:     25:REPLY:|702-20
+702-2
+702 END
+|
+[Thu Oct 10 03:12:45 2019 : 567328] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:45 2019 : 567359] speechd:     No message in the queue
+[Thu Oct 10 03:12:45 2019 : 567389] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:45 2019 : 567414] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:45 2019 : 567442] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:45 2019 : 567467] speechd:     No message in the queue
+[Thu Oct 10 03:12:45 2019 : 590169] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:45 2019 : 590231] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 590273] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:45 2019 : 590848] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:45 2019 : 590886] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 590923] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:45 2019 : 591506] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:45 2019 : 591544] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 591579] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:45 2019 : 593612] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:45 2019 : 593659] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 593708] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:45 2019 : 594047] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:45 2019 : 594078] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:45 2019 : 594110] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:45 2019 : 594351] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:45 2019 : 594379] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:45 2019 : 594411] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:45 2019 : 594436] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:45 2019 : 594654] speechd:     25:DATA:|txt
+| (5)
+[Thu Oct 10 03:12:45 2019 : 594683] speechd:     Buffer: |txt
+| bytes:
+[Thu Oct 10 03:12:45 2019 : 594739] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:45 2019 : 594766] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:45 2019 : 594791] speechd:     Finishing data
+[Thu Oct 10 03:12:45 2019 : 594832] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:45 2019 : 594861] speechd:     New buf is now: |txt|
+[Thu Oct 10 03:12:45 2019 : 594889] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:45 2019 : 594920] speechd:     Queueing message |txt| with priority 2
+[Thu Oct 10 03:12:45 2019 : 594967] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:45 2019 : 595011] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:45 2019 : 595048] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:45 2019 : 595083] speechd:     25:REPLY:|225-21
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:45 2019 : 595118] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:45 2019 : 595153] speechd:     MSG before index marking: |txt|, ssml_mode=0
+[Thu Oct 10 03:12:45 2019 : 595194] speechd:     MSG after index marking: |<speak>txt</speak>|
+[Thu Oct 10 03:12:45 2019 : 595220] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:45 2019 : 595248] speechd:     Incoming text: |<speak>txt</speak>|
+[Thu Oct 10 03:12:45 2019 : 595275] speechd:    Module set parameters.
+[Thu Oct 10 03:12:45 2019 : 595345] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:45 2019 : 595430] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 595460] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:45 2019 : 595496] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:45 2019 : 595526] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:45 2019 : 595589] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 595615] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:45 2019 : 595641] speechd:    Module speak!
+[Thu Oct 10 03:12:45 2019 : 595674] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:45 2019 : 595736] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 595762] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:45 2019 : 595796] speechd:     Command sent to output module: |<speak>txt</speak>| (0)
+[Thu Oct 10 03:12:45 2019 : 595829] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:45 2019 : 595963] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 595995] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:45 2019 : 596025] speechd:    Message sent to output module
+[Thu Oct 10 03:12:45 2019 : 596068] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:45 2019 : 596094] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:45 2019 : 596119] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:45 2019 : 596144] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:45 2019 : 596189] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:45 2019 : 596216] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:45 2019 : 596241] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:45 2019 : 596268] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:45 2019 : 596299] speechd:     25:REPLY:|701-21
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:45 2019 : 596362] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:12:46 2019 : 135368] speechd:     25:DATA:|CANCEL self
+| (13)
+[Thu Oct 10 03:12:46 2019 : 135483] speechd:     Command caught: "cancel"
+[Thu Oct 10 03:12:46 2019 : 135549] speechd:    Cancel received from fd 25.
+[Thu Oct 10 03:12:46 2019 : 135616] speechd:    Module stop!
+[Thu Oct 10 03:12:46 2019 : 135741] speechd:     Command sent to output module: |STOP
+| (0)
+[Thu Oct 10 03:12:46 2019 : 135809] speechd:     25:REPLY:|213 OK CANCELED
+|
+[Thu Oct 10 03:12:46 2019 : 141583] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:46 2019 : 141724] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:46 2019 : 141791] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:46 2019 : 141854] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:46 2019 : 141983] speechd:     Got 9 bytes from output module over socket
+[Thu Oct 10 03:12:46 2019 : 142058] speechd:     Reply from output module: |703 STOP
+|
+[Thu Oct 10 03:12:46 2019 : 142116] speechd:     Received event:
+ 703 STOP
+
+[Thu Oct 10 03:12:46 2019 : 142182] speechd:     INDEX MARK: __spd_stopped
+[Thu Oct 10 03:12:46 2019 : 142275] speechd:     25:REPLY:|703-21
+703-2
+703 CANCELED
+|
+[Thu Oct 10 03:12:46 2019 : 142497] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:46 2019 : 142581] speechd:     No message in the queue
+[Thu Oct 10 03:12:46 2019 : 142647] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:46 2019 : 142708] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:46 2019 : 142778] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:46 2019 : 142855] speechd:     No message in the queue
+[Thu Oct 10 03:12:46 2019 : 580866] speechd:     25:DATA:|SET self PITCH 0
+| (18)
+[Thu Oct 10 03:12:46 2019 : 580932] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:46 2019 : 580973] speechd:     25:REPLY:|204 OK PITCH SET
+|
+[Thu Oct 10 03:12:46 2019 : 581600] speechd:     25:DATA:|SET self RATE 0
+| (17)
+[Thu Oct 10 03:12:46 2019 : 581638] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:46 2019 : 581673] speechd:     25:REPLY:|203 OK RATE SET
+|
+[Thu Oct 10 03:12:46 2019 : 582266] speechd:     25:DATA:|SET self VOLUME 100
+| (21)
+[Thu Oct 10 03:12:46 2019 : 582302] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:46 2019 : 582337] speechd:     25:REPLY:|218 OK VOLUME SET
+|
+[Thu Oct 10 03:12:46 2019 : 587298] speechd:     25:DATA:|SET self SYNTHESIS_VOICE en-us
+| (32)
+[Thu Oct 10 03:12:46 2019 : 587344] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:46 2019 : 587392] speechd:     25:REPLY:|209 OK VOICE SET
+|
+[Thu Oct 10 03:12:46 2019 : 587748] speechd:     25:DATA:|SET self PUNCTUATION none
+| (27)
+[Thu Oct 10 03:12:46 2019 : 587777] speechd:     Command caught: "set"
+[Thu Oct 10 03:12:46 2019 : 587810] speechd:     25:REPLY:|205 OK PUNCTUATION SET
+|
+[Thu Oct 10 03:12:46 2019 : 588040] speechd:     25:DATA:|SPEAK
+| (7)
+[Thu Oct 10 03:12:46 2019 : 588069] speechd:     Command caught: "speak"
+[Thu Oct 10 03:12:46 2019 : 588097] speechd:    Switching to data mode...
+[Thu Oct 10 03:12:46 2019 : 588122] speechd:     25:REPLY:|230 OK RECEIVING DATA
+|
+[Thu Oct 10 03:12:46 2019 : 593009] speechd:     25:DATA:|أعلنت سلسلة مطاعم كنتاكي أنها ستجرب قطع دجاج من مكونات نباتية  خالية من اللحم ، في إطار سعيها للاستفادة من الشعبية المتزايدة لبدائل اللحوم.وتعاونت كنتاكي مع شركة  بيوند ميت  المصنعة للأغذية النباتية، لتقديم ما يشبه قطع وأجنحة  , الدجاج، لكنها خالية من اللحم، على نطاق تجريبي محدود بالولايات المتحدة.وتعد كنتاكي واحدة من العديد من سلاسل مطاعم الوجبات السريعة، التي تعمل على تجريب الأغذية النباتية البديلة للحوم.وكانت سلسلة مطاعم  برغر كنغ  قد أعلنت، في وقت ,  سابق من هذا العام، عن تقديم شطيرة  ووبر  الشهيرة من مكونات نباتية، في حين قالت سلسلة مطاعم   صب واي  أيضا أنها ستختبر كرات اللحم النباتية.ووفقا لبيانها الصحفي، سيتم تقديم وجبة بديل الدجاج المقلي  بيوند فرايد تشيكن  في أحد مطا , عم كنتاكي في أتلانتا، في 27 من أغسطس slash  آب الجاري، وسيظل مذاقه رائعا، كما يتعهد شعار الشركة.وقالت الشركة إنها أول سلسلة مطاعم للوجبات السريعة في الولايات المتحدة تقدم دجاجا نباتيا. وكانت قد اختبرت بديلا نباتيا لبرغر الدجاج، في و , قت سابق من هذا العام في المملكة المتحدة.وقالت شركة كنتاكي إنها ستأخذ في الاعتبار آراء العملاء، لتقرير ما إذا كانت ستطرح هذا المنتج في جميع أنحاء الولايات المتحدة. وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر ه , ذا النبأ. وكانت الشركة المصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، عندما أدرجت أسهمها في البورصة الأمريكية، في وقت سابق من العام الجاري.  ,   , كككك.ككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككك , ككككككككككككككككككككككككككككككك  , ر  ,   tilde 
+| (2886)
+[Thu Oct 10 03:12:46 2019 : 593075] speechd:     Buffer: |أعلنت سلسلة مطاعم كنتاكي أنها ستجرب قطع دجاج من مكونات نباتية  خالية من اللحم ، في إطار سعيها للاستفادة من الشعبية المتزايدة لبدائل اللحوم.وتعاونت كنتاكي مع شركة  بيوند ميت  المصنعة للأغذية النباتية، لتقديم ما يشبه قطع وأجنحة  , الدجاج، لكنها خالية من اللحم، على نطاق تجريبي محدود بالولايات المتحدة.وتعد كنتاكي واحدة من العديد من سلاسل مطاعم الوجبات السريعة، التي تعمل على تجريب الأغذية النباتية البديلة للحوم.وكانت سلسلة مطاعم  برغر كنغ  قد أعلنت، في وقت ,  سابق من هذا العام، عن تقديم شطيرة  ووبر  الشهيرة من مكونات نباتية، في حين قالت سلسلة مطاعم   صب واي  أيضا أنها ستختبر كرات اللحم النباتية.ووفقا لبيانها الصحفي، سيتم تقديم وجبة بديل الدجاج المقلي  بيوند فرايد تشيكن  في أحد مطا , عم كنتاكي في أتلانتا، في 27 من أغسطس slash  آب الجاري، وسيظل مذاقه رائعا، كما يتعهد شعار الشركة.وقالت الشركة إنها أول سلسلة مطاعم للوجبات السريعة في الولايات المتحدة تقدم دجاجا نباتيا. وكانت قد اختبرت بديلا نباتيا لبرغر الدجاج، في و , قت سابق من هذا العام في المملكة المتحدة.وقالت شركة كنتاكي إنها ستأخذ في الاعتبار آراء العملاء، لتقرير ما إذا كانت ستطرح هذا المنتج في جميع أنحاء الولايات المتحدة. وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر ه , ذا النبأ. وكانت الشركة المصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، عندما أدرجت أسهمها في البورصة الأمريكية، في وقت سابق من العام الجاري.  ,   , كككك.ككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككك , ككككككككككككككككككككككككككككككك  , ر  ,   tilde 
+| bytes:
+[Thu Oct 10 03:12:46 2019 : 593183] speechd:     25:DATA:|.
+| (3)
+[Thu Oct 10 03:12:46 2019 : 593212] speechd:     Buffer: |.
+| bytes:
+[Thu Oct 10 03:12:46 2019 : 593237] speechd:     Finishing data
+[Thu Oct 10 03:12:46 2019 : 593261] speechd:     Switching back to command mode...
+[Thu Oct 10 03:12:46 2019 : 593319] speechd:     New buf is now: |أعلنت سلسلة مطاعم كنتاكي أنها ستجرب قطع دجاج من مكونات نباتية  خالية من اللحم ، في إطار سعيها للاستفادة من الشعبية المتزايدة لبدائل اللحوم.وتعاونت كنتاكي مع شركة  بيوند ميت  المصنعة للأغذية النباتية، لتقديم ما يشبه قطع وأجنحة  , الدجاج، لكنها خالية من اللحم، على نطاق تجريبي محدود بالولايات المتحدة.وتعد كنتاكي واحدة من العديد من سلاسل مطاعم الوجبات السريعة، التي تعمل على تجريب الأغذية النباتية البديلة للحوم.وكانت سلسلة مطاعم  برغر كنغ  قد أعلنت، في وقت ,  سابق من هذا العام، عن تقديم شطيرة  ووبر  الشهيرة من مكونات نباتية، في حين قالت سلسلة مطاعم   صب واي  أيضا أنها ستختبر كرات اللحم النباتية.ووفقا لبيانها الصحفي، سيتم تقديم وجبة بديل الدجاج المقلي  بيوند فرايد تشيكن  في أحد مطا , عم كنتاكي في أتلانتا، في 27 من أغسطس slash  آب الجاري، وسيظل مذاقه رائعا، كما يتعهد شعار الشركة.وقالت الشركة إنها أول سلسلة مطاعم للوجبات السريعة في الولايات المتحدة تقدم دجاجا نباتيا. وكانت قد اختبرت بديلا نباتيا لبرغر الدجاج، في و , قت سابق من هذا العام في المملكة المتحدة.وقالت شركة كنتاكي إنها ستأخذ في الاعتبار آراء العملاء، لتقرير ما إذا كانت ستطرح هذا المنتج في جميع أنحاء الولايات المتحدة. وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر ه , ذا النبأ. وكانت الشركة المصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، عندما أدرجت أسهمها في البورصة الأمريكية، في وقت سابق من العام الجاري.  ,   , كككك.ككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككك , ككككككككككككككككككككككككككككككك  , ر  ,   tilde |
+[Thu Oct 10 03:12:46 2019 : 593353] speechd:     In queue_message desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:46 2019 : 593385] speechd:     Queueing message |أعلنت سلسلة مطاعم كنتاكي أنها ستجرب قطع دجاج من مكونات نباتية  خالية من اللحم ، في إطار سعيها للاستفادة من الشعبية المتزايدة لبدائل اللحوم.وتعاونت كنتاكي مع شركة  بيوند ميت  المصنعة للأغذية النباتية، لتقديم ما يشبه قطع وأجنحة  , الدجاج، لكنها خالية من اللحم، على نطاق تجريبي محدود بالولايات المتحدة.وتعد كنتاكي واحدة من العديد من سلاسل مطاعم الوجبات السريعة، التي تعمل على تجريب الأغذية النباتية البديلة للحوم.وكانت سلسلة مطاعم  برغر كنغ  قد أعلنت، في وقت ,  سابق من هذا العام، عن تقديم شطيرة  ووبر  الشهيرة من مكونات نباتية، في حين قالت سلسلة مطاعم   صب واي  أيضا أنها ستختبر كرات اللحم النباتية.ووفقا لبيانها الصحفي، سيتم تقديم وجبة بديل الدجاج المقلي  بيوند فرايد تشيكن  في أحد مطا , عم كنتاكي في أتلانتا، في 27 من أغسطس slash  آب الجاري، وسيظل مذاقه رائعا، كما يتعهد شعار الشركة.وقالت الشركة إنها أول سلسلة مطاعم للوجبات السريعة في الولايات المتحدة تقدم دجاجا نباتيا. وكانت قد اختبرت بديلا نباتيا لبرغر الدجاج، في و , قت سابق من هذا العام في المملكة المتحدة.وقالت شركة كنتاكي إنها ستأخذ في الاعتبار آراء العملاء، لتقرير ما إذا كانت ستطرح هذا المنتج في جميع أنحاء الولايات المتحدة. وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر ه , ذا النبأ. وكانت الشركة المصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، عندما أدرجت أسهمها في البورصة الأمريكية، في وقت سابق من العام الجاري.  ,   , كككك.ككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككك , ككككككككككككككككككككككككككككككك  , ر  ,   tilde | with priority 2
+[Thu Oct 10 03:12:46 2019 : 593457] speechd:     Message inserted into queue.
+[Thu Oct 10 03:12:46 2019 : 593505] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:12:46 2019 : 593543] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:12:46 2019 : 593579] speechd:     25:REPLY:|225-22
+225 OK MESSAGE QUEUED
+|
+[Thu Oct 10 03:12:46 2019 : 593615] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:12:46 2019 : 593650] speechd:     MSG before index marking: |أعلنت سلسلة مطاعم كنتاكي أنها ستجرب قطع دجاج من مكونات نباتية  خالية من اللحم ، في إطار سعيها للاستفادة من الشعبية المتزايدة لبدائل اللحوم.وتعاونت كنتاكي مع شركة  بيوند ميت  المصنعة للأغذية النباتية، لتقديم ما يشبه قطع وأجنحة  , الدجاج، لكنها خالية من اللحم، على نطاق تجريبي محدود بالولايات المتحدة.وتعد كنتاكي واحدة من العديد من سلاسل مطاعم الوجبات السريعة، التي تعمل على تجريب الأغذية النباتية البديلة للحوم.وكانت سلسلة مطاعم  برغر كنغ  قد أعلنت، في وقت ,  سابق من هذا العام، عن تقديم شطيرة  ووبر  الشهيرة من مكونات نباتية، في حين قالت سلسلة مطاعم   صب واي  أيضا أنها ستختبر كرات اللحم النباتية.ووفقا لبيانها الصحفي، سيتم تقديم وجبة بديل الدجاج المقلي  بيوند فرايد تشيكن  في أحد مطا , عم كنتاكي في أتلانتا، في 27 من أغسطس slash  آب الجاري، وسيظل مذاقه رائعا، كما يتعهد شعار الشركة.وقالت الشركة إنها أول سلسلة مطاعم للوجبات السريعة في الولايات المتحدة تقدم دجاجا نباتيا. وكانت قد اختبرت بديلا نباتيا لبرغر الدجاج، في و , قت سابق من هذا العام في المملكة المتحدة.وقالت شركة كنتاكي إنها ستأخذ في الاعتبار آراء العملاء، لتقرير ما إذا كانت ستطرح هذا المنتج في جميع أنحاء الولايات المتحدة. وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر ه , ذا النبأ. وكانت الشركة المصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، عندما أدرجت أسهمها في البورصة الأمريكية، في وقت سابق من العام الجاري.  ,   , كككك.ككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككك , ككككككككككككككككككككككككككككككك  , ر  ,   tilde |, ssml_mode=0
+[Thu Oct 10 03:12:46 2019 : 595195] speechd:     MSG after index marking: |<speak>أعلنت سلسلة مطاعم كنتاكي أنها ستجرب قطع دجاج من مكونات نباتية  خالية من اللحم ، في إطار سعيها للاستفادة من الشعبية المتزايدة لبدائل اللحوم.وتعاونت كنتاكي مع شركة  بيوند ميت  المصنعة للأغذية النباتية، لتقديم ما يشبه قطع وأجنحة  , الدجاج، لكنها خالية من اللحم، على نطاق تجريبي محدود بالولايات المتحدة.وتعد كنتاكي واحدة من العديد من سلاسل مطاعم الوجبات السريعة، التي تعمل على تجريب الأغذية النباتية البديلة للحوم.وكانت سلسلة مطاعم  برغر كنغ  قد أعلنت، في وقت ,  سابق من هذا العام، عن تقديم شطيرة  ووبر  الشهيرة من مكونات نباتية، في حين قالت سلسلة مطاعم   صب واي  أيضا أنها ستختبر كرات اللحم النباتية.ووفقا لبيانها الصحفي، سيتم تقديم وجبة بديل الدجاج المقلي  بيوند فرايد تشيكن  في أحد مطا , عم كنتاكي في أتلانتا، في 27 من أغسطس slash  آب الجاري، وسيظل مذاقه رائعا، كما يتعهد شعار الشركة.وقالت الشركة إنها أول سلسلة مطاعم للوجبات السريعة في الولايات المتحدة تقدم دجاجا نباتيا.<mark name="__spd_0"/> وكانت قد اختبرت بديلا نباتيا لبرغر الدجاج، في و , قت سابق من هذا العام في المملكة المتحدة.وقالت شركة كنتاكي إنها ستأخذ في الاعتبار آراء العملاء، لتقرير ما إذا كانت ستطرح هذا المنتج في جميع أنحاء الولايات المتحدة.<mark name="__spd_1"/> وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر ه , ذا النبأ.<mark name="__spd_2"/> وكانت الشركة المصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، عندما أدرجت أسهمها في البورصة الأمريكية، في وقت سابق من العام الجاري.<mark name="__spd_3"/>  ,   , كككك.ككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككك , ككككككككككككككككككككككككككككككك  , ر  ,   tilde </speak>|
+[Thu Oct 10 03:12:46 2019 : 595254] speechd:     Desired output module is espeak-ng-mbrola-generic
+[Thu Oct 10 03:12:46 2019 : 595285] speechd:     Incoming text: |<speak>أعلنت سلسلة مطاعم كنتاكي أنها ستجرب قطع دجاج من مكونات نباتية  خالية من اللحم ، في إطار سعيها للاستفادة من الشعبية المتزايدة لبدائل اللحوم.وتعاونت كنتاكي مع شركة  بيوند ميت  المصنعة للأغذية النباتية، لتقديم ما يشبه قطع وأجنحة  , الدجاج، لكنها خالية من اللحم، على نطاق تجريبي محدود بالولايات المتحدة.وتعد كنتاكي واحدة من العديد من سلاسل مطاعم الوجبات السريعة، التي تعمل على تجريب الأغذية النباتية البديلة للحوم.وكانت سلسلة مطاعم  برغر كنغ  قد أعلنت، في وقت ,  سابق من هذا العام، عن تقديم شطيرة  ووبر  الشهيرة من مكونات نباتية، في حين قالت سلسلة مطاعم   صب واي  أيضا أنها ستختبر كرات اللحم النباتية.ووفقا لبيانها الصحفي، سيتم تقديم وجبة بديل الدجاج المقلي  بيوند فرايد تشيكن  في أحد مطا , عم كنتاكي في أتلانتا، في 27 من أغسطس slash  آب الجاري، وسيظل مذاقه رائعا، كما يتعهد شعار الشركة.وقالت الشركة إنها أول سلسلة مطاعم للوجبات السريعة في الولايات المتحدة تقدم دجاجا نباتيا.<mark name="__spd_0"/> وكانت قد اختبرت بديلا نباتيا لبرغر الدجاج، في و , قت سابق من هذا العام في المملكة المتحدة.وقالت شركة كنتاكي إنها ستأخذ في الاعتبار آراء العملاء، لتقرير ما إذا كانت ستطرح هذا المنتج في جميع أنحاء الولايات المتحدة.<mark name="__spd_1"/> وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر ه , ذا النبأ.<mark name="__spd_2"/> وكانت الشركة المصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، عندما أدرجت أسهمها في البورصة الأمريكية، في وقت سابق من العام الجاري.<mark name="__spd_3"/>  ,   , كككك.ككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككك , ككككككككككككككككككككككككككككككك  , ر  ,   tilde </speak>|
+[Thu Oct 10 03:12:46 2019 : 595334] speechd:    Module set parameters.
+[Thu Oct 10 03:12:46 2019 : 595422] speechd:     Command sent to output module: |SET
+| (1)
+[Thu Oct 10 03:12:46 2019 : 595494] speechd:     Got 26 bytes from output module over socket
+[Thu Oct 10 03:12:46 2019 : 595522] speechd:     Reply from output module: |203 OK RECEIVING SETTINGS
+|
+[Thu Oct 10 03:12:46 2019 : 595559] speechd:     Command sent to output module: |pitch=0
+pitch_range=0
+rate=0
+volume=100
+punctuation_mode=none
+spelling_mode=off
+cap_let_recogn=none
+language=ar
+synthesis_voice=en-us
+| (0)
+[Thu Oct 10 03:12:46 2019 : 595590] speechd:     Command sent to output module: |.
+| (1)
+[Thu Oct 10 03:12:46 2019 : 595652] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:46 2019 : 595678] speechd:     Reply from output module: |203 OK SETTINGS RECEIVED
+|
+[Thu Oct 10 03:12:46 2019 : 595705] speechd:    Module speak!
+[Thu Oct 10 03:12:46 2019 : 595738] speechd:     Command sent to output module: |SPEAK
+| (1)
+[Thu Oct 10 03:12:46 2019 : 595799] speechd:     Got 25 bytes from output module over socket
+[Thu Oct 10 03:12:46 2019 : 595825] speechd:     Reply from output module: |202 OK RECEIVING MESSAGE
+|
+[Thu Oct 10 03:12:46 2019 : 595863] speechd:     Command sent to output module: |<speak>أعلنت سلسلة مطاعم كنتاكي أنها ستجرب قطع دجاج من مكونات نباتية  خالية من اللحم ، في إطار سعيها للاستفادة من الشعبية المتزايدة لبدائل اللحوم.وتعاونت كنتاكي مع شركة  بيوند ميت  المصنعة للأغذية النباتية، لتقديم ما يشبه قطع وأجنحة  , الدجاج، لكنها خالية من اللحم، على نطاق تجريبي محدود بالولايات المتحدة.وتعد كنتاكي واحدة من العديد من سلاسل مطاعم الوجبات السريعة، التي تعمل على تجريب الأغذية النباتية البديلة للحوم.وكانت سلسلة مطاعم  برغر كنغ  قد أعلنت، في وقت ,  سابق من هذا العام، عن تقديم شطيرة  ووبر  الشهيرة من مكونات نباتية، في حين قالت سلسلة مطاعم   صب واي  أيضا أنها ستختبر كرات اللحم النباتية.ووفقا لبيانها الصحفي، سيتم تقديم وجبة بديل الدجاج المقلي  بيوند فرايد تشيكن  في أحد مطا , عم كنتاكي في أتلانتا، في 27 من أغسطس slash  آب الجاري، وسيظل مذاقه رائعا، كما يتعهد شعار الشركة.وقالت الشركة إنها أول سلسلة مطاعم للوجبات السريعة في الولايات المتحدة تقدم دجاجا نباتيا.<mark name="__spd_0"/> وكانت قد اختبرت بديلا نباتيا لبرغر الدجاج، في و , قت سابق من هذا العام في المملكة المتحدة.وقالت شركة كنتاكي إنها ستأخذ في الاعتبار آراء العملاء، لتقرير ما إذا كانت ستطرح هذا المنتج في جميع أنحاء الولايات المتحدة.<mark name="__spd_1"/> وارتفعت أسهم شركة  بيوند ميت  بأكثر من خمسة في المئة، بعد نشر ه , ذا النبأ.<mark name="__spd_2"/> وكانت الشركة المصنعة للأغذية النباتية قد شهدت بداية رائعة في سوق المال، عندما أدرجت أسهمها في البورصة الأمريكية، في وقت سابق من العام الجاري.<mark name="__spd_3"/>  ,   , كككك.ككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككككك , ككككككككككككككككككككككككككككككك  , ر  ,   tilde </speak>| (0)
+[Thu Oct 10 03:12:46 2019 : 595907] speechd:     Command sent to output module: |
+.
+| (1)
+[Thu Oct 10 03:12:46 2019 : 596657] speechd:     Got 16 bytes from output module over socket
+[Thu Oct 10 03:12:46 2019 : 596686] speechd:     Reply from output module: |200 OK SPEAKING
+|
+[Thu Oct 10 03:12:46 2019 : 596715] speechd:    Message sent to output module
+[Thu Oct 10 03:12:46 2019 : 596758] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:12:46 2019 : 596784] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:12:46 2019 : 596808] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:12:46 2019 : 596833] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:12:46 2019 : 596876] speechd:     Got 10 bytes from output module over socket
+[Thu Oct 10 03:12:46 2019 : 596903] speechd:     Reply from output module: |701 BEGIN
+|
+[Thu Oct 10 03:12:46 2019 : 596927] speechd:     Received event:
+ 701 BEGIN
+
+[Thu Oct 10 03:12:46 2019 : 596954] speechd:     INDEX MARK: __spd_begin
+[Thu Oct 10 03:12:46 2019 : 596986] speechd:     25:REPLY:|701-22
+701-2
+701 BEGIN
+|
+[Thu Oct 10 03:12:46 2019 : 597039] speechd:     Continuing because already speaking in speak()
+[Thu Oct 10 03:14:35 2019 : 792920] speechd:     Poll in speak() returned socket activity, main_pfd revents=0, poll_pfd revents=1
+[Thu Oct 10 03:14:35 2019 : 793028] speechd:     wait_for_poll: activity on output_module
+[Thu Oct 10 03:14:35 2019 : 793090] speechd:     is_sb_speaking(), SPEAKING=1
+[Thu Oct 10 03:14:35 2019 : 793155] speechd:     output_module_is_speaking()
+[Thu Oct 10 03:14:35 2019 : 793266] speechd:     Got 8 bytes from output module over socket
+[Thu Oct 10 03:14:35 2019 : 793331] speechd:     Reply from output module: |702 END
+|
+[Thu Oct 10 03:14:35 2019 : 793395] speechd:     Received event:
+ 702 END
+
+[Thu Oct 10 03:14:35 2019 : 793462] speechd:     INDEX MARK: __spd_end
+[Thu Oct 10 03:14:35 2019 : 793534] speechd:     25:REPLY:|702-22
+702-2
+702 END
+|
+[Thu Oct 10 03:14:35 2019 : 793661] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:14:35 2019 : 793729] speechd:     No message in the queue
+[Thu Oct 10 03:14:35 2019 : 793801] speechd:     Poll in speak() returned socket activity, main_pfd revents=1, poll_pfd revents=1
+[Thu Oct 10 03:14:35 2019 : 793861] speechd:     wait_for_poll: activity in Speech Dispatcher
+[Thu Oct 10 03:14:35 2019 : 793932] speechd:     Locking element_free_mutex in speak()
+[Thu Oct 10 03:14:35 2019 : 793993] speechd:     No message in the queue

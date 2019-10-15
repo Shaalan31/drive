@@ -57,7 +57,7 @@ class mishkald():
 
             while ready != []:
                 data += conn.recv(self.bufferSize)
-                if '\00' not in data:
+                if '\00' in data:
                     break
                 ready, _, _ = select.select([conn], [], [], 0)
             print "FIRST THINGS FIRST"

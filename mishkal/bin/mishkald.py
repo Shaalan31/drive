@@ -28,8 +28,65 @@ class mishkald():
         self.sockets = []
         self.acceptSock = None
         self.vocalizer = None
+		self.conversion = {'a':' أي ',
+              'A':'',
+              'b': ' بي ',
+              'B': '',
+              'c': ' سي ',
+              'C': '',
+              'd': ' دي ',
+              'D': '',
+              'e': ' إي ',
+              'E': '',
+              'f': ' اف ',
+              'F': '',
+              'g': ' جي ',
+              'G': '',
+              'h': ' هيتش ',
+              'H': '',
+              'i': ' ايي ',
+              'I': '',
+              'j': ' جَي ',
+              'J': '',
+              'k': ' كَي ',
+              'K': '',
+              'l': ' إل ',
+              'L': '',
+              'm': ' إم ',
+              'M': '',
+              'n': ' إن ',
+              'N': '',
+              'o': ' آو ',
+              'O': '',
+              'p': ' بِيِي ',
+              'P': '',
+              'q': ' كِو ',
+              'Q': '',
+              'r': ' أر ',
+              'R': '',
+              's': ' إس ',
+              'S': '',
+              't': ' تي ',
+              'T': '',
+              'u': ' يو ',
+              'U': '',
+              'v': ' في ',
+              'V': '',
+              'w': ' دبليو ',
+              'W': '',
+              'x': ' إكس ',
+              'X': '',
+              'y': ' وَاي ',
+              'Y': '',
+              'z': ' زي ',
+              'Z': '',
+              }
     def getSockets(self):
         return self.sockets
+	def post_processing(self,text):
+		for key,value in self.conversion:
+			text = text.replace(key,value)
+		return text
     def addSocket(self, conn):
         self.sockets.append(conn)
     def closeSock(self, conn):
@@ -129,6 +186,7 @@ class mishkald():
                 try:
                     answer = result + '\00'
                     print("--- %s seconds ---" % (time.time() - self.start_time))
+					answer = self.post_processing(answer)
                     conn.send(answer.encode('utf-8'))
                     if self.isDebug():
                         print result.strip('\n').encode('utf8')

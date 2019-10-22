@@ -28,65 +28,65 @@ class mishkald():
         self.sockets = []
         self.acceptSock = None
         self.vocalizer = None
-		self.conversion = {'a':' أي ',
-              'A':'',
+        self.conversion = {'a':' أي ',
+              'A':'z',
               'b': ' بي ',
-              'B': '',
+              'B': 'z',
               'c': ' سي ',
-              'C': '',
+              'C': 'z',
               'd': ' دي ',
-              'D': '',
+              'D': 'z',
               'e': ' إي ',
-              'E': '',
+              'E': 'z',
               'f': ' اف ',
-              'F': '',
+              'F': 'z',
               'g': ' جي ',
-              'G': '',
+              'G': 'z',
               'h': ' هيتش ',
-              'H': '',
+              'H': 'z',
               'i': ' ايي ',
-              'I': '',
+              'I': 'z',
               'j': ' جَي ',
-              'J': '',
+              'J': 'z',
               'k': ' كَي ',
-              'K': '',
+              'K': 'z',
               'l': ' إل ',
-              'L': '',
+              'L': 'z',
               'm': ' إم ',
-              'M': '',
+              'M': 'z',
               'n': ' إن ',
-              'N': '',
+              'N': 'z',
               'o': ' آو ',
-              'O': '',
+              'O': 'z',
               'p': ' بِيِي ',
-              'P': '',
+              'P': 'z',
               'q': ' كِو ',
-              'Q': '',
+              'Q': 'z',
               'r': ' أر ',
-              'R': '',
+              'R': 'z',
               's': ' إس ',
-              'S': '',
+              'S': 'z',
               't': ' تي ',
-              'T': '',
+              'T': 'z',
               'u': ' يو ',
-              'U': '',
+              'U': 'z',
               'v': ' في ',
-              'V': '',
+              'V': 'z',
               'w': ' دبليو ',
-              'W': '',
+              'W': 'z',
               'x': ' إكس ',
-              'X': '',
+              'X': 'z',
               'y': ' وَاي ',
-              'Y': '',
+              'Y': 'z',
               'z': ' زي ',
-              'Z': '',
+              'Z': 'z',
               }
     def getSockets(self):
         return self.sockets
-	def post_processing(self,text):
-		for key,value in self.conversion:
-			text = text.replace(key,value)
-		return text
+    def post_processing(self,text):
+        for key in self.conversion:
+            text = text.replace(key.decode("utf-8"),self.conversion[key].decode("utf-8"))
+        return text
     def addSocket(self, conn):
         self.sockets.append(conn)
     def closeSock(self, conn):
@@ -186,7 +186,7 @@ class mishkald():
                 try:
                     answer = result + '\00'
                     print("--- %s seconds ---" % (time.time() - self.start_time))
-					answer = self.post_processing(answer)
+                    answer = self.post_processing(answer)
                     conn.send(answer.encode('utf-8'))
                     if self.isDebug():
                         print result.strip('\n').encode('utf8')

@@ -15,6 +15,7 @@ import tashkeel.tashkeel as ArabicVocalizer
 import core.adaat 
 import pyarabic.araby as araby
 import  time
+import re
 scriptversion = '0.3'
 AuthorName = "chrys"
 
@@ -80,10 +81,12 @@ class mishkald():
               'Y': ' وَاي ',
               'z': ' زي ',
               'Z': ' زي ',
+			  
               }
     def getSockets(self):
         return self.sockets
     def post_processing(self,text):
+	    text = re.sub("([A-Za-z0-9][ ]*)(:)",r'\1 كولن ',text)
         for key in self.conversion:
             text = text.replace(key.decode("utf-8"),self.conversion[key].decode("utf-8"))
         return text

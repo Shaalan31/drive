@@ -24,26 +24,6 @@
  */
 void preprocessText(char **data) {
 	int sockfd;
-/*        
-int i;
-	for (i=0;i<strlen(*data);i++)
-	{
-		if(((*data)[i] & 127 ) == 0){
-			continue;
-		}
-		else if(((*data)[i] & 0xE0) == 0xE0){
-       			 FILE *before;
-       			 count = fopen("/home/omar/debug/count.txt","a");
-        		fprintf(count, "+1 \n");
-
-			memmove(&(*data)[i], &(*data)[i+3], strlen(*data) - i);
-			i--;
-		}
-		else if(((*data)[i] & 0xC0) == 0xC0){
-			i++;
-			continue;
-		}
-	}*/
         FILE *before;
         before = fopen("/home/omar/debug/before.txt","a");
         fprintf(before, (*data));
@@ -79,11 +59,7 @@ int i;
 	int sentBytes = 0;
 	do {
 		strncpy(bufSend, (*data) + sentBytes, BUFFERSIZE); // copy part of data into send buffer
-		//FILE *fp1;
-                //fp1 = fopen('/home/omar/debug/fp1.txt','w');
-                //fprintf(fp1,bufSend);
-                //fprintf(fp1,'\n \n \n');
-
+		
                 int packetSize = strlen(bufSend) + 1;
 		if (packetSize > BUFFERSIZE)
 			packetSize = BUFFERSIZE;

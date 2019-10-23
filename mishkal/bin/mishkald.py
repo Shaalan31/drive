@@ -86,7 +86,9 @@ class mishkald():
     def getSockets(self):
         return self.sockets
     def post_processing(self,text):
-	    text = re.sub("([A-Za-z0-9][ ]*)(:)",r'\1 كولن ',text)
+        text = re.sub("([A-Za-z0-9][ ]*)(:)",r'\1'+' كولن '.decode("utf-8"),text)
+        text = re.sub("(:)([ ]*[A-Za-z0-9])",' كولن '.decode("utf-8") + r'\2',text)
+
         for key in self.conversion:
             text = text.replace(key.decode("utf-8"),self.conversion[key].decode("utf-8"))
         return text

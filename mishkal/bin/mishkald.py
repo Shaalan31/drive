@@ -192,8 +192,9 @@ class mishkald():
                     answer = result + '\00'
                     print("--- %s seconds ---" % (time.time() - self.start_time))
                     answer = self.post_processing(answer)
-					conn.send(len(answer.encode('utf-8')))
-                    conn.send(answer.encode('utf-8'))
+                    print str(len(answer.encode('utf-8')))
+                    conn.send(str(len(answer.encode('utf-8'))))
+                    #conn.send(answer.encode('utf-8'))
                     if self.isDebug():
                         print result.strip('\n').encode('utf8')
                 finally:
